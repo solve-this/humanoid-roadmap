@@ -1,0 +1,21 @@
+{
+  "global": {
+    "human": {
+      "foodPerDay": 8.50,
+      "waterPerDay": 0.50,
+      "housingPerDay": 15.00,
+      "healthcarePerDay": 4.00,
+      "trainingPerDay": 2.00,
+      "managementOverhead": 0.15
+    },
+    "robot": {
+      "hardwarePrice": 20000,
+      "amortizationYears": 5,
+      "kWhPerDay": 6.88,
+      "maintenancePctPerYear": 0.08,
+      "cloudInferencePerDay": 1.50,
+      "solarOffsetPct": 0
+    }
+  },
+  "countries": {}
+}
