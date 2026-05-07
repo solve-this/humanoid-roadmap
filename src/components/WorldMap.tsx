@@ -67,8 +67,6 @@ export default function WorldMap({ scrollPercent, countriesData }: { scrollPerce
                     if (country) setTooltip({ country, x: e.clientX, y: e.clientY })
                   }}
                   onMouseLeave={() => setTooltip(null)}
-                  // @ts-expect-error - pointer-events override for interactive elements inside non-interactive container
-                  pointerEvents="auto"
                 />
               )
             })
