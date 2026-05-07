@@ -8,7 +8,39 @@ interface NewsArticle {
 
 interface LastUpdated { timestamp: string }
 
-export default function NewsFeed({ articles, lastUpdated }: { articles: NewsArticle[]; lastUpdated: LastUpdated }) {
+const SOURCE_FALLBACK_URLS: Record<string, string> = {
+  'The Robot Report': 'https://www.therobotreport.com/',
+  'IEEE Spectrum': 'https://spectrum.ieee.org/robotics',
+  TechCrunch: 'https://techcrunch.com/tag/robotics/',
+}
+
+function resolveArticleUrl(article: NewsArticle): string {
+  try {
+    const parsed = new URL(article.url)
+    if (parsed.hostname === 'example.com') return SOURCE_FALLBACK_URLS[article.source] ?? article.url
+    return article.url
+  } catch {
+    return SOURCE_FALLBACK_URLS[article.source] ?? '#'
+  }
+}
+
+function articleDomain(article: NewsArticle): string {
+  try {
+    return new URL(resolveArticleUrl(article)).hostname.replace(/^www\./, '')
+  } catch {
+    return article.source
+  }
+}
+
+export default function NewsFeed({
+  articles,
+  lastUpdated,
+  mobile = false,
+}: {
+  articles: NewsArticle[]
+  lastUpdated: LastUpdated
+  mobile?: boolean
+}) {
   const [paused, setPaused] = useState(false)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
   const tickerRef = useRef<HTMLDivElement>(null)
@@ -19,6 +51,68 @@ export default function NewsFeed({ articles, lastUpdated }: { articles: NewsArti
 
   // duplicate for seamless loop
   const items = [...articles, ...articles]
+
+  if (mobile) {
+    return (
+      <section style={{
+        border: '1px solid rgba(255,140,0,0.22)',
+        borderRadius: 24,
+        background: 'rgba(8,8,8,0.9)',
+        padding: 16,
+        fontFamily: 'Roboto Mono, monospace',
+      }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'flex-start', marginBottom: 14 }}>
+          <div>
+            <div style={{ color: '#ff8c00', fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase' }}>News Feed</div>
+            <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: 10, marginTop: 4 }}>Latest humanoid deployment and labor-shift signals.</div>
+          </div>
+          <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 9, textAlign: 'right', lineHeight: 1.5 }}>
+            Updated
+            <br />
+            {formattedDate}
+          </div>
+        </div>
+
+        <div style={{ display: 'grid', gap: 10 }}>
+          {articles.slice(0, 5).map(article => {
+            const resolvedUrl = resolveArticleUrl(article)
+            return (
+              <a
+                key={article.id}
+                href={resolvedUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'block',
+                  textDecoration: 'none',
+                  padding: '12px 14px',
+                  borderRadius: 16,
+                  background: 'rgba(255,255,255,0.03)',
+                  border: `1px solid ${article.sentiment === 'negative' ? 'rgba(255,140,0,0.25)' : 'rgba(0,212,255,0.22)'}`,
+                }}
+              >
+                <div style={{ color: '#fff', fontSize: 13, lineHeight: 1.5 }}>{article.title}</div>
+                <div style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  gap: 8,
+                  marginTop: 8,
+                  color: article.sentiment === 'negative' ? '#ff8c00' : '#00d4ff',
+                  fontSize: 10,
+                }}>
+                  <span>{article.source}</span>
+                  <span style={{ color: 'rgba(255,255,255,0.32)' }}>{articleDomain(article)}</span>
+                  <span style={{ color: 'rgba(255,255,255,0.32)' }}>
+                    {new Date(article.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                  </span>
+                </div>
+              </a>
+            )
+          })}
+        </div>
+      </section>
+    )
+  }
 
   return (
     <div style={{
@@ -50,7 +144,7 @@ export default function NewsFeed({ articles, lastUpdated }: { articles: NewsArti
           {items.map((article, idx) => (
             <a
               key={`${article.id}-${idx}`}
-              href={article.url}
+              href={resolveArticleUrl(article)}
               target="_blank"
               rel="noopener noreferrer"
               title={hoveredId === article.id ? `${article.title} — ${article.source}` : article.title}

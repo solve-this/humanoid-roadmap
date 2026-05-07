@@ -64,6 +64,20 @@ const timelineData: TimelineFrame[] = [
   },
 ]
 
+const humanSpecs = [
+  { label: 'Energy Source', value: 'Nutrition · 120W' },
+  { label: 'Time to Skill', value: '~18 years' },
+  { label: 'Downtime', value: '33% · 8h/day' },
+  { label: 'Cooling', value: '3.0 L water/day' },
+]
+
+const robotSpecs = [
+  { label: 'Energy Source', value: 'Li-Ion · 287W' },
+  { label: 'Time to Skill', value: '~2 hours' },
+  { label: 'Downtime', value: '~5% hot-swap' },
+  { label: 'Materials', value: 'Lithium · Silicon' },
+]
+
 // ──────────────────────────────────────────────
 // Human Hologram SVG
 // ──────────────────────────────────────────────
@@ -354,11 +368,19 @@ export default function App() {
   const [scrollPercent, setScrollPercent] = useState(0)
   const [snapFrame, setSnapFrame] = useState<TimelineFrame>(timelineData[0])
   const [showScrollHint, setShowScrollHint] = useState(true)
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' ? window.innerWidth < 768 : false)
 
   const humanPanelRef = useRef<HTMLDivElement>(null)
   const robotPanelRef = useRef<HTMLDivElement>(null)
   const humanHeartRef = useRef<SVGCircleElement>(null)
   const robotCoreRef = useRef<SVGCircleElement>(null)
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768)
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -398,6 +420,138 @@ export default function App() {
     : { color: 'white', textShadow: '0 0 20px rgba(255,255,255,0.5)' }
 
   const barColor = snapFrame.year >= 2030 ? '#ff8c00' : 'white'
+
+  if (isMobile) {
+    return (
+      <div className="min-h-screen bg-[#030303] text-white">
+        <div className="fixed inset-0 pointer-events-none overflow-hidden">
+          <div className="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-cyan-500/12 blur-3xl" />
+          <div className="absolute top-48 -left-12 h-52 w-52 rounded-full bg-orange-500/10 blur-3xl" />
+          <div className="absolute bottom-24 right-0 h-56 w-56 rounded-full bg-orange-400/10 blur-3xl" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.04),transparent_40%)]" />
+        </div>
+
+        <div className="relative z-10">
+          <header className="sticky top-0 z-20 border-b border-white/10 bg-black/75 px-4 py-4 backdrop-blur-xl">
+            <div className="text-center">
+              <div className="text-[9px] tracking-[0.28em] text-gray-400">PLANETARY DOMINANCE TIMELINE</div>
+              <div
+                className="mt-1 text-5xl font-black transition-colors duration-500"
+                style={{ fontFamily: 'Orbitron, sans-serif', ...yearColorStyle }}
+              >
+                {year}
+              </div>
+            </div>
+
+            <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/10">
+              <div className="h-full transition-all duration-150" style={{ width: `${scrollPercent * 100}%`, backgroundColor: barColor }} />
+            </div>
+
+            <div className="mt-3 grid grid-cols-2 gap-3">
+              <div className="rounded-2xl border border-cyan-400/25 bg-cyan-400/5 p-3">
+                <div className="text-[9px] uppercase tracking-[0.16em] text-cyan-300/70">Human TCO / 24h</div>
+                <div className="mt-1 flex items-end gap-1" style={{ fontFamily: 'Orbitron, sans-serif' }}>
+                  <span className="text-3xl font-black text-white">{hCost}</span>
+                  <span className="pb-1 text-sm text-cyan-300">€</span>
+                </div>
+              </div>
+              <div className="rounded-2xl border border-orange-400/25 bg-orange-400/5 p-3">
+                <div className="text-[9px] uppercase tracking-[0.16em] text-orange-300/70">Robot TCO / 24h</div>
+                <div className="mt-1 flex items-end gap-1" style={{ fontFamily: 'Orbitron, sans-serif' }}>
+                  <span className="text-3xl font-black text-white">{rCost}</span>
+                  <span className="pb-1 text-sm text-orange-300">€</span>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <main className="space-y-4 px-4 py-4">
+            <section className={`rounded-[28px] border bg-black/55 p-4 backdrop-blur-md transition-colors duration-500 ${snapFrame.boxColor}`}>
+              <div className="text-[10px] tracking-[0.2em] text-gray-400 uppercase">{snapFrame.status}</div>
+              <p className="mt-3 text-sm leading-7 text-white/85">{snapFrame.text}</p>
+
+              <div className="mt-4 grid gap-3">
+                <div className="rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-4">
+                  <div className="text-[10px] uppercase tracking-[0.16em] text-cyan-300">Biological Sector</div>
+                  <div className="mt-3 grid gap-2">
+                    {humanSpecs.map(item => (
+                      <div key={item.label} className="flex items-start justify-between gap-3 border-b border-white/5 pb-2 text-sm last:border-b-0 last:pb-0">
+                        <span className="text-white/45">{item.label}</span>
+                        <span className="text-right text-white">{item.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-orange-400/20 bg-orange-400/5 p-4">
+                  <div className="text-[10px] uppercase tracking-[0.16em] text-orange-300">Synthetic Sector</div>
+                  <div className="mt-3 grid gap-2">
+                    {robotSpecs.map(item => (
+                      <div key={item.label} className="flex items-start justify-between gap-3 border-b border-white/5 pb-2 text-sm last:border-b-0 last:pb-0">
+                        <span className="text-white/45">{item.label}</span>
+                        <span className="text-right text-white">{item.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section className="space-y-3">
+              {timelineData.map(frame => {
+                const active = snapFrame.year === frame.year
+                return (
+                  <article
+                    key={frame.year}
+                    className={`min-h-[62vh] rounded-[28px] border p-5 backdrop-blur-md transition-all ${active ? 'border-orange-400/40 bg-white/6 shadow-[0_0_24px_rgba(255,140,0,0.14)]' : 'border-white/10 bg-white/[0.03]'}`}
+                  >
+                    <div className="flex items-center justify-between gap-3">
+                      <div>
+                        <div className="text-[10px] uppercase tracking-[0.18em] text-white/40">Milestone</div>
+                        <div className="mt-1 text-4xl font-black text-white" style={{ fontFamily: 'Orbitron, sans-serif' }}>{frame.year}</div>
+                      </div>
+                      <div className="rounded-full border border-white/10 px-3 py-1 text-[10px] uppercase tracking-[0.16em] text-white/45">
+                        {(frame.percent * 100).toFixed(0)}% of roadmap
+                      </div>
+                    </div>
+
+                    <div className="mt-5 grid grid-cols-2 gap-3">
+                      <div className="rounded-2xl border border-cyan-400/20 bg-black/35 p-3">
+                        <div className="text-[9px] uppercase tracking-[0.16em] text-cyan-300/70">Human cost</div>
+                        <div className="mt-2 text-2xl font-black text-white" style={{ fontFamily: 'Orbitron, sans-serif' }}>{frame.hCost}€</div>
+                      </div>
+                      <div className="rounded-2xl border border-orange-400/20 bg-black/35 p-3">
+                        <div className="text-[9px] uppercase tracking-[0.16em] text-orange-300/70">Robot cost</div>
+                        <div className="mt-2 text-2xl font-black text-white" style={{ fontFamily: 'Orbitron, sans-serif' }}>{frame.rCost}€</div>
+                      </div>
+                    </div>
+
+                    <div className="mt-5 text-[10px] uppercase tracking-[0.2em] text-white/35">{frame.status}</div>
+                    <p className="mt-3 text-base leading-7 text-white/82">{frame.text}</p>
+                  </article>
+                )
+              })}
+            </section>
+
+            <AdoptionForecast
+              mobile
+              countriesData={countriesDataJson}
+              snapshots={timelineSnapshotsJson}
+              forecastClaims={forecastClaimsJson as import('./types/forecast-jobs').ForecastClaim[]}
+              forecastEvaluations={forecastEvaluationsJson as import('./types/forecast-jobs').ForecastEvaluation[]}
+            />
+            <CostBreakdown mobile countriesData={countriesDataJson} costModel={costModelDataJson} />
+            <AIJobsLayer
+              mobile
+              jobTaskCatalog={jobTaskCatalogJson as import('./types/forecast-jobs').JobTaskEntry[]}
+              jobRollups={jobRollupsJson as import('./types/forecast-jobs').JobRollup[]}
+            />
+            <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} mobile />
+          </main>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <>
