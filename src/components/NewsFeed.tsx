@@ -10,7 +10,7 @@ interface LastUpdated { timestamp: string }
 
 const SOURCE_FALLBACK_URLS: Record<string, string> = {
   'The Robot Report': 'https://www.therobotreport.com/',
-  'IEEE Spectrum': 'https://spectrum.ieee.org/robotics',
+  'IEEE Spectrum': 'https://spectrum.ieee.org/robotics/',
   TechCrunch: 'https://techcrunch.com/tag/robotics/',
 }
 

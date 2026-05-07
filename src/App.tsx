@@ -78,6 +78,8 @@ const robotSpecs = [
   { label: 'Materials', value: 'Lithium · Silicon' },
 ]
 
+const MOBILE_BREAKPOINT = 768
+
 // ──────────────────────────────────────────────
 // Human Hologram SVG
 // ──────────────────────────────────────────────
@@ -368,7 +370,7 @@ export default function App() {
   const [scrollPercent, setScrollPercent] = useState(0)
   const [snapFrame, setSnapFrame] = useState<TimelineFrame>(timelineData[0])
   const [showScrollHint, setShowScrollHint] = useState(true)
-  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' ? window.innerWidth < 768 : false)
+  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' ? window.innerWidth < MOBILE_BREAKPOINT : false)
 
   const humanPanelRef = useRef<HTMLDivElement>(null)
   const robotPanelRef = useRef<HTMLDivElement>(null)
@@ -376,7 +378,7 @@ export default function App() {
   const robotCoreRef = useRef<SVGCircleElement>(null)
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768)
+    const handleResize = () => setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)
     handleResize()
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
