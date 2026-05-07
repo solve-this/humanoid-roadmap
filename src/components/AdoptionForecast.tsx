@@ -12,6 +12,7 @@ interface TimelineSnapshot {
 }
 
 const COLORS = ['#ff8c00', '#00d4ff', '#ff4444', '#44ff88', '#ff44ff', '#44ffff', '#ffff44', '#ff8844', '#88ff44', '#4488ff']
+const MOBILE_MAX_COUNTRIES = 6
 
 type ViewMode = 'forecast' | 'vs-actual'
 
@@ -35,7 +36,7 @@ export default function AdoptionForecast({
   const [mode, setMode] = useState<ViewMode>('forecast')
 
   const top10 = [...countriesData].sort((a, b) => b.adoptionScore - a.adoptionScore).slice(0, 10)
-  const chartCountries = mobile ? top10.slice(0, 6) : top10
+  const chartCountries = mobile ? top10.slice(0, MOBILE_MAX_COUNTRIES) : top10
 
   type ChartRow = { year: string; [k: string]: string | number }
 

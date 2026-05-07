@@ -78,6 +78,8 @@ const robotSpecs = [
   { label: 'Materials', value: 'Lithium · Silicon' },
 ]
 
+// Match Tailwind's md breakpoint so the dedicated mobile layout hands off to the
+// existing desktop HUD at the same width the rest of the design changes behavior.
 const MOBILE_BREAKPOINT = 768
 
 // ──────────────────────────────────────────────

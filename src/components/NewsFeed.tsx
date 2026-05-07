@@ -14,13 +14,23 @@ const SOURCE_FALLBACK_URLS: Record<string, string> = {
   TechCrunch: 'https://techcrunch.com/tag/robotics/',
 }
 
+function fallbackArticleUrl(article: NewsArticle): string {
+  const fallbackUrl = SOURCE_FALLBACK_URLS[article.source]
+  if (!fallbackUrl) {
+    console.warn(`[news-feed] Missing fallback URL for source "${article.source}"`)
+    return '#'
+  }
+  return fallbackUrl
+}
+
 function resolveArticleUrl(article: NewsArticle): string {
   try {
     const parsed = new URL(article.url)
-    if (parsed.hostname === 'example.com') return SOURCE_FALLBACK_URLS[article.source] ?? '#'
+    if (parsed.hostname === 'example.com') return fallbackArticleUrl(article)
     return article.url
   } catch {
-    return SOURCE_FALLBACK_URLS[article.source] ?? '#'
+    console.warn(`[news-feed] Invalid article URL for source "${article.source}": ${article.url}`)
+    return fallbackArticleUrl(article)
   }
 }
 

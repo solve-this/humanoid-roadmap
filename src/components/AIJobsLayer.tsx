@@ -14,6 +14,7 @@ const SECTOR_COLORS: Record<string, string> = {
   legal_financial: '#ff44ff',
   manufacturing: '#ffff44',
 }
+const PREVIEW_JOB_COUNT = 6
 
 function sectorColor(industry: string): string {
   return SECTOR_COLORS[industry] ?? '#888'
@@ -30,7 +31,7 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
   }
 
   const hasData = latestRollupByJob.size > 0
-  const renderJobs = hasData ? jobTaskCatalog : jobTaskCatalog.slice(0, 6)
+  const renderJobs = hasData ? jobTaskCatalog : jobTaskCatalog.slice(0, PREVIEW_JOB_COUNT)
 
   const jobCards = hasData ? (
     renderJobs.map(job => {
