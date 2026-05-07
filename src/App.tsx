@@ -40,7 +40,7 @@ const timelineData: TimelineFrame[] = [
     year: 2027,
     hCost: 315,
     rCost: 17,
-    status: 'ANALYSE: INDUSTRIE WENDEPUNKT',
+    status: 'PREDICTION: INDUSTRIE WENDEPUNKT',
     text: "Robotische Massenfertigung skaliert. 'Zero-Shot Learning' ermöglicht Skill-Transfers in Stunden. ROI in Fabriken sinkt auf < 6 Monate. Physische Routinen kippen.",
     boxColor: 'border-orange-500/30',
   },
@@ -49,7 +49,7 @@ const timelineData: TimelineFrame[] = [
     year: 2030,
     hCost: 330,
     rCost: 12,
-    status: 'ANALYSE: GLOBALE SKALIERUNG',
+    status: 'PREDICTION: GLOBALE SKALIERUNG',
     text: 'Hardware-Preise < 15.000€. Die TCO (Total Cost of Ownership) der Maschine unterbietet das menschliche Existenzminimum (Lebenshaltung) selbst in Schwellenländern.',
     boxColor: 'border-orange-500/70',
   },
@@ -58,7 +58,7 @@ const timelineData: TimelineFrame[] = [
     year: 2035,
     hCost: 350,
     rCost: 4,
-    status: 'ANALYSE: ABSOLUTE DOMINANZ',
+    status: 'PREDICTION: ABSOLUTE DOMINANZ',
     text: 'Verdrängung abgeschlossen. Erneuerbare Energien drücken Betriebskosten auf < 4€/Tag. Agrar- und Lohnkosten machen biologische Konkurrenz ökonomisch unmöglich.',
     boxColor: 'border-red-600 shadow-[0_0_20px_rgba(255,0,0,0.3)]',
   },
@@ -371,6 +371,9 @@ export default function App() {
   const [rCost, setRCost] = useState(25)
   const [scrollPercent, setScrollPercent] = useState(0)
   const [snapFrame, setSnapFrame] = useState<TimelineFrame>(timelineData[0])
+  const [selectedISO, setSelectedISO] = useState('global')
+
+  const selectedCountry = selectedISO === 'global' ? null : countriesDataJson.find(c => c.iso3 === selectedISO)
   const [showScrollHint, setShowScrollHint] = useState(true)
   const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' ? window.innerWidth < MOBILE_BREAKPOINT : false)
 
@@ -418,6 +421,13 @@ export default function App() {
     handleScroll()
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  const baseHumanTotal = 34.50
+  const humanScale = selectedCountry ? (selectedCountry.minWage / baseHumanTotal) : 1
+  const robotScale = selectedCountry ? (selectedCountry.energyCostKWh / 0.15) : 1
+
+  const displayHCost = Math.round(hCost * humanScale)
+  const displayRCost = Math.round(rCost * robotScale)
 
   const yearColorStyle = snapFrame.year >= 2030
     ? { color: '#ff8c00', textShadow: '0 0 20px rgba(255,140,0,0.5)' }
@@ -544,7 +554,13 @@ export default function App() {
               forecastClaims={forecastClaimsJson as import('./types/forecast-jobs').ForecastClaim[]}
               forecastEvaluations={forecastEvaluationsJson as import('./types/forecast-jobs').ForecastEvaluation[]}
             />
-            <CostBreakdown mobile countriesData={countriesDataJson} costModel={costModelDataJson} />
+            <CostBreakdown 
+              mobile 
+              countriesData={countriesDataJson} 
+              costModel={costModelDataJson} 
+              externalSelectedISO={selectedISO}
+              onExternalSelect={setSelectedISO}
+            />
             <AIJobsLayer
               mobile
               jobTaskCatalog={jobTaskCatalogJson as import('./types/forecast-jobs').JobTaskEntry[]}
@@ -635,7 +651,7 @@ export default function App() {
                 className="text-5xl md:text-6xl font-black text-white glow-t mt-1 flex items-baseline"
                 style={{ fontFamily: 'Orbitron, sans-serif' }}
               >
-                <span>{hCost}</span>
+                <span>{displayHCost}</span>
                 <span className="text-2xl ml-1" style={{ color: '#00d4ff' }}>€</span>
               </div>
             </div>
@@ -667,7 +683,7 @@ export default function App() {
                 className="text-5xl md:text-6xl font-black text-white glow-p mt-1 flex items-baseline justify-end"
                 style={{ fontFamily: 'Orbitron, sans-serif' }}
               >
-                <span>{rCost}</span>
+                <span>{displayRCost}</span>
                 <span className="text-2xl ml-1" style={{ color: '#ff8c00' }}>€</span>
               </div>
             </div>
@@ -697,7 +713,12 @@ export default function App() {
         [ SYSTEM SCROLL INITIATE ]
       </div>
 
-      <CostBreakdown countriesData={countriesDataJson} costModel={costModelDataJson} />
+      <CostBreakdown 
+        countriesData={countriesDataJson} 
+        costModel={costModelDataJson} 
+        externalSelectedISO={selectedISO}
+        onExternalSelect={setSelectedISO}
+      />
       <AdoptionForecast
         countriesData={countriesDataJson}
         snapshots={timelineSnapshotsJson}

@@ -13,16 +13,16 @@ interface CostModel {
   global: { human: HumanCosts; robot: RobotCosts }
   countries: Record<string, { humanTotalPerDay?: number; robotTotalPerDay?: number }>
 }
-interface CountryData { iso3: string; name: string; energyCostKWh: number }
+interface CountryData { iso3: string; name: string; energyCostKWh: number; minWage: number }
 
-function computeHumanBreakdown(model: HumanCosts) {
-  const sub = model.foodPerDay + model.waterPerDay + model.housingPerDay + model.healthcarePerDay + model.trainingPerDay
+function computeHumanBreakdown(model: HumanCosts, scale: number = 1) {
+  const sub = (model.foodPerDay + model.waterPerDay + model.housingPerDay + model.healthcarePerDay + model.trainingPerDay) * scale
   return {
-    food: +model.foodPerDay.toFixed(2),
-    water: +model.waterPerDay.toFixed(2),
-    housing: +model.housingPerDay.toFixed(2),
-    healthcare: +model.healthcarePerDay.toFixed(2),
-    training: +model.trainingPerDay.toFixed(2),
+    food: +(model.foodPerDay * scale).toFixed(2),
+    water: +(model.waterPerDay * scale).toFixed(2),
+    housing: +(model.housingPerDay * scale).toFixed(2),
+    healthcare: +(model.healthcarePerDay * scale).toFixed(2),
+    training: +(model.trainingPerDay * scale).toFixed(2),
     overhead: +(sub * model.managementOverhead).toFixed(2),
   }
 }
@@ -45,18 +45,29 @@ export default function CostBreakdown({
   countriesData,
   costModel,
   mobile = false,
+  externalSelectedISO,
+  onExternalSelect,
 }: {
   countriesData: CountryData[]
   costModel: CostModel
   mobile?: boolean
+  externalSelectedISO?: string
+  onExternalSelect?: (iso: string) => void
 }) {
   const [open, setOpen] = useState(false)
-  const [selectedISO, setSelectedISO] = useState('global')
+  const [localSelectedISO, setLocalSelectedISO] = useState('global')
+
+  const selectedISO = externalSelectedISO ?? localSelectedISO
+  const setSelectedISO = onExternalSelect ?? setLocalSelectedISO
 
   const selectedCountry = selectedISO === 'global' ? null : countriesData.find(c => c.iso3 === selectedISO)
   const energyCost = selectedCountry ? selectedCountry.energyCostKWh : 0.15
 
-  const humanBreakdown = computeHumanBreakdown(costModel.global.human)
+  // Calculate scaling factor for human costs based on country minWage
+  const baseHumanTotal = (costModel.global.human.foodPerDay + costModel.global.human.waterPerDay + costModel.global.human.housingPerDay + costModel.global.human.healthcarePerDay + costModel.global.human.trainingPerDay) * (1 + costModel.global.human.managementOverhead)
+  const humanScale = selectedCountry ? (selectedCountry.minWage / baseHumanTotal) : 1
+
+  const humanBreakdown = computeHumanBreakdown(costModel.global.human, humanScale)
   const robotBreakdown = computeRobotBreakdown(costModel.global.robot, energyCost)
 
   const humanTotal = Object.values(humanBreakdown).reduce((a, b) => a + b, 0)
