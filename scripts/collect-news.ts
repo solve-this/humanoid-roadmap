@@ -135,6 +135,6 @@ export async function collectNews(): Promise<void> {
     .sort((a, b) => b.relevanceScore - a.relevanceScore)
     .slice(0, 30)
   writeFileSync(dataPath, JSON.stringify(merged, null, 2))
-  const enrichedCount = merged.filter(a => a.aiEnriched).length
+  const enrichedCount = enrichedArticles.filter(a => a.aiEnriched).length
   console.log(`collect-news: wrote ${merged.length} articles (${enrichedCount} AI-enriched)`)
 }

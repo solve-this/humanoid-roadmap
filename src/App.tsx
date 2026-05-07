@@ -4,11 +4,16 @@ import WorldMap from './components/WorldMap'
 import NewsFeed from './components/NewsFeed'
 import CostBreakdown from './components/CostBreakdown'
 import AdoptionForecast from './components/AdoptionForecast'
+import AIJobsLayer from './components/AIJobsLayer'
 import newsDataJson from './data/news.json'
 import countriesDataJson from './data/countries.json'
 import costModelDataJson from './data/cost-model.json'
 import timelineSnapshotsJson from './data/timeline-snapshots.json'
 import lastUpdatedJson from './data/last-updated.json'
+import forecastClaimsJson from './data/forecast-claims.json'
+import forecastEvaluationsJson from './data/forecast-evaluations.json'
+import jobTaskCatalogJson from './data/job-task-catalog.json'
+import jobRollupsJson from './data/job-rollups.json'
 
 interface TimelineFrame {
   percent: number
@@ -535,7 +540,16 @@ export default function App() {
       </div>
 
       <CostBreakdown countriesData={countriesDataJson} costModel={costModelDataJson} />
-      <AdoptionForecast countriesData={countriesDataJson} snapshots={timelineSnapshotsJson} />
+      <AdoptionForecast
+        countriesData={countriesDataJson}
+        snapshots={timelineSnapshotsJson}
+        forecastClaims={forecastClaimsJson as import('./types/forecast-jobs').ForecastClaim[]}
+        forecastEvaluations={forecastEvaluationsJson as import('./types/forecast-jobs').ForecastEvaluation[]}
+      />
+      <AIJobsLayer
+        jobTaskCatalog={jobTaskCatalogJson as import('./types/forecast-jobs').JobTaskEntry[]}
+        jobRollups={jobRollupsJson as import('./types/forecast-jobs').JobRollup[]}
+      />
       <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} />
     </>
   )

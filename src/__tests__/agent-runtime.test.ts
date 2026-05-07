@@ -50,3 +50,16 @@ describe('callAgent without API keys', () => {
     expect(result).toBeNull()
   })
 })
+
+describe('callAgent with API keys configured', () => {
+  beforeEach(() => {
+    process.env.ANTHROPIC_API_KEY = 'test-key'
+    process.env.OPENAI_API_KEY = 'test-key'
+  })
+
+  it('still returns null because external providers are disabled', async () => {
+    const { callAgent } = await import('../../scripts/agent-runtime.js')
+    const result = await callAgent({ agentFile: 'news-analyst.md', userContent: 'test' })
+    expect(result).toBeNull()
+  })
+})

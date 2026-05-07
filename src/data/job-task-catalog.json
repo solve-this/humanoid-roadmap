@@ -1,0 +1,212 @@
+[
+  {
+    "job_id": "customer-support-agent",
+    "job_title": "Customer Support Agent",
+    "industry": "services",
+    "tasks": [
+      {
+        "task_id": "csa-ticket-resolution",
+        "task_name": "Ticket Resolution",
+        "task_type": "digital",
+        "task_unit": "tickets_resolved_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "csa-call-handling",
+        "task_name": "Inbound Call Handling",
+        "task_type": "coordination",
+        "task_unit": "calls_handled_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "csa-escalation-routing",
+        "task_name": "Escalation Routing",
+        "task_type": "judgment",
+        "task_unit": "escalations_routed_per_day",
+        "automatable": false
+      },
+      {
+        "task_id": "csa-knowledge-lookup",
+        "task_name": "Knowledge Base Lookup",
+        "task_type": "digital",
+        "task_unit": "lookups_per_day",
+        "automatable": true
+      }
+    ]
+  },
+  {
+    "job_id": "software-qa-engineer",
+    "job_title": "Software QA Engineer",
+    "industry": "technology",
+    "tasks": [
+      {
+        "task_id": "qa-test-execution",
+        "task_name": "Test Case Execution",
+        "task_type": "digital",
+        "task_unit": "test_cases_run_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "qa-regression-testing",
+        "task_name": "Regression Test Suite Run",
+        "task_type": "digital",
+        "task_unit": "suite_runs_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "qa-bug-report",
+        "task_name": "Bug Report Creation",
+        "task_type": "judgment",
+        "task_unit": "reports_created_per_day",
+        "automatable": false
+      },
+      {
+        "task_id": "qa-test-script-authoring",
+        "task_name": "Test Script Authoring",
+        "task_type": "digital",
+        "task_unit": "scripts_authored_per_week",
+        "automatable": true
+      }
+    ]
+  },
+  {
+    "job_id": "warehouse-order-picker",
+    "job_title": "Warehouse Order Picker",
+    "industry": "logistics",
+    "tasks": [
+      {
+        "task_id": "wh-pick-item",
+        "task_name": "Item Picking",
+        "task_type": "physical",
+        "task_unit": "items_picked_per_hour",
+        "automatable": true
+      },
+      {
+        "task_id": "wh-scan-item",
+        "task_name": "Item Scanning and Verification",
+        "task_type": "physical",
+        "task_unit": "items_scanned_per_hour",
+        "automatable": true
+      },
+      {
+        "task_id": "wh-pack-verify",
+        "task_name": "Pack Verification",
+        "task_type": "physical",
+        "task_unit": "packs_verified_per_hour",
+        "automatable": true
+      },
+      {
+        "task_id": "wh-exception-handling",
+        "task_name": "Exception Handling",
+        "task_type": "judgment",
+        "task_unit": "exceptions_resolved_per_day",
+        "automatable": false
+      }
+    ]
+  },
+  {
+    "job_id": "document-review-specialist",
+    "job_title": "Document Review Specialist",
+    "industry": "legal_financial",
+    "tasks": [
+      {
+        "task_id": "doc-classification",
+        "task_name": "Document Classification",
+        "task_type": "digital",
+        "task_unit": "documents_classified_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "doc-entity-extraction",
+        "task_name": "Entity Extraction",
+        "task_type": "digital",
+        "task_unit": "entities_extracted_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "doc-compliance-flag",
+        "task_name": "Compliance Flagging",
+        "task_type": "judgment",
+        "task_unit": "flags_raised_per_day",
+        "automatable": false
+      },
+      {
+        "task_id": "doc-summary",
+        "task_name": "Summary Generation",
+        "task_type": "digital",
+        "task_unit": "summaries_generated_per_day",
+        "automatable": true
+      }
+    ]
+  },
+  {
+    "job_id": "logistics-scheduler",
+    "job_title": "Logistics Scheduler",
+    "industry": "logistics",
+    "tasks": [
+      {
+        "task_id": "lgs-route-optimization",
+        "task_name": "Route Optimization",
+        "task_type": "digital",
+        "task_unit": "routes_optimized_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "lgs-load-planning",
+        "task_name": "Load Planning",
+        "task_type": "coordination",
+        "task_unit": "loads_planned_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "lgs-delay-flagging",
+        "task_name": "Delay Detection and Flagging",
+        "task_type": "digital",
+        "task_unit": "delay_flags_per_day",
+        "automatable": true
+      },
+      {
+        "task_id": "lgs-carrier-selection",
+        "task_name": "Carrier Selection",
+        "task_type": "judgment",
+        "task_unit": "carrier_decisions_per_day",
+        "automatable": false
+      }
+    ]
+  },
+  {
+    "job_id": "visual-inspection-operator",
+    "job_title": "Visual Inspection Operator",
+    "industry": "manufacturing",
+    "tasks": [
+      {
+        "task_id": "vi-defect-detection",
+        "task_name": "Defect Detection",
+        "task_type": "physical",
+        "task_unit": "parts_inspected_per_hour",
+        "automatable": true
+      },
+      {
+        "task_id": "vi-measurement-verify",
+        "task_name": "Measurement Verification",
+        "task_type": "physical",
+        "task_unit": "measurements_verified_per_hour",
+        "automatable": true
+      },
+      {
+        "task_id": "vi-reject-sort",
+        "task_name": "Reject Sorting",
+        "task_type": "physical",
+        "task_unit": "rejects_sorted_per_hour",
+        "automatable": true
+      },
+      {
+        "task_id": "vi-quality-log",
+        "task_name": "Quality Logging",
+        "task_type": "digital",
+        "task_unit": "log_entries_per_shift",
+        "automatable": true
+      }
+    ]
+  }
+]

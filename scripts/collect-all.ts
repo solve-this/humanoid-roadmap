@@ -1,6 +1,8 @@
 import { collectNews } from './collect-news.js'
 import { collectCountries } from './collect-countries.js'
 import { collectCostModel } from './collect-cost-model.js'
+import { collectForecastClaims } from './collect-forecast-claims.js'
+import { collectJobWork } from './collect-job-work.js'
 import { validateData } from './validate-data.js'
 import { readFileSync, writeFileSync } from 'fs'
 import { join, dirname } from 'path'
@@ -9,12 +11,14 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 async function main() {
-  const aiProvider = process.env.ANTHROPIC_API_KEY ? 'anthropic' : process.env.OPENAI_API_KEY ? 'openai' : 'none'
-  const hasAI = aiProvider !== 'none'
+  const aiProvider = 'none'
+  const hasAI = false
   console.log(`Starting data collection... [AI agent: ${aiProvider}]`)
   await collectNews()
   await collectCountries()
   await collectCostModel()
+  await collectForecastClaims()
+  const jobWorkResult = await collectJobWork()
   validateData()
 
   const costModel = JSON.parse(readFileSync(join(__dirname, '../src/data/cost-model.json'), 'utf-8'))
@@ -41,10 +45,15 @@ async function main() {
     articlesCollected: newsData.length,
     countriesUpdated: countriesData.length,
     aiProvider,
-    aiEnrichedArticles: newsData.filter((a: { aiEnriched?: boolean }) => a.aiEnriched).length,
-    aiEnrichedCountries: countriesData.filter((c: { lastAIUpdate?: string }) => c.lastAIUpdate).length,
+    aiEnrichedArticles: 0,
+    aiEnrichedCountries: 0,
+    forecastClaimsTotal: JSON.parse(readFileSync(join(__dirname, '../src/data/forecast-claims.json'), 'utf-8')).length,
+    jobWorkSnapshotsNew: jobWorkResult.snapshots,
+    jobRollupsNew: jobWorkResult.rollups,
   }, null, 2))
   console.log(`Data collection complete!`)
 }
 
-main().catch(err => { console.error(err); process.exit(1) })
+main()
+  .then(() => { process.exit(0) })
+  .catch(err => { console.error(err); process.exit(1) })
