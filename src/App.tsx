@@ -543,10 +543,13 @@ export default function App() {
       <AdoptionForecast
         countriesData={countriesDataJson}
         snapshots={timelineSnapshotsJson}
-        forecastClaims={forecastClaimsJson}
-        forecastEvaluations={forecastEvaluationsJson}
+        forecastClaims={forecastClaimsJson as import('./types/forecast-jobs').ForecastClaim[]}
+        forecastEvaluations={forecastEvaluationsJson as import('./types/forecast-jobs').ForecastEvaluation[]}
       />
-      <AIJobsLayer jobTaskCatalog={jobTaskCatalogJson} jobRollups={jobRollupsJson} />
+      <AIJobsLayer
+        jobTaskCatalog={jobTaskCatalogJson as import('./types/forecast-jobs').JobTaskEntry[]}
+        jobRollups={jobRollupsJson as import('./types/forecast-jobs').JobRollup[]}
+      />
       <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} />
     </>
   )

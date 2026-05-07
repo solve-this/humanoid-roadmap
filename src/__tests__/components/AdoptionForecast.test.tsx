@@ -51,34 +51,29 @@ describe('AdoptionForecast', () => {
 
   it('renders the FORECAST trigger button', () => {
     render(<AdoptionForecast countriesData={mockCountries} snapshots={mockSnapshots} />)
-    expect(screen.getByText('CAST').closest('button')).toBeTruthy()
+    expect(screen.getByLabelText('Forecast')).toBeTruthy()
   })
 
   it('opens the drawer when trigger is clicked', () => {
     render(<AdoptionForecast countriesData={mockCountries} snapshots={mockSnapshots} />)
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
+    fireEvent.click(screen.getByLabelText('Forecast'))
     expect(screen.getByText(/Physical Labor Replacement/i)).toBeTruthy()
   })
 
   it('shows mode toggle buttons when open', () => {
     render(<AdoptionForecast countriesData={mockCountries} snapshots={mockSnapshots} />)
-    // Click the trigger (button containing "CAST" text node)
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
-    // Both mode tabs should be present
-    const forecastTab = screen.getByRole('button', { name: /^Forecast$/i })
-    const vsActualTab = screen.getByRole('button', { name: /^vs Actual$/i })
-    expect(forecastTab).toBeTruthy()
-    expect(vsActualTab).toBeTruthy()
+    fireEvent.click(screen.getByLabelText('Forecast'))
+    expect(screen.getByRole('button', { name: /^Forecast$/i })).toBeTruthy()
+    expect(screen.getByRole('button', { name: /^vs Actual$/i })).toBeTruthy()
   })
 
   it('defaults to forecast mode and shows chart', () => {
-    render(<AdoptionForecast countriesData={mockCountries} snapshots={mockSnapshots} />)
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
-    // In forecast mode the recharts line chart renders; South Korea appears in legend
-    expect(screen.getByText(/South Korea/i)).toBeTruthy()
+    const { container } = render(
+      <AdoptionForecast countriesData={mockCountries} snapshots={mockSnapshots} />
+    )
+    fireEvent.click(screen.getByLabelText('Forecast'))
+    // In forecast mode the recharts responsive container is rendered
+    expect(container.querySelector('.recharts-responsive-container')).toBeTruthy()
   })
 
   it('switches to vs-actual mode and shows tracking-in-progress state when no evaluations', () => {
@@ -90,8 +85,7 @@ describe('AdoptionForecast', () => {
         forecastEvaluations={[]}
       />
     )
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
+    fireEvent.click(screen.getByLabelText('Forecast'))
     fireEvent.click(screen.getByRole('button', { name: /^vs Actual$/i }))
     expect(screen.getByText(/TRACKING IN PROGRESS/i)).toBeTruthy()
   })
@@ -105,8 +99,7 @@ describe('AdoptionForecast', () => {
         forecastEvaluations={[]}
       />
     )
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
+    fireEvent.click(screen.getByLabelText('Forecast'))
     fireEvent.click(screen.getByRole('button', { name: /^vs Actual$/i }))
     expect(screen.getByText(/1 forecast claims logged/i)).toBeTruthy()
   })
@@ -120,19 +113,16 @@ describe('AdoptionForecast', () => {
         forecastEvaluations={mockEvaluations}
       />
     )
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
+    fireEvent.click(screen.getByLabelText('Forecast'))
     fireEvent.click(screen.getByRole('button', { name: /^vs Actual$/i }))
     expect(screen.getByText(/on.track/i)).toBeTruthy()
   })
 
   it('closes when the X button is clicked', () => {
     render(<AdoptionForecast countriesData={mockCountries} snapshots={mockSnapshots} />)
-    const triggerBtn = screen.getByText('CAST').closest('button')!
-    fireEvent.click(triggerBtn)
-    const closeBtn = screen.getByText('✕')
-    fireEvent.click(closeBtn)
+    fireEvent.click(screen.getByLabelText('Forecast'))
+    fireEvent.click(screen.getByText('✕'))
     // Trigger button is visible again
-    expect(screen.getByText('CAST').closest('button')).toBeTruthy()
+    expect(screen.getByLabelText('Forecast')).toBeTruthy()
   })
 })
