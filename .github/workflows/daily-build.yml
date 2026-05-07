@@ -30,14 +30,9 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - name: Collect data with AI agent enrichment
+      - name: Collect data (deterministic mode, no external AI providers)
         run: npm run collect-data
         continue-on-error: true
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
       - run: npm run validate-data
       - name: Commit updated data
         run: |

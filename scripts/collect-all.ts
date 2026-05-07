@@ -9,8 +9,8 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 async function main() {
-  const aiProvider = process.env.ANTHROPIC_API_KEY ? 'anthropic' : process.env.OPENAI_API_KEY ? 'openai' : 'none'
-  const hasAI = aiProvider !== 'none'
+  const aiProvider = 'none'
+  const hasAI = false
   console.log(`Starting data collection... [AI agent: ${aiProvider}]`)
   await collectNews()
   await collectCountries()
@@ -41,10 +41,12 @@ async function main() {
     articlesCollected: newsData.length,
     countriesUpdated: countriesData.length,
     aiProvider,
-    aiEnrichedArticles: newsData.filter((a: { aiEnriched?: boolean }) => a.aiEnriched).length,
-    aiEnrichedCountries: countriesData.filter((c: { lastAIUpdate?: string }) => c.lastAIUpdate).length,
+    aiEnrichedArticles: 0,
+    aiEnrichedCountries: 0,
   }, null, 2))
   console.log(`Data collection complete!`)
 }
 
-main().catch(err => { console.error(err); process.exit(1) })
+main()
+  .then(() => { process.exit(0) })
+  .catch(err => { console.error(err); process.exit(1) })
