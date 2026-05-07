@@ -3,22 +3,7 @@
     "date": "2026-05-06",
     "humanCostGlobal": 34.59,
     "robotCostGlobal": 18.47,
-    "topAdopters": [
-      "KOR",
-      "CHN",
-      "SGP"
-    ],
+    "topAdopters": ["KOR", "CHN", "SGP"],
     "aiEnriched": true
-  },
-  {
-    "date": "2026-05-07",
-    "humanCostGlobal": 34.5,
-    "robotCostGlobal": 17.87,
-    "topAdopters": [
-      "KOR",
-      "SGP",
-      "CHN"
-    ],
-    "aiEnriched": false
   }
 ]

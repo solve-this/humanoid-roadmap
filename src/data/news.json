@@ -1,96 +1,17 @@
 [
   {
-    "id": "seed006",
-    "title": "China Deploys 50,000 Humanoid Units in Shenzhen Electronics Factories",
-    "url": "https://example.com/china-shenzhen-deployment",
-    "source": "TechCrunch",
-    "publishedAt": "2026-02-28T06:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "workforce"
-    ],
-    "relevanceScore": 0.97,
-    "sentiment": "negative",
-    "aiSummary": "Chinese state-backed manufacturer deployed 50,000 humanoid units across Shenzhen electronics factories, the largest single deployment globally.",
-    "keyInsight": "China's 50,000-unit deployment is the world's largest, confirming its lead in humanoid adoption scale.",
-    "countriesMentioned": [
-      "CHN"
-    ],
-    "industriesAffected": [
-      "manufacturing"
-    ],
-    "aiEnriched": true
-  },
-  {
     "id": "seed001",
     "title": "Tesla Optimus Reaches 1000 Units Deployed in Factory",
     "url": "https://example.com/tesla-optimus-1000",
     "source": "The Robot Report",
     "publishedAt": "2026-04-15T10:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "manufacturing"
-    ],
+    "keywords": ["humanoid", "robot", "manufacturing"],
     "relevanceScore": 0.95,
     "sentiment": "negative",
     "aiSummary": "Tesla deployed 1000 Optimus units in its Texas Gigafactory, marking first mass humanoid deployment in North American industry.",
     "keyInsight": "First large-scale commercial humanoid deployment signals manufacturing sector tipping point.",
-    "countriesMentioned": [
-      "USA"
-    ],
-    "industriesAffected": [
-      "manufacturing"
-    ],
-    "aiEnriched": true
-  },
-  {
-    "id": "seed003",
-    "title": "Figure AI Raises $675M to Scale Robot Workforce",
-    "url": "https://example.com/figure-ai-funding",
-    "source": "TechCrunch",
-    "publishedAt": "2026-03-28T14:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot worker",
-      "labor replacement"
-    ],
-    "relevanceScore": 0.92,
-    "sentiment": "negative",
-    "aiSummary": "Figure AI raised $675M Series B to scale its humanoid robot workforce for automotive and logistics deployments in the US and Germany.",
-    "keyInsight": "Largest humanoid startup funding round signals investor conviction in near-term labor displacement.",
-    "countriesMentioned": [
-      "USA",
-      "DEU"
-    ],
-    "industriesAffected": [
-      "manufacturing",
-      "logistics"
-    ],
-    "aiEnriched": true
-  },
-  {
-    "id": "seed004",
-    "title": "Germany's IG Metall Warns of 2M Manufacturing Jobs at Risk",
-    "url": "https://example.com/ig-metall-warning",
-    "source": "The Robot Report",
-    "publishedAt": "2026-03-20T09:00:00.000Z",
-    "keywords": [
-      "automation",
-      "labor replacement",
-      "job loss"
-    ],
-    "relevanceScore": 0.89,
-    "sentiment": "negative",
-    "aiSummary": "Germany's largest manufacturing union warns 2 million jobs face displacement from humanoid automation by 2032, calling for new labor protections.",
-    "keyInsight": "Union acknowledgment confirms automation impact is now a mainstream industrial concern in Germany.",
-    "countriesMentioned": [
-      "DEU"
-    ],
-    "industriesAffected": [
-      "manufacturing"
-    ],
+    "countriesMentioned": ["USA"],
+    "industriesAffected": ["manufacturing"],
     "aiEnriched": true
   },
   {
@@ -99,22 +20,43 @@
     "url": "https://example.com/korea-robotics-2030",
     "source": "IEEE Spectrum",
     "publishedAt": "2026-04-10T08:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "automation",
-      "workforce"
-    ],
+    "keywords": ["humanoid", "automation", "workforce"],
     "relevanceScore": 0.88,
     "sentiment": "neutral",
     "aiSummary": "South Korea's government unveiled a national strategy to lead humanoid robotics manufacturing by 2030, investing $2B in R&D.",
     "keyInsight": "Government-backed investment confirms South Korea's position as top humanoid adoption country.",
-    "countriesMentioned": [
-      "KOR"
-    ],
-    "industriesAffected": [
-      "manufacturing",
-      "logistics"
-    ],
+    "countriesMentioned": ["KOR"],
+    "industriesAffected": ["manufacturing", "logistics"],
+    "aiEnriched": true
+  },
+  {
+    "id": "seed003",
+    "title": "Figure AI Raises $675M to Scale Robot Workforce",
+    "url": "https://example.com/figure-ai-funding",
+    "source": "TechCrunch",
+    "publishedAt": "2026-03-28T14:00:00.000Z",
+    "keywords": ["humanoid", "robot worker", "labor replacement"],
+    "relevanceScore": 0.92,
+    "sentiment": "negative",
+    "aiSummary": "Figure AI raised $675M Series B to scale its humanoid robot workforce for automotive and logistics deployments in the US and Germany.",
+    "keyInsight": "Largest humanoid startup funding round signals investor conviction in near-term labor displacement.",
+    "countriesMentioned": ["USA", "DEU"],
+    "industriesAffected": ["manufacturing", "logistics"],
+    "aiEnriched": true
+  },
+  {
+    "id": "seed004",
+    "title": "Germany's IG Metall Warns of 2M Manufacturing Jobs at Risk",
+    "url": "https://example.com/ig-metall-warning",
+    "source": "The Robot Report",
+    "publishedAt": "2026-03-20T09:00:00.000Z",
+    "keywords": ["automation", "labor replacement", "job loss"],
+    "relevanceScore": 0.89,
+    "sentiment": "negative",
+    "aiSummary": "Germany's largest manufacturing union warns 2 million jobs face displacement from humanoid automation by 2032, calling for new labor protections.",
+    "keyInsight": "Union acknowledgment confirms automation impact is now a mainstream industrial concern in Germany.",
+    "countriesMentioned": ["DEU"],
+    "industriesAffected": ["manufacturing"],
     "aiEnriched": true
   },
   {
@@ -123,22 +65,28 @@
     "url": "https://example.com/fanuc-solar-humanoid",
     "source": "IEEE Spectrum",
     "publishedAt": "2026-03-10T11:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "automation"
-    ],
+    "keywords": ["humanoid", "robot", "automation"],
     "relevanceScore": 0.84,
     "sentiment": "positive",
     "aiSummary": "Fanuc's new solar-powered agricultural humanoid achieves sub-$8/day TCO in Japan's rice paddies, targeting 40% cost reduction vs human labor.",
     "keyInsight": "Solar offset achieving sub-$8/day TCO in agriculture accelerates Japan's adoption timeline.",
-    "countriesMentioned": [
-      "JPN"
-    ],
-    "industriesAffected": [
-      "agriculture",
-      "manufacturing"
-    ],
+    "countriesMentioned": ["JPN"],
+    "industriesAffected": ["agriculture", "manufacturing"],
+    "aiEnriched": true
+  },
+  {
+    "id": "seed006",
+    "title": "China Deploys 50,000 Humanoid Units in Shenzhen Electronics Factories",
+    "url": "https://example.com/china-shenzhen-deployment",
+    "source": "TechCrunch",
+    "publishedAt": "2026-02-28T06:00:00.000Z",
+    "keywords": ["humanoid", "robot", "workforce"],
+    "relevanceScore": 0.97,
+    "sentiment": "negative",
+    "aiSummary": "Chinese state-backed manufacturer deployed 50,000 humanoid units across Shenzhen electronics factories, the largest single deployment globally.",
+    "keyInsight": "China's 50,000-unit deployment is the world's largest, confirming its lead in humanoid adoption scale.",
+    "countriesMentioned": ["CHN"],
+    "industriesAffected": ["manufacturing"],
     "aiEnriched": true
   },
   {
@@ -147,21 +95,28 @@
     "url": "https://example.com/singapore-healthcare-robots",
     "source": "The Robot Report",
     "publishedAt": "2026-02-14T08:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "automation"
-    ],
+    "keywords": ["humanoid", "automation"],
     "relevanceScore": 0.78,
     "sentiment": "positive",
     "aiSummary": "Singapore's Ministry of Health piloting 200 humanoid assistants in public hospitals, targeting elder care and logistics roles.",
     "keyInsight": "Healthcare sector adoption in Singapore signals expansion beyond manufacturing into services.",
-    "countriesMentioned": [
-      "SGP"
-    ],
-    "industriesAffected": [
-      "healthcare",
-      "services"
-    ],
+    "countriesMentioned": ["SGP"],
+    "industriesAffected": ["healthcare", "services"],
+    "aiEnriched": true
+  },
+  {
+    "id": "seed008",
+    "title": "ILO Report: 300M Jobs Face Automation Displacement by 2035",
+    "url": "https://example.com/ilo-300m-jobs",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-01-30T12:00:00.000Z",
+    "keywords": ["labor replacement", "automation", "workforce"],
+    "relevanceScore": 0.91,
+    "sentiment": "negative",
+    "aiSummary": "ILO's landmark report projects 300 million physical labor jobs globally face displacement from humanoid robots by 2035, with manufacturing and logistics most exposed.",
+    "keyInsight": "ILO's 300M projection is the first intergovernmental endorsement of mass humanoid displacement timelines.",
+    "countriesMentioned": ["USA", "CHN", "DEU", "JPN", "KOR"],
+    "industriesAffected": ["manufacturing", "logistics", "agriculture"],
     "aiEnriched": true
   }
 ]
