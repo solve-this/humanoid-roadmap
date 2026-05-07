@@ -40,11 +40,11 @@ export default function AdoptionForecast({
 
   type ChartRow = { year: string; [k: string]: string | number }
 
-    const chartData: ChartRow[] = [
-    { year: '2024', ...Object.fromEntries(topCountries.map(c => [c.iso3, 0])) },
-    { year: '2027', ...Object.fromEntries(topCountries.map(c => [c.iso3, c.replacementPct2027])) },
-    { year: '2030', ...Object.fromEntries(topCountries.map(c => [c.iso3, c.replacementPct2030])) },
-    { year: '2035', ...Object.fromEntries(topCountries.map(c => [c.iso3, c.replacementPct2035])) },
+  const chartData: ChartRow[] = [
+    { year: '2024', ...Object.fromEntries(chartCountries.map(c => [c.iso3, 0])) },
+    { year: '2027', ...Object.fromEntries(chartCountries.map(c => [c.iso3, c.replacementPct2027])) },
+    { year: '2030', ...Object.fromEntries(chartCountries.map(c => [c.iso3, c.replacementPct2030])) },
+    { year: '2035', ...Object.fromEntries(chartCountries.map(c => [c.iso3, c.replacementPct2035])) },
   ]
 
   // suppress unused warning - snapshots used for future historical chart

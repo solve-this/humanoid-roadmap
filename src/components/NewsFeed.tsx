@@ -13,6 +13,11 @@ const SOURCE_FALLBACK_URLS: Record<string, string> = {
   'IEEE Spectrum': 'https://spectrum.ieee.org/robotics/',
   TechCrunch: 'https://techcrunch.com/tag/robotics/',
 }
+const PLACEHOLDER_DOMAINS = ['example.com']
+
+function isPlaceholderUrl(hostname: string): boolean {
+  return PLACEHOLDER_DOMAINS.some(domain => hostname === domain || hostname.endsWith(`.${domain}`))
+}
 
 function fallbackArticleUrl(article: NewsArticle): string {
   const fallbackUrl = SOURCE_FALLBACK_URLS[article.source]
@@ -26,7 +31,7 @@ function fallbackArticleUrl(article: NewsArticle): string {
 function resolveArticleUrl(article: NewsArticle): string {
   try {
     const parsed = new URL(article.url)
-    if (parsed.hostname === 'example.com' || parsed.hostname.endsWith('.example.com')) return fallbackArticleUrl(article)
+    if (isPlaceholderUrl(parsed.hostname)) return fallbackArticleUrl(article)
     return article.url
   } catch {
     console.warn(`[news-feed] Invalid article URL for source "${article.source}": ${article.url}`)
