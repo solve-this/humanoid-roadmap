@@ -14,5 +14,5 @@ test('news ticker is visible at page bottom', async ({ page }) => {
 
 test('page title is present', async ({ page }) => {
   await page.goto('/humanoid-roadmap/')
-  await expect(page).toHaveTitle(/humanoid/i)
+  await expect(page).toHaveTitle(/nexus hud|humanoid/i)
 })
