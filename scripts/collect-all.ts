@@ -1,6 +1,8 @@
 import { collectNews } from './collect-news.js'
 import { collectCountries } from './collect-countries.js'
 import { collectCostModel } from './collect-cost-model.js'
+import { collectForecastClaims } from './collect-forecast-claims.js'
+import { collectJobWork } from './collect-job-work.js'
 import { validateData } from './validate-data.js'
 import { readFileSync, writeFileSync } from 'fs'
 import { join, dirname } from 'path'
@@ -15,6 +17,8 @@ async function main() {
   await collectNews()
   await collectCountries()
   await collectCostModel()
+  await collectForecastClaims()
+  const jobWorkResult = await collectJobWork()
   validateData()
 
   const costModel = JSON.parse(readFileSync(join(__dirname, '../src/data/cost-model.json'), 'utf-8'))
@@ -43,6 +47,9 @@ async function main() {
     aiProvider,
     aiEnrichedArticles: 0,
     aiEnrichedCountries: 0,
+    forecastClaimsTotal: JSON.parse(readFileSync(join(__dirname, '../src/data/forecast-claims.json'), 'utf-8')).length,
+    jobWorkSnapshotsNew: jobWorkResult.snapshots,
+    jobRollupsNew: jobWorkResult.rollups,
   }, null, 2))
   console.log(`Data collection complete!`)
 }
