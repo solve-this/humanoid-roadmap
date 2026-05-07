@@ -50,19 +50,19 @@ async function updateForecastsWithAgent(countries: CountryData[], recentNews: Ne
     result = await callAgent({ agentFile: 'trend-forecaster.md', userContent, maxTokens: 4096 })
   } catch (err) {
     console.warn('[collect-countries] Agent call failed, using algorithmic fallback:', (err as Error).message)
-    return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c) }))
+    return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }))
   }
-  if (!result) return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c) }))
+  if (!result) return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }))
   const forecasts = parseAgentJSON<Record<string, AgentCountryForecast>>(result)
   if (!forecasts) {
     console.warn('[collect-countries] Agent returned unparseable forecasts — using algorithmic fallback')
-    return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c) }))
+    return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }))
   }
   console.log(`[collect-countries] Agent (${result.provider}/${result.model}) updated ${Object.keys(forecasts).length} country forecasts`)
   const now = new Date().toISOString()
   return countries.map(c => {
     const f = forecasts[c.iso3]
-    if (!f) return { ...c, adoptionScore: computeAdoptionScore(c) }
+    if (!f) return { ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }
     return {
       ...c,
       adoptionScore: typeof f.adoptionScore === 'number' ? Math.max(0, Math.min(100, Math.round(f.adoptionScore))) : computeAdoptionScore(c),

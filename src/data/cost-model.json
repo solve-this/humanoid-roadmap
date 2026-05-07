@@ -1,11 +1,11 @@
 {
   "global": {
     "human": {
-      "foodPerDay": 8.50,
-      "waterPerDay": 0.50,
-      "housingPerDay": 15.00,
-      "healthcarePerDay": 4.00,
-      "trainingPerDay": 2.00,
+      "foodPerDay": 8.5,
+      "waterPerDay": 0.5,
+      "housingPerDay": 15,
+      "healthcarePerDay": 4,
+      "trainingPerDay": 2,
       "managementOverhead": 0.15
     },
     "robot": {
@@ -13,9 +13,70 @@
       "amortizationYears": 5,
       "kWhPerDay": 6.88,
       "maintenancePctPerYear": 0.08,
-      "cloudInferencePerDay": 1.50,
+      "cloudInferencePerDay": 1.5,
       "solarOffsetPct": 0
     }
   },
-  "countries": {}
+  "countries": {
+    "KOR": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.6
+    },
+    "SGP": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 18.42
+    },
+    "DEU": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 19.46
+    },
+    "JPN": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 18.36
+    },
+    "SWE": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.46
+    },
+    "DNK": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 18.98
+    },
+    "BEL": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 18.84
+    },
+    "USA": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.74
+    },
+    "CHN": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.39
+    },
+    "TWN": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.53
+    },
+    "CZE": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 18.15
+    },
+    "SVK": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.94
+    },
+    "HUN": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.81
+    },
+    "AUT": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 18.29
+    },
+    "FIN": {
+      "humanTotalPerDay": 34.5,
+      "robotTotalPerDay": 17.39
+    }
+  }
 }
