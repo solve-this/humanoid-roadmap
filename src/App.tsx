@@ -1,5 +1,14 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
+import WorldMap from './components/WorldMap'
+import NewsFeed from './components/NewsFeed'
+import CostBreakdown from './components/CostBreakdown'
+import AdoptionForecast from './components/AdoptionForecast'
+import newsDataJson from './data/news.json'
+import countriesDataJson from './data/countries.json'
+import costModelDataJson from './data/cost-model.json'
+import timelineSnapshotsJson from './data/timeline-snapshots.json'
+import lastUpdatedJson from './data/last-updated.json'
 
 interface TimelineFrame {
   percent: number
@@ -391,6 +400,7 @@ export default function App() {
       <div style={{ height: '500vh' }} />
 
       <GlobeCanvas scrollPercent={scrollPercent} />
+      <WorldMap scrollPercent={scrollPercent} countriesData={countriesDataJson} />
       <HumanHologram heartRef={humanHeartRef} />
       <RobotHologram coreRef={robotCoreRef} />
       <HudLines
@@ -518,11 +528,15 @@ export default function App() {
 
       {/* Scroll hint */}
       <div
-        className="fixed bottom-4 left-1/2 -translate-x-1/2 text-white font-mono text-[10px] animate-pulse z-40 tracking-widest uppercase transition-opacity duration-300"
+        className="fixed bottom-12 left-1/2 -translate-x-1/2 text-white font-mono text-[10px] animate-pulse z-40 tracking-widest uppercase transition-opacity duration-300"
         style={{ opacity: showScrollHint ? 0.5 : 0 }}
       >
         [ SYSTEM SCROLL INITIATE ]
       </div>
+
+      <CostBreakdown countriesData={countriesDataJson} costModel={costModelDataJson} />
+      <AdoptionForecast countriesData={countriesDataJson} snapshots={timelineSnapshotsJson} />
+      <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} />
     </>
   )
 }
