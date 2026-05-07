@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps'
+import { ComposableMap, Geographies, Geography, Marker } from '@vnedyalk0v/react19-simple-maps'
 
 interface CountryData {
   iso3: string; name: string; lat: number; lng: number
