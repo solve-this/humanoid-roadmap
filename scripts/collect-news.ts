@@ -35,6 +35,9 @@ const FEEDS = [
   { url: 'https://therobotreport.com/feed/', source: 'The Robot Report' },
   { url: 'https://spectrum.ieee.org/rss/robotics', source: 'IEEE Spectrum' },
   { url: 'https://techcrunch.com/feed/', source: 'TechCrunch' },
+  { url: 'https://www.reuters.com/arc/outboundfeeds/news-v1/?facetId=technology&limit=20', source: 'Reuters Technology' },
+  { url: 'https://allafrica.com/tools/headlines/rdf/technology/headlines.rdf', source: 'AllAfrica Technology' },
+  { url: 'https://www.zdnet.com/news/rss.xml', source: 'ZDNET' },
 ]
 
 const KEYWORDS = ['humanoid', 'robot', 'automation', 'labor replacement', 'job replacement', 'workforce']
@@ -132,8 +135,8 @@ export async function collectNews(): Promise<void> {
   const ninetyDaysAgo = Date.now() - RETENTION_DAYS * 24 * 60 * 60 * 1000
   const merged = deduplicateArticles([...enrichedArticles, ...existing])
     .filter(a => new Date(a.publishedAt).getTime() > ninetyDaysAgo)
-    .sort((a, b) => b.relevanceScore - a.relevanceScore)
-    .slice(0, 30)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 500)
   writeFileSync(dataPath, JSON.stringify(merged, null, 2))
   const enrichedCount = enrichedArticles.filter(a => a.aiEnriched).length
   console.log(`collect-news: wrote ${merged.length} articles (${enrichedCount} AI-enriched)`)

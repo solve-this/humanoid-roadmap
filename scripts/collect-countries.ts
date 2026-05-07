@@ -21,7 +21,7 @@ interface AgentCountryForecast {
   adoptionScore: number; replacementPct2027: number; replacementPct2030: number; replacementPct2035: number; forecastReasoning: string
 }
 
-const ISO3_LIST = 'KOR;DEU;JPN;CHN;USA;SWE;SGP;DNK;BEL;TWN;CZE;SVK;HUN;AUT;FIN'
+const ISO3_LIST = 'KOR;DEU;JPN;CHN;USA;SWE;SGP;DNK;BEL;TWN;CZE;SVK;HUN;AUT;FIN;ZAF;NGA;EGY;MAR;KEN;ETH;BRA;ARG;CHL;COL;PER;CAN;MEX;GBR;FRA;ITA;ESP;POL;AUS;IND;VNM;THA;IDN'
 const HARDWARE_PRICE = 20000
 
 export function computeAdoptionScore(c: CountryData): number {
@@ -49,14 +49,14 @@ async function updateForecastsWithAgent(countries: CountryData[], recentNews: Ne
   try {
     result = await callAgent({ agentFile: 'trend-forecaster.md', userContent, maxTokens: 4096 })
   } catch (err) {
-    console.warn('[collect-countries] Agent call failed, using algorithmic fallback:', (err as Error).message)
-    return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }))
+    console.warn('[collect-countries] Agent call failed, preserving existing data:', (err as Error).message)
+    return countries
   }
-  if (!result) return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }))
+  if (!result) return countries
   const forecasts = parseAgentJSON<Record<string, AgentCountryForecast>>(result)
   if (!forecasts) {
-    console.warn('[collect-countries] Agent returned unparseable forecasts — using algorithmic fallback')
-    return countries.map(c => ({ ...c, adoptionScore: computeAdoptionScore(c), lastAIUpdate: undefined }))
+    console.warn('[collect-countries] Agent returned unparseable forecasts — preserving existing data')
+    return countries
   }
   console.log(`[collect-countries] Agent (${result.provider}/${result.model}) updated ${Object.keys(forecasts).length} country forecasts`)
   const now = new Date().toISOString()

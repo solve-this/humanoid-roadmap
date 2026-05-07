@@ -22,6 +22,10 @@ const numericToISO3: Record<string, string> = {
   '410': 'KOR', '276': 'DEU', '392': 'JPN', '156': 'CHN', '840': 'USA',
   '752': 'SWE', '702': 'SGP', '208': 'DNK', '056': 'BEL', '158': 'TWN',
   '203': 'CZE', '703': 'SVK', '348': 'HUN', '040': 'AUT', '246': 'FIN',
+  '710': 'ZAF', '566': 'NGA', '818': 'EGY', '504': 'MAR', '404': 'KEN', '231': 'ETH',
+  '076': 'BRA', '032': 'ARG', '152': 'CHL', '170': 'COL', '604': 'PER',
+  '124': 'CAN', '484': 'MEX', '826': 'GBR', '250': 'FRA', '380': 'ITA', '724': 'ESP', '616': 'POL',
+  '036': 'AUS', '356': 'IND', '704': 'VNM', '764': 'THA', '360': 'IDN'
 }
 
 export default function WorldMap({ scrollPercent, countriesData }: { scrollPercent: number; countriesData: CountryData[] }) {

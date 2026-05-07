@@ -11,8 +11,8 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 async function main() {
-  const aiProvider = 'none'
-  const hasAI = false
+  const aiProvider = process.env.GITHUB_TOKEN ? 'github-models' : (process.env.OPENAI_API_KEY ? 'openai' : 'none')
+  const hasAI = aiProvider !== 'none'
   console.log(`Starting data collection... [AI agent: ${aiProvider}]`)
   await collectNews()
   await collectCountries()
