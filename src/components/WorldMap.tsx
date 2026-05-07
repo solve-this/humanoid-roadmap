@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { ComposableMap, Geographies, Geography, Marker } from '@vnedyalk0v/react19-simple-maps'
+import geoData from '../data/countries-110m.json'
 
 interface CountryData {
   iso3: string; name: string; lat: number; lng: number
@@ -7,7 +8,6 @@ interface CountryData {
   robotDensity?: number; energyCostKWh?: number; minWage?: number
 }
 
-const GEO_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json'
 
 function interpolateColor(score: number): string {
   const t = Math.max(0, Math.min(1, score / 100))
@@ -44,7 +44,7 @@ export default function WorldMap({ scrollPercent, countriesData }: { scrollPerce
         projectionConfig={{ scale: 147 }}
         style={{ width: '100%', height: '100%', background: 'transparent' }}
       >
-        <Geographies geography={GEO_URL}>
+        <Geographies geography={geoData}>
           {({ geographies }: { geographies: Array<{ rsmKey: string; id: string; properties: Record<string, unknown> }> }) =>
             geographies.map(geo => {
               const numericId = geo.id?.toString().padStart(3, '0')
