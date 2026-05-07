@@ -17,7 +17,7 @@ const SOURCE_FALLBACK_URLS: Record<string, string> = {
 function resolveArticleUrl(article: NewsArticle): string {
   try {
     const parsed = new URL(article.url)
-    if (parsed.hostname === 'example.com') return SOURCE_FALLBACK_URLS[article.source] ?? article.url
+    if (parsed.hostname === 'example.com') return SOURCE_FALLBACK_URLS[article.source] ?? '#'
     return article.url
   } catch {
     return SOURCE_FALLBACK_URLS[article.source] ?? '#'

@@ -35,7 +35,7 @@ export default function AdoptionForecast({
   const [mode, setMode] = useState<ViewMode>('forecast')
 
   const top10 = [...countriesData].sort((a, b) => b.adoptionScore - a.adoptionScore).slice(0, 10)
-  const visibleCountries = mobile ? top10.slice(0, 6) : top10
+  const chartCountries = mobile ? top10.slice(0, 6) : top10
 
   type ChartRow = { year: string; [k: string]: string | number }
 
@@ -102,14 +102,14 @@ export default function AdoptionForecast({
               <Tooltip formatter={(v) => typeof v === 'number' ? `${v}%` : String(v)} contentStyle={{ background: '#0a0a1a', border: '1px solid #00d4ff', fontSize: 10 }} />
               {!mobile && <Legend wrapperStyle={{ fontSize: 9 }} />}
               <ReferenceLine y={50} stroke="rgba(255,0,0,0.3)" strokeDasharray="4 4" label={mobile ? undefined : { value: '50% threshold', fill: 'rgba(255,0,0,0.5)', fontSize: 9 }} />
-              {visibleCountries.map((c, i) => (
+              {chartCountries.map((c, i) => (
                 <Line key={c.iso3} type="monotone" dataKey={c.iso3} name={c.name} stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: mobile ? 3 : 4 }} />
               ))}
             </LineChart>
           </ResponsiveContainer>
           {mobile && (
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginTop: 12 }}>
-              {visibleCountries.map((country, index) => (
+              {chartCountries.map((country, index) => (
                 <span
                   key={country.iso3}
                   style={{
