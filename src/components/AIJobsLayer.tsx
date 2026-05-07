@@ -31,10 +31,10 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
   }
 
   const hasData = latestRollupByJob.size > 0
-  const renderJobs = hasData ? jobTaskCatalog : jobTaskCatalog.slice(0, PREVIEW_JOB_COUNT)
+  const previewJobs = jobTaskCatalog.slice(0, PREVIEW_JOB_COUNT)
 
   const jobCards = hasData ? (
-    renderJobs.map(job => {
+    jobTaskCatalog.map(job => {
       const rollup = latestRollupByJob.get(job.job_id)
       if (!rollup) return null
       const agentPct = Math.round(rollup.agent_work_share * 100)
@@ -88,7 +88,7 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
         source-linked task observations are collected.
       </div>
 
-      {renderJobs.map(job => {
+      {previewJobs.map(job => {
         const color = sectorColor(job.industry)
         const automatableTasks = job.tasks.filter(t => t.automatable).length
         return (

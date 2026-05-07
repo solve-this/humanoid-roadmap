@@ -26,7 +26,7 @@ function fallbackArticleUrl(article: NewsArticle): string {
 function resolveArticleUrl(article: NewsArticle): string {
   try {
     const parsed = new URL(article.url)
-    if (parsed.hostname === 'example.com') return fallbackArticleUrl(article)
+    if (parsed.hostname === 'example.com' || parsed.hostname.endsWith('.example.com')) return fallbackArticleUrl(article)
     return article.url
   } catch {
     console.warn(`[news-feed] Invalid article URL for source "${article.source}": ${article.url}`)

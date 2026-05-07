@@ -35,16 +35,16 @@ export default function AdoptionForecast({
   const [open, setOpen] = useState(false)
   const [mode, setMode] = useState<ViewMode>('forecast')
 
-  const top10 = [...countriesData].sort((a, b) => b.adoptionScore - a.adoptionScore).slice(0, 10)
-  const chartCountries = mobile ? top10.slice(0, MOBILE_MAX_COUNTRIES) : top10
+  const topCountries = [...countriesData].sort((a, b) => b.adoptionScore - a.adoptionScore).slice(0, 10)
+  const chartCountries = mobile ? topCountries.slice(0, MOBILE_MAX_COUNTRIES) : topCountries
 
   type ChartRow = { year: string; [k: string]: string | number }
 
-  const chartData: ChartRow[] = [
-    { year: '2024', ...Object.fromEntries(top10.map(c => [c.iso3, 0])) },
-    { year: '2027', ...Object.fromEntries(top10.map(c => [c.iso3, c.replacementPct2027])) },
-    { year: '2030', ...Object.fromEntries(top10.map(c => [c.iso3, c.replacementPct2030])) },
-    { year: '2035', ...Object.fromEntries(top10.map(c => [c.iso3, c.replacementPct2035])) },
+    const chartData: ChartRow[] = [
+    { year: '2024', ...Object.fromEntries(topCountries.map(c => [c.iso3, 0])) },
+    { year: '2027', ...Object.fromEntries(topCountries.map(c => [c.iso3, c.replacementPct2027])) },
+    { year: '2030', ...Object.fromEntries(topCountries.map(c => [c.iso3, c.replacementPct2030])) },
+    { year: '2035', ...Object.fromEntries(topCountries.map(c => [c.iso3, c.replacementPct2035])) },
   ]
 
   // suppress unused warning - snapshots used for future historical chart
