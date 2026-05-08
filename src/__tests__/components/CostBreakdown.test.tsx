@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { render, fireEvent } from '@testing-library/react'
 import CostBreakdown from '../../components/CostBreakdown'
 
-const mockCountries = [{ iso3: 'KOR', name: 'South Korea', energyCostKWh: 0.11 }]
+const mockCountries = [{ iso3: 'KOR', name: 'South Korea', energyCostKWh: 0.11, minWage: 12 }]
 const mockCostModel = {
   global: {
     human: { foodPerDay: 8.5, waterPerDay: 0.5, housingPerDay: 15, healthcarePerDay: 4, trainingPerDay: 2, managementOverhead: 0.15 },
