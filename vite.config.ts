@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     viteStaticCopy({
-      targets: [{ src: 'src/data/*', dest: 'data' }]
+      targets: [{ src: 'src/data/*', dest: 'data', rename: { stripBase: 2 } }]
     })
   ],
   base: '/humanoid-roadmap/',
