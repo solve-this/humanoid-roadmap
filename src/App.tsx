@@ -424,7 +424,7 @@ export default function App() {
 
   const baseHumanTotal = 34.50
   const humanScale = selectedCountry ? (selectedCountry.minWage / baseHumanTotal) : 1
-  const robotScale = selectedCountry ? (selectedCountry.energyCostKWh / 0.15) : 1
+  const robotScale = selectedCountry ? ((selectedCountry.energyCostKWh ?? 0.15) / 0.15) : 1
 
   const displayHCost = Math.round(hCost * humanScale)
   const displayRCost = Math.round(rCost * robotScale)

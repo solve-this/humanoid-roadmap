@@ -35,6 +35,16 @@
     }
   },
   "bugfixes": {
+    "BUG-002": {
+      "title": "Fix broken TypeScript build",
+      "status": "done",
+      "deps": [],
+      "plan": "docs/backlog/bugfix/BUG-002_fix_broken_build.md",
+      "branch": "copilot/fix-broken-build",
+      "merged": true,
+      "skill": null,
+      "phase": null
+    },
     "BUG-001": {
       "title": "Login fails with special characters in password",
       "status": "done",
