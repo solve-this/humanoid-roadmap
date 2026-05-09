@@ -11,7 +11,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "KOR-2030-replacementPct-2026-05-07",
@@ -25,7 +28,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "KOR-2035-replacementPct-2026-05-07",
@@ -39,7 +45,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SGP-2027-replacementPct-2026-05-07",
@@ -53,7 +62,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SGP-2030-replacementPct-2026-05-07",
@@ -67,7 +79,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SGP-2035-replacementPct-2026-05-07",
@@ -81,7 +96,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "DEU-2027-replacementPct-2026-05-07",
@@ -95,7 +113,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "DEU-2030-replacementPct-2026-05-07",
@@ -109,7 +130,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "DEU-2035-replacementPct-2026-05-07",
@@ -123,7 +147,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "JPN-2027-replacementPct-2026-05-07",
@@ -137,7 +164,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "JPN-2030-replacementPct-2026-05-07",
@@ -151,7 +181,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "JPN-2035-replacementPct-2026-05-07",
@@ -165,7 +198,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SWE-2027-replacementPct-2026-05-07",
@@ -179,7 +215,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SWE-2030-replacementPct-2026-05-07",
@@ -193,7 +232,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SWE-2035-replacementPct-2026-05-07",
@@ -207,7 +249,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "DNK-2027-replacementPct-2026-05-07",
@@ -221,7 +266,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "DNK-2030-replacementPct-2026-05-07",
@@ -235,7 +283,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "DNK-2035-replacementPct-2026-05-07",
@@ -249,7 +300,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "BEL-2027-replacementPct-2026-05-07",
@@ -263,7 +317,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "BEL-2030-replacementPct-2026-05-07",
@@ -277,7 +334,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "BEL-2035-replacementPct-2026-05-07",
@@ -291,7 +351,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "USA-2027-replacementPct-2026-05-07",
@@ -305,7 +368,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "USA-2030-replacementPct-2026-05-07",
@@ -319,7 +385,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "USA-2035-replacementPct-2026-05-07",
@@ -333,7 +402,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "CHN-2027-replacementPct-2026-05-07",
@@ -347,7 +419,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "CHN-2030-replacementPct-2026-05-07",
@@ -361,7 +436,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "CHN-2035-replacementPct-2026-05-07",
@@ -375,7 +453,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "TWN-2027-replacementPct-2026-05-07",
@@ -389,7 +470,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "TWN-2030-replacementPct-2026-05-07",
@@ -403,7 +487,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "TWN-2035-replacementPct-2026-05-07",
@@ -417,7 +504,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "CZE-2027-replacementPct-2026-05-07",
@@ -431,7 +521,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "CZE-2030-replacementPct-2026-05-07",
@@ -445,7 +538,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "CZE-2035-replacementPct-2026-05-07",
@@ -459,7 +555,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SVK-2027-replacementPct-2026-05-07",
@@ -473,7 +572,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SVK-2030-replacementPct-2026-05-07",
@@ -487,7 +589,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "SVK-2035-replacementPct-2026-05-07",
@@ -501,7 +606,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "HUN-2027-replacementPct-2026-05-07",
@@ -515,7 +623,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "HUN-2030-replacementPct-2026-05-07",
@@ -529,7 +640,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "HUN-2035-replacementPct-2026-05-07",
@@ -543,7 +657,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "AUT-2027-replacementPct-2026-05-07",
@@ -557,7 +674,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "AUT-2030-replacementPct-2026-05-07",
@@ -571,7 +691,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "AUT-2035-replacementPct-2026-05-07",
@@ -585,7 +708,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "FIN-2027-replacementPct-2026-05-07",
@@ -599,7 +725,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "FIN-2030-replacementPct-2026-05-07",
@@ -613,7 +742,10 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   },
   {
     "claim_id": "FIN-2035-replacementPct-2026-05-07",
@@ -627,6 +759,723 @@
     "direction": "increasing",
     "baseline_value": 0,
     "method_version": "v1",
-    "rationale_refs": ["countries.json@v1", "timeline-snapshots.json"]
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "BRA-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "BRA",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 2,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "BRA-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "BRA",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 7,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "BRA-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "BRA",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 18,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ZAF-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ZAF",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 3,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ZAF-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ZAF",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 8,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ZAF-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ZAF",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 20,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "NGA-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "NGA",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 1,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "NGA-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "NGA",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 4,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "NGA-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "NGA",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 12,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ARG-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ARG",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 2,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ARG-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ARG",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 6,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ARG-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ARG",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 16,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "EGY-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "EGY",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 2,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "EGY-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "EGY",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 5,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "EGY-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "EGY",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 15,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "IND-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "IND",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 4,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "IND-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "IND",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 12,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "IND-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "IND",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 30,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "AUS-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "AUS",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 5,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "AUS-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "AUS",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 15,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "AUS-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "AUS",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 35,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "CHL-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "CHL",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 2,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "CHL-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "CHL",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 6,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "CHL-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "CHL",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 17,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "COL-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "COL",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 1,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "COL-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "COL",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 5,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "COL-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "COL",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 14,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "MAR-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "MAR",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 2,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "MAR-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "MAR",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 6,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "MAR-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "MAR",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 16,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "MEX-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "MEX",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 4,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "MEX-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "MEX",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 10,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "MEX-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "MEX",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 25,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "CAN-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "CAN",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 7,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "CAN-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "CAN",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 20,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "CAN-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "CAN",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 42,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "KEN-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "KEN",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 1,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "KEN-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "KEN",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 3,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "KEN-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "KEN",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 10,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ETH-2027-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ETH",
+    "forecast_horizon": 2027,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 1,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ETH-2030-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ETH",
+    "forecast_horizon": 2030,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 2,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
+  },
+  {
+    "claim_id": "ETH-2035-replacementPct-2026-05-09",
+    "created_at": "2026-05-09",
+    "scope": "country",
+    "subject_id": "ETH",
+    "forecast_horizon": 2035,
+    "metric": "physicalLaborReplacementPct",
+    "predicted_value": 8,
+    "unit": "percent",
+    "direction": "increasing",
+    "baseline_value": 0,
+    "method_version": "v1",
+    "rationale_refs": [
+      "countries.json@v1",
+      "timeline-snapshots.json"
+    ]
   }
 ]

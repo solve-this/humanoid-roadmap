@@ -1,9 +1,12 @@
 {
-  "timestamp": "2026-05-06T04:00:00.000Z",
-  "buildNumber": 1,
-  "articlesCollected": 8,
-  "countriesUpdated": 15,
+  "timestamp": "2026-05-09T06:09:48.090Z",
+  "buildNumber": 2,
+  "articlesCollected": 50,
+  "countriesUpdated": 29,
   "aiProvider": "none",
-  "aiEnrichedArticles": 8,
-  "aiEnrichedCountries": 15
+  "aiEnrichedArticles": 0,
+  "aiEnrichedCountries": 0,
+  "forecastClaimsTotal": 87,
+  "jobWorkSnapshotsNew": 0,
+  "jobRollupsNew": 0
 }
