@@ -1,4 +1,6 @@
 import { useRef, useState } from 'react'
+import type { Locale } from '../i18n'
+import { localeTag } from '../i18n'
 
 interface NewsArticle {
   id: string; title: string; url: string; source: string
@@ -51,16 +53,26 @@ export default function NewsFeed({
   articles,
   lastUpdated,
   mobile = false,
+  locale = 'en',
 }: {
   articles: NewsArticle[]
   lastUpdated: LastUpdated
   mobile?: boolean
+  locale?: Locale
 }) {
   const [paused, setPaused] = useState(false)
   const [hoveredId, setHoveredId] = useState<string | null>(null)
   const tickerRef = useRef<HTMLDivElement>(null)
+  const isDe = locale === 'de'
+  const labels = {
+    title: isDe ? 'News-Feed' : 'News Feed',
+    subtitle: isDe ? 'Neueste Signale zu humanoiden Einsätzen und Arbeitswandel.' : 'Latest humanoid deployment and labor-shift signals.',
+    updated: isDe ? 'Aktualisiert' : 'Updated',
+    updatedUpper: isDe ? 'AKTUALISIERT' : 'UPDATED',
+  }
+  const localeValue = localeTag(locale)
 
-  const formattedDate = new Date(lastUpdated.timestamp).toLocaleDateString('en-US', {
+  const formattedDate = new Date(lastUpdated.timestamp).toLocaleDateString(localeValue, {
     month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit',
   })
 
@@ -78,11 +90,11 @@ export default function NewsFeed({
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, alignItems: 'flex-start', marginBottom: 14 }}>
           <div>
-            <div style={{ color: '#ff8c00', fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase' }}>News Feed</div>
-            <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: 10, marginTop: 4 }}>Latest humanoid deployment and labor-shift signals.</div>
+            <div style={{ color: '#ff8c00', fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase' }}>{labels.title}</div>
+            <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: 10, marginTop: 4 }}>{labels.subtitle}</div>
           </div>
           <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 9, textAlign: 'right', lineHeight: 1.5 }}>
-            Updated
+            {labels.updated}
             <br />
             {formattedDate}
           </div>
@@ -118,7 +130,7 @@ export default function NewsFeed({
                   <span>{article.source}</span>
                   <span style={{ color: 'rgba(255,255,255,0.32)' }}>{articleDomain(article)}</span>
                   <span style={{ color: 'rgba(255,255,255,0.32)' }}>
-                    {new Date(article.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                    {new Date(article.publishedAt).toLocaleDateString(localeValue, { month: 'short', day: 'numeric' })}
                   </span>
                 </div>
               </a>
@@ -141,7 +153,7 @@ export default function NewsFeed({
         fontSize: '9px', color: 'rgba(255,255,255,0.4)', fontFamily: 'Roboto Mono, monospace',
         textTransform: 'uppercase', letterSpacing: '0.08em', whiteSpace: 'nowrap',
       }}>
-        UPDATED {formattedDate}
+        {labels.updatedUpper} {formattedDate}
       </div>
 
       {/* Ticker */}

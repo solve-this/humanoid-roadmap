@@ -1,5 +1,6 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import * as THREE from 'three'
+import type { Locale } from './i18n'
 import WorldMap from './components/WorldMap'
 import NewsFeed from './components/NewsFeed'
 import CostBreakdown from './components/CostBreakdown'
@@ -25,14 +26,12 @@ interface TimelineFrame {
   boxColor: string
 }
 
-const timelineData: TimelineFrame[] = [
+const timelineBase: Omit<TimelineFrame, 'status' | 'text'>[] = [
   {
     percent: 0.00,
     year: 2024,
     hCost: 300,
     rCost: 25,
-    status: 'ANALYSE: STATUS QUO',
-    text: 'Biologische Arbeitskraft dominiert durch Flexibilität. Maschinen haben hohe Entwicklungskosten. Time-to-Skill eines Menschen ist lang (Jahre), aber kognitiv unerreicht.',
     boxColor: 'border-gray-800',
   },
   {
@@ -40,8 +39,6 @@ const timelineData: TimelineFrame[] = [
     year: 2027,
     hCost: 315,
     rCost: 17,
-    status: 'PREDICTION: INDUSTRIE WENDEPUNKT',
-    text: "Robotische Massenfertigung skaliert. 'Zero-Shot Learning' ermöglicht Skill-Transfers in Stunden. ROI in Fabriken sinkt auf < 6 Monate. Physische Routinen kippen.",
     boxColor: 'border-orange-500/30',
   },
   {
@@ -49,8 +46,6 @@ const timelineData: TimelineFrame[] = [
     year: 2030,
     hCost: 330,
     rCost: 12,
-    status: 'PREDICTION: GLOBALE SKALIERUNG',
-    text: 'Hardware-Preise < 15.000€. Die TCO (Total Cost of Ownership) der Maschine unterbietet das menschliche Existenzminimum (Lebenshaltung) selbst in Schwellenländern.',
     boxColor: 'border-orange-500/70',
   },
   {
@@ -58,25 +53,83 @@ const timelineData: TimelineFrame[] = [
     year: 2035,
     hCost: 350,
     rCost: 4,
-    status: 'PREDICTION: ABSOLUTE DOMINANZ',
-    text: 'Verdrängung abgeschlossen. Erneuerbare Energien drücken Betriebskosten auf < 4€/Tag. Agrar- und Lohnkosten machen biologische Konkurrenz ökonomisch unmöglich.',
     boxColor: 'border-red-600 shadow-[0_0_20px_rgba(255,0,0,0.3)]',
   },
 ]
 
-const humanSpecs = [
-  { label: 'Energy Source', value: 'Nutrition · 120W' },
-  { label: 'Time to Skill', value: '~18 years' },
-  { label: 'Downtime', value: '33% · 8h/day' },
-  { label: 'Cooling', value: '3.0 L water/day' },
-]
+const timelineCopy: Record<Locale, Array<Pick<TimelineFrame, 'status' | 'text'>>> = {
+  en: [
+    {
+      status: 'ANALYSIS: STATUS QUO',
+      text: 'Biological labor still dominates due to flexibility. Machines remain expensive to develop. Human time-to-skill is long (years), but still cognitively unmatched.',
+    },
+    {
+      status: 'PREDICTION: INDUSTRIAL INFLECTION',
+      text: "Robotic mass production scales up. 'Zero-shot learning' enables skill transfer in hours. Factory ROI drops below 6 months. Physical routines begin to tip.",
+    },
+    {
+      status: 'PREDICTION: GLOBAL SCALE',
+      text: 'Hardware prices drop below €15,000. Machine TCO (total cost of ownership) undercuts human minimum living cost even in emerging markets.',
+    },
+    {
+      status: 'PREDICTION: ABSOLUTE DOMINANCE',
+      text: 'Displacement is complete. Renewable energy pushes operating cost below €4/day. Agriculture and wage costs make biological competition economically unviable.',
+    },
+  ],
+  de: [
+    {
+      status: 'ANALYSE: STATUS QUO',
+      text: 'Biologische Arbeitskraft dominiert durch Flexibilität. Maschinen haben hohe Entwicklungskosten. Time-to-Skill eines Menschen ist lang (Jahre), aber kognitiv unerreicht.',
+    },
+    {
+      status: 'PROGNOSE: INDUSTRIELLER WENDEPUNKT',
+      text: "Robotische Massenfertigung skaliert. 'Zero-Shot Learning' ermöglicht Skill-Transfers in Stunden. ROI in Fabriken sinkt auf < 6 Monate. Physische Routinen kippen.",
+    },
+    {
+      status: 'PROGNOSE: GLOBALE SKALIERUNG',
+      text: 'Hardware-Preise < 15.000€. Die TCO (Total Cost of Ownership) der Maschine unterbietet das menschliche Existenzminimum (Lebenshaltung) selbst in Schwellenländern.',
+    },
+    {
+      status: 'PROGNOSE: ABSOLUTE DOMINANZ',
+      text: 'Verdrängung abgeschlossen. Erneuerbare Energien drücken Betriebskosten auf < 4€/Tag. Agrar- und Lohnkosten machen biologische Konkurrenz ökonomisch unmöglich.',
+    },
+  ],
+}
 
-const robotSpecs = [
-  { label: 'Energy Source', value: 'Li-Ion · 287W' },
-  { label: 'Time to Skill', value: '~2 hours' },
-  { label: 'Downtime', value: '~5% hot-swap' },
-  { label: 'Materials', value: 'Lithium · Silicon' },
-]
+function getTimelineData(locale: Locale): TimelineFrame[] {
+  return timelineBase.map((frame, index) => ({ ...frame, ...timelineCopy[locale][index] }))
+}
+
+const specsByLocale: Record<Locale, { human: Array<{ label: string; value: string }>; robot: Array<{ label: string; value: string }> }> = {
+  en: {
+    human: [
+      { label: 'Energy Source', value: 'Nutrition · 120W' },
+      { label: 'Time to Skill', value: '~18 years' },
+      { label: 'Downtime', value: '33% · 8h/day' },
+      { label: 'Cooling', value: '3.0 L water/day' },
+    ],
+    robot: [
+      { label: 'Energy Source', value: 'Li-Ion · 287W' },
+      { label: 'Time to Skill', value: '~2 hours' },
+      { label: 'Downtime', value: '~5% hot-swap' },
+      { label: 'Materials', value: 'Lithium · Silicon' },
+    ],
+  },
+  de: {
+    human: [
+      { label: 'Energiequelle', value: 'Nahrung · 120W' },
+      { label: 'Time-to-Skill', value: '~18 Jahre' },
+      { label: 'Downtime', value: '33% · 8h/Tag' },
+      { label: 'Kühlung', value: '3,0 L Wasser/Tag' },
+    ],
+    robot: [
+      { label: 'Energiequelle', value: 'Li-Ion · 287W' },
+      { label: 'Time-to-Skill', value: '~2 Stunden' },
+      { label: 'Downtime', value: '~5% Hot-Swap' },
+      { label: 'Materialien', value: 'Lithium · Silizium' },
+    ],
+  },
+}
 
 // Match Tailwind's md breakpoint so the dedicated mobile layout hands off to the
 // existing desktop HUD at the same width the rest of the design changes behavior.
@@ -366,6 +419,78 @@ function GlobeCanvas({ scrollPercent }: { scrollPercent: number }) {
 // Main App
 // ──────────────────────────────────────────────
 export default function App() {
+  const [locale, setLocale] = useState<Locale>('en')
+  const timelineData = useMemo(() => getTimelineData(locale), [locale])
+  const specs = specsByLocale[locale]
+  const labels = locale === 'de'
+    ? {
+      timelineTitle: 'ZEITLEISTE PLANETARER DOMINANZ',
+      humanTco: 'Mensch TCO / 24h',
+      robotTco: 'Roboter TCO / 24h',
+      biologicalSector: 'BIOLOGISCHER SEKTOR',
+      syntheticSector: 'SYNTHETISCHER SEKTOR',
+      humanUnit: 'EINHEIT: HUMAN_01',
+      robotUnit: 'EINHEIT: OPTIMUS_G2',
+      humanPanelTitle: 'ENERGIEQUELLE & EFFIZIENZ',
+      robotPanelTitle: 'ENERGIEQUELLE & EFFIZIENZ',
+      humanEnergyValue: 'Nahrung (120W)',
+      humanSkill: 'TIME-TO-SKILL (AUSBILDUNG)',
+      humanSkillValue: '~18 Jahre',
+      humanDowntime: 'SYSTEM DOWNTIME (SCHLAF)',
+      humanDowntimeValue: '33% (8h / Tag)',
+      humanResources: 'RESSOURCEN (KÜHLUNG)',
+      humanResourcesValue: '3.0 L Wasser / Tag',
+      robotSkill: 'TIME-TO-SKILL (UPLOAD)',
+      robotSkillValue: '~2 Stunden',
+      robotDowntime: 'SYSTEM DOWNTIME (CHARGE)',
+      robotDowntimeValue: '~5% Hot-Swap',
+      robotResources: 'RESSOURCEN (HARDWARE)',
+      robotEnergyValue: 'Li-Ion Akku (287W)',
+      robotResourcesValue: 'Lithium / Silizium',
+      tco24h: 'TOTAL COST OF OWNERSHIP (24H)',
+      scrollHint: '[ SYSTEM SCROLL INITIIEREN ]',
+      milestone: 'Meilenstein',
+      roadmapPercent: 'der Roadmap',
+      humanCost: 'Menschliche Kosten',
+      robotCost: 'Roboterkosten',
+      biologicalCard: 'Biologischer Sektor',
+      syntheticCard: 'Synthetischer Sektor',
+      language: 'Sprache',
+    }
+    : {
+      timelineTitle: 'PLANETARY DOMINANCE TIMELINE',
+      humanTco: 'Human TCO / 24h',
+      robotTco: 'Robot TCO / 24h',
+      biologicalSector: 'BIOLOGICAL SECTOR',
+      syntheticSector: 'SYNTHETIC SECTOR',
+      humanUnit: 'UNIT: HUMAN_01',
+      robotUnit: 'UNIT: OPTIMUS_G2',
+      humanPanelTitle: 'ENERGY SOURCE & EFFICIENCY',
+      robotPanelTitle: 'ENERGY SOURCE & EFFICIENCY',
+      humanEnergyValue: 'Nutrition (120W)',
+      humanSkill: 'TIME-TO-SKILL (TRAINING)',
+      humanSkillValue: '~18 years',
+      humanDowntime: 'SYSTEM DOWNTIME (SLEEP)',
+      humanDowntimeValue: '33% (8h / day)',
+      humanResources: 'RESOURCES (COOLING)',
+      humanResourcesValue: '3.0 L water / day',
+      robotSkill: 'TIME-TO-SKILL (UPLOAD)',
+      robotSkillValue: '~2 hours',
+      robotDowntime: 'SYSTEM DOWNTIME (CHARGE)',
+      robotDowntimeValue: '~5% hot-swap',
+      robotResources: 'RESOURCES (HARDWARE)',
+      robotEnergyValue: 'Li-Ion battery (287W)',
+      robotResourcesValue: 'Lithium / Silicon',
+      tco24h: 'TOTAL COST OF OWNERSHIP (24H)',
+      scrollHint: '[ SYSTEM SCROLL INITIATE ]',
+      milestone: 'Milestone',
+      roadmapPercent: 'of roadmap',
+      humanCost: 'Human cost',
+      robotCost: 'Robot cost',
+      biologicalCard: 'Biological Sector',
+      syntheticCard: 'Synthetic Sector',
+      language: 'Language',
+    }
   const [year, setYear] = useState(2024)
   const [hCost, setHCost] = useState(300)
   const [rCost, setRCost] = useState(25)
@@ -388,6 +513,15 @@ export default function App() {
     window.addEventListener('resize', handleResize)
     return () => window.removeEventListener('resize', handleResize)
   }, [])
+
+  useEffect(() => {
+    setSnapFrame(prev => {
+      const match = timelineData.find(frame => frame.year === prev.year)
+      if (!match) return timelineData[0]
+      if (match.year === prev.year && match.status === prev.status && match.text === prev.text) return prev
+      return match
+    })
+  }, [timelineData])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -420,7 +554,7 @@ export default function App() {
     window.addEventListener('scroll', handleScroll)
     handleScroll()
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [timelineData])
 
   const baseHumanTotal = 34.50
   const humanScale = selectedCountry ? (selectedCountry.minWage / baseHumanTotal) : 1
@@ -448,7 +582,13 @@ export default function App() {
         <div className="relative z-10">
           <header className="sticky top-0 z-20 border-b border-white/10 bg-black/75 px-4 py-4 backdrop-blur-xl">
             <div className="text-center">
-              <div className="text-[9px] tracking-[0.28em] text-gray-400">PLANETARY DOMINANCE TIMELINE</div>
+              <div className="text-[9px] tracking-[0.28em] text-gray-400">{labels.timelineTitle}</div>
+              <button
+                onClick={() => setLocale(prev => prev === 'en' ? 'de' : 'en')}
+                className="mt-2 rounded-full border border-white/25 px-3 py-1 text-[10px] tracking-[0.12em] text-white/70"
+              >
+                {labels.language}: {locale.toUpperCase()}
+              </button>
               <div
                 className="mt-1 text-5xl font-black transition-colors duration-500"
                 style={{ fontFamily: 'Orbitron, sans-serif', ...yearColorStyle }}
@@ -463,14 +603,14 @@ export default function App() {
 
             <div className="mt-3 grid grid-cols-2 gap-3">
               <div className="rounded-2xl border border-cyan-400/25 bg-cyan-400/5 p-3">
-                <div className="text-[9px] uppercase tracking-[0.16em] text-cyan-300/70">Human TCO / 24h</div>
+                <div className="text-[9px] uppercase tracking-[0.16em] text-cyan-300/70">{labels.humanTco}</div>
                 <div className="mt-1 flex items-end gap-1" style={{ fontFamily: 'Orbitron, sans-serif' }}>
                   <span className="text-3xl font-black text-white">{hCost}</span>
                   <span className="pb-1 text-sm text-cyan-300">€</span>
                 </div>
               </div>
               <div className="rounded-2xl border border-orange-400/25 bg-orange-400/5 p-3">
-                <div className="text-[9px] uppercase tracking-[0.16em] text-orange-300/70">Robot TCO / 24h</div>
+                <div className="text-[9px] uppercase tracking-[0.16em] text-orange-300/70">{labels.robotTco}</div>
                 <div className="mt-1 flex items-end gap-1" style={{ fontFamily: 'Orbitron, sans-serif' }}>
                   <span className="text-3xl font-black text-white">{rCost}</span>
                   <span className="pb-1 text-sm text-orange-300">€</span>
@@ -486,9 +626,9 @@ export default function App() {
 
               <div className="mt-4 grid gap-3">
                 <div className="rounded-2xl border border-cyan-400/20 bg-cyan-400/5 p-4">
-                  <div className="text-[10px] uppercase tracking-[0.16em] text-cyan-300">Biological Sector</div>
+                  <div className="text-[10px] uppercase tracking-[0.16em] text-cyan-300">{labels.biologicalCard}</div>
                   <div className="mt-3 grid gap-2">
-                    {humanSpecs.map(item => (
+                    {specs.human.map(item => (
                       <div key={item.label} className="flex items-start justify-between gap-3 border-b border-white/5 pb-2 text-sm last:border-b-0 last:pb-0">
                         <span className="text-white/45">{item.label}</span>
                         <span className="text-right text-white">{item.value}</span>
@@ -498,9 +638,9 @@ export default function App() {
                 </div>
 
                 <div className="rounded-2xl border border-orange-400/20 bg-orange-400/5 p-4">
-                  <div className="text-[10px] uppercase tracking-[0.16em] text-orange-300">Synthetic Sector</div>
+                  <div className="text-[10px] uppercase tracking-[0.16em] text-orange-300">{labels.syntheticCard}</div>
                   <div className="mt-3 grid gap-2">
-                    {robotSpecs.map(item => (
+                    {specs.robot.map(item => (
                       <div key={item.label} className="flex items-start justify-between gap-3 border-b border-white/5 pb-2 text-sm last:border-b-0 last:pb-0">
                         <span className="text-white/45">{item.label}</span>
                         <span className="text-right text-white">{item.value}</span>
@@ -521,21 +661,21 @@ export default function App() {
                   >
                     <div className="flex items-center justify-between gap-3">
                       <div>
-                        <div className="text-[10px] uppercase tracking-[0.18em] text-white/40">Milestone</div>
+                        <div className="text-[10px] uppercase tracking-[0.18em] text-white/40">{labels.milestone}</div>
                         <div className="mt-1 text-4xl font-black text-white" style={{ fontFamily: 'Orbitron, sans-serif' }}>{frame.year}</div>
                       </div>
                       <div className="rounded-full border border-white/10 px-3 py-1 text-[10px] uppercase tracking-[0.16em] text-white/45">
-                        {(frame.percent * 100).toFixed(0)}% of roadmap
+                        {(frame.percent * 100).toFixed(0)}% {labels.roadmapPercent}
                       </div>
                     </div>
 
                     <div className="mt-5 grid grid-cols-2 gap-3">
                       <div className="rounded-2xl border border-cyan-400/20 bg-black/35 p-3">
-                        <div className="text-[9px] uppercase tracking-[0.16em] text-cyan-300/70">Human cost</div>
+                        <div className="text-[9px] uppercase tracking-[0.16em] text-cyan-300/70">{labels.humanCost}</div>
                         <div className="mt-2 text-2xl font-black text-white" style={{ fontFamily: 'Orbitron, sans-serif' }}>{frame.hCost}€</div>
                       </div>
                       <div className="rounded-2xl border border-orange-400/20 bg-black/35 p-3">
-                        <div className="text-[9px] uppercase tracking-[0.16em] text-orange-300/70">Robot cost</div>
+                        <div className="text-[9px] uppercase tracking-[0.16em] text-orange-300/70">{labels.robotCost}</div>
                         <div className="mt-2 text-2xl font-black text-white" style={{ fontFamily: 'Orbitron, sans-serif' }}>{frame.rCost}€</div>
                       </div>
                     </div>
@@ -553,6 +693,7 @@ export default function App() {
               snapshots={timelineSnapshotsJson}
               forecastClaims={forecastClaimsJson as import('./types/forecast-jobs').ForecastClaim[]}
               forecastEvaluations={forecastEvaluationsJson as import('./types/forecast-jobs').ForecastEvaluation[]}
+              locale={locale}
             />
             <CostBreakdown 
               mobile 
@@ -560,13 +701,15 @@ export default function App() {
               costModel={costModelDataJson} 
               externalSelectedISO={selectedISO}
               onExternalSelect={setSelectedISO}
+              locale={locale}
             />
             <AIJobsLayer
               mobile
               jobTaskCatalog={jobTaskCatalogJson as import('./types/forecast-jobs').JobTaskEntry[]}
               jobRollups={jobRollupsJson as import('./types/forecast-jobs').JobRollup[]}
+              locale={locale}
             />
-            <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} mobile />
+            <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} mobile locale={locale} />
           </main>
         </div>
       </div>
@@ -579,7 +722,7 @@ export default function App() {
       <div style={{ height: '500vh' }} />
 
       <GlobeCanvas scrollPercent={scrollPercent} />
-      <WorldMap scrollPercent={scrollPercent} countriesData={countriesDataJson} />
+      <WorldMap scrollPercent={scrollPercent} countriesData={countriesDataJson} locale={locale} />
       <HumanHologram heartRef={humanHeartRef} />
       <RobotHologram coreRef={robotCoreRef} />
       <HudLines
@@ -596,12 +739,12 @@ export default function App() {
         {/* ── Header ── */}
         <header className="flex justify-between items-start w-full">
           <div style={{ color: '#00d4ff', fontFamily: 'Orbitron, sans-serif' }} className="hidden md:block">
-            <div className="text-[10px] tracking-[0.2em] opacity-70">BIOLOGISCHER SEKTOR</div>
-            <div className="text-2xl font-bold glow-t">UNIT: HUMAN_01</div>
+            <div className="text-[10px] tracking-[0.2em] opacity-70">{labels.biologicalSector}</div>
+            <div className="text-2xl font-bold glow-t">{labels.humanUnit}</div>
           </div>
 
           <div className="text-center flex flex-col items-center w-full md:w-auto">
-            <div className="text-[9px] tracking-[0.3em] text-gray-400 mb-1">PLANETARY DOMINANCE TIMELINE</div>
+            <div className="text-[9px] tracking-[0.3em] text-gray-400 mb-1">{labels.timelineTitle}</div>
             <div
               className="text-5xl md:text-6xl font-black transition-colors duration-500"
               style={{ fontFamily: 'Orbitron, sans-serif', ...yearColorStyle }}
@@ -614,11 +757,17 @@ export default function App() {
                 style={{ width: `${scrollPercent * 100}%`, backgroundColor: barColor }}
               />
             </div>
+            <button
+              onClick={() => setLocale(prev => prev === 'en' ? 'de' : 'en')}
+              className="pointer-events-auto mt-3 rounded-full border border-white/25 px-3 py-1 text-[10px] tracking-[0.12em] text-white/70"
+            >
+              {labels.language}: {locale.toUpperCase()}
+            </button>
           </div>
 
           <div style={{ color: '#ff8c00', fontFamily: 'Orbitron, sans-serif' }} className="text-right hidden md:block">
-            <div className="text-[10px] tracking-[0.2em] opacity-70">SYNTHETISCHER SEKTOR</div>
-            <div className="text-2xl font-bold glow-p">UNIT: OPTIMUS_G2</div>
+            <div className="text-[10px] tracking-[0.2em] opacity-70">{labels.syntheticSector}</div>
+            <div className="text-2xl font-bold glow-p">{labels.robotUnit}</div>
           </div>
         </header>
 
@@ -628,24 +777,24 @@ export default function App() {
           {/* Human panel */}
           <div ref={humanPanelRef} className="inline-panel ml-0 md:ml-12" style={{ color: '#00d4ff' }}>
             <div>
-              <div className="value-label">ENERGIEQUELLE &amp; EFFIZIENZ</div>
-              <div className="value-data text-white glow-t">Nahrung (120W)</div>
+              <div className="value-label">{labels.humanPanelTitle}</div>
+              <div className="value-data text-white glow-t">{labels.humanEnergyValue}</div>
             </div>
             <div>
-              <div className="value-label">TIME-TO-SKILL (AUSBILDUNG)</div>
-              <div className="value-data text-white glow-t">~18 Jahre</div>
+              <div className="value-label">{labels.humanSkill}</div>
+              <div className="value-data text-white glow-t">{labels.humanSkillValue}</div>
             </div>
             <div>
-              <div className="value-label">SYSTEM DOWNTIME (SCHLAF)</div>
-              <div className="value-data text-white glow-t">33% (8h / Tag)</div>
+              <div className="value-label">{labels.humanDowntime}</div>
+              <div className="value-data text-white glow-t">{labels.humanDowntimeValue}</div>
             </div>
             <div>
-              <div className="value-label">RESSOURCEN (KÜHLUNG)</div>
-              <div className="value-data text-white glow-t">3.0 L Wasser / Tag</div>
+              <div className="value-label">{labels.humanResources}</div>
+              <div className="value-data text-white glow-t">{labels.humanResourcesValue}</div>
             </div>
             <div className="mt-4">
               <div className="value-label animate-pulse" style={{ color: '#00d4ff' }}>
-                TOTAL COST OF OWNERSHIP (24H)
+                {labels.tco24h}
               </div>
               <div
                 className="text-5xl md:text-6xl font-black text-white glow-t mt-1 flex items-baseline"
@@ -660,24 +809,24 @@ export default function App() {
           {/* Robot panel */}
           <div ref={robotPanelRef} className="inline-panel text-right mr-0 md:mr-12" style={{ color: '#ff8c00' }}>
             <div>
-              <div className="value-label" style={{ color: '#ff8c00' }}>ENERGIEQUELLE &amp; EFFIZIENZ</div>
-              <div className="value-data text-white glow-p">Li-Ion Akku (287W)</div>
+              <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotPanelTitle}</div>
+              <div className="value-data text-white glow-p">{labels.robotEnergyValue}</div>
             </div>
             <div>
-              <div className="value-label" style={{ color: '#ff8c00' }}>TIME-TO-SKILL (UPLOAD)</div>
-              <div className="value-data text-white glow-p">~2 Stunden</div>
+              <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotSkill}</div>
+              <div className="value-data text-white glow-p">{labels.robotSkillValue}</div>
             </div>
             <div>
-              <div className="value-label" style={{ color: '#ff8c00' }}>SYSTEM DOWNTIME (CHARGE)</div>
-              <div className="value-data text-white glow-p">~5% Hot-Swap</div>
+              <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotDowntime}</div>
+              <div className="value-data text-white glow-p">{labels.robotDowntimeValue}</div>
             </div>
             <div>
-              <div className="value-label" style={{ color: '#ff8c00' }}>RESSOURCEN (HARDWARE)</div>
-              <div className="value-data text-white glow-p">Lithium / Silizium</div>
+              <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotResources}</div>
+              <div className="value-data text-white glow-p">{labels.robotResourcesValue}</div>
             </div>
             <div className="mt-4">
               <div className="value-label animate-pulse" style={{ color: '#ff8c00' }}>
-                TOTAL COST OF OWNERSHIP (24H)
+                {labels.tco24h}
               </div>
               <div
                 className="text-5xl md:text-6xl font-black text-white glow-p mt-1 flex items-baseline justify-end"
@@ -710,7 +859,7 @@ export default function App() {
         className="fixed bottom-12 left-1/2 -translate-x-1/2 text-white font-mono text-[10px] animate-pulse z-40 tracking-widest uppercase transition-opacity duration-300"
         style={{ opacity: showScrollHint ? 0.5 : 0 }}
       >
-        [ SYSTEM SCROLL INITIATE ]
+        {labels.scrollHint}
       </div>
 
       <CostBreakdown 
@@ -718,18 +867,21 @@ export default function App() {
         costModel={costModelDataJson} 
         externalSelectedISO={selectedISO}
         onExternalSelect={setSelectedISO}
+        locale={locale}
       />
       <AdoptionForecast
         countriesData={countriesDataJson}
         snapshots={timelineSnapshotsJson}
         forecastClaims={forecastClaimsJson as import('./types/forecast-jobs').ForecastClaim[]}
         forecastEvaluations={forecastEvaluationsJson as import('./types/forecast-jobs').ForecastEvaluation[]}
+        locale={locale}
       />
       <AIJobsLayer
         jobTaskCatalog={jobTaskCatalogJson as import('./types/forecast-jobs').JobTaskEntry[]}
         jobRollups={jobRollupsJson as import('./types/forecast-jobs').JobRollup[]}
+        locale={locale}
       />
-      <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} />
+      <NewsFeed articles={newsDataJson as Array<{ id: string; title: string; url: string; source: string; publishedAt: string; sentiment: 'positive' | 'negative' | 'neutral'; aiSummary?: string; keyInsight?: string }>} lastUpdated={lastUpdatedJson} locale={locale} />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { ComposableMap, Geographies, Geography, Marker } from '@vnedyalk0v/react19-simple-maps'
 import geoData from '../data/countries-110m.json'
+import type { Locale } from '../i18n'
 
 interface CountryData {
   iso3: string; name: string; lat: number; lng: number
@@ -28,9 +29,18 @@ const numericToISO3: Record<string, string> = {
   '036': 'AUS', '356': 'IND', '704': 'VNM', '764': 'THA', '360': 'IDN'
 }
 
-export default function WorldMap({ scrollPercent, countriesData }: { scrollPercent: number; countriesData: CountryData[] }) {
+export default function WorldMap({ scrollPercent, countriesData, locale = 'en' }: { scrollPercent: number; countriesData: CountryData[]; locale?: Locale }) {
   const [tooltip, setTooltip] = useState<{ country: CountryData; x: number; y: number } | null>(null)
   const [pulse, setPulse] = useState(false)
+  const isDe = locale === 'de'
+  const labels = {
+    adoptionScore: isDe ? 'Adoptions-Score' : 'Adoption Score',
+    laborDisplaced: isDe ? 'Arbeit ersetzt' : 'Labor displaced',
+    robotDensity: isDe ? 'Roboterdichte' : 'Robot density',
+    workers: isDe ? 'Arbeiter' : 'workers',
+    low: isDe ? 'Niedrig' : 'Low',
+    high: isDe ? 'Hoch' : 'High',
+  }
 
   useEffect(() => {
     const interval = setInterval(() => setPulse(p => !p), 1200)
@@ -100,9 +110,9 @@ export default function WorldMap({ scrollPercent, countriesData }: { scrollPerce
           }}
         >
           <div style={{ color: '#ff8c00', fontWeight: 'bold', marginBottom: 4 }}>{tooltip.country.name}</div>
-          <div>Adoption Score: {tooltip.country.adoptionScore}/100</div>
-          <div>Labor displaced {yearLabel}: {tooltip.country[yearKey as keyof CountryData]}%</div>
-          {tooltip.country.robotDensity !== undefined && <div>Robot density: {tooltip.country.robotDensity}/10k workers</div>}
+          <div>{labels.adoptionScore}: {tooltip.country.adoptionScore}/100</div>
+          <div>{labels.laborDisplaced} {yearLabel}: {tooltip.country[yearKey as keyof CountryData]}%</div>
+          {tooltip.country.robotDensity !== undefined && <div>{labels.robotDensity}: {tooltip.country.robotDensity}/10k {labels.workers}</div>}
         </div>
       )}
 
@@ -113,12 +123,12 @@ export default function WorldMap({ scrollPercent, countriesData }: { scrollPerce
         border: '1px solid rgba(255,140,0,0.3)', pointerEvents: 'none',
       }}>
         <div style={{ fontSize: '9px', color: 'rgba(255,255,255,0.5)', marginBottom: 4, fontFamily: 'Roboto Mono, monospace', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-          Adoption Score
+          {labels.adoptionScore}
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <span style={{ fontSize: '9px', color: 'rgba(255,255,255,0.4)', fontFamily: 'Roboto Mono, monospace' }}>Low</span>
+          <span style={{ fontSize: '9px', color: 'rgba(255,255,255,0.4)', fontFamily: 'Roboto Mono, monospace' }}>{labels.low}</span>
           <div style={{ width: 80, height: 8, background: 'linear-gradient(to right, #1a1a2e, #ff8c00)', borderRadius: 2 }} />
-          <span style={{ fontSize: '9px', color: '#ff8c00', fontFamily: 'Roboto Mono, monospace' }}>High</span>
+          <span style={{ fontSize: '9px', color: '#ff8c00', fontFamily: 'Roboto Mono, monospace' }}>{labels.high}</span>
         </div>
       </div>
     </div>

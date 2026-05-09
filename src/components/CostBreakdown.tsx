@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts'
+import type { Locale } from '../i18n'
 
 interface HumanCosts {
   foodPerDay: number; waterPerDay: number; housingPerDay: number
@@ -47,15 +48,37 @@ export default function CostBreakdown({
   mobile = false,
   externalSelectedISO,
   onExternalSelect,
+  locale = 'en',
 }: {
   countriesData: CountryData[]
   costModel: CostModel
   mobile?: boolean
   externalSelectedISO?: string
   onExternalSelect?: (iso: string) => void
+  locale?: Locale
 }) {
   const [open, setOpen] = useState(false)
   const [localSelectedISO, setLocalSelectedISO] = useState('global')
+  const isDe = locale === 'de'
+  const labels = {
+    title: isDe ? 'Kostenaufschlüsselung / Tag' : 'Cost Breakdown / Day',
+    globalAverage: isDe ? 'Globaler Durchschnitt' : 'Global Average',
+    humanTotal: isDe ? 'Mensch gesamt' : 'Human Total',
+    robotTotal: isDe ? 'Roboter gesamt' : 'Robot Total',
+    triggerLines: isDe ? ['KOSTEN', 'DETAIL', 'ANSICHT'] : ['COST', 'DRILL', 'DOWN'],
+    chartHuman: isDe ? 'MENSCH' : 'HUMAN',
+    chartRobot: isDe ? 'ROBOTER' : 'ROBOT',
+    food: isDe ? 'Essen' : 'Food',
+    water: isDe ? 'Wasser' : 'Water',
+    housing: isDe ? 'Wohnen' : 'Housing',
+    healthcare: isDe ? 'Gesundheit' : 'Healthcare',
+    training: isDe ? 'Ausbildung' : 'Training',
+    overhead: isDe ? 'Overhead' : 'Overhead',
+    amortization: isDe ? 'Abschreibung' : 'Amortization',
+    electricity: isDe ? 'Strom' : 'Electricity',
+    maintenance: isDe ? 'Wartung' : 'Maintenance',
+    cloud: isDe ? 'Cloud/KI' : 'Cloud/AI',
+  }
 
   const selectedISO = externalSelectedISO ?? localSelectedISO
   const setSelectedISO = onExternalSelect ?? setLocalSelectedISO
@@ -75,7 +98,7 @@ export default function CostBreakdown({
 
   const chartData = [
     {
-      name: 'HUMAN',
+      name: labels.chartHuman,
       food: humanBreakdown.food,
       water: humanBreakdown.water,
       housing: humanBreakdown.housing,
@@ -84,7 +107,7 @@ export default function CostBreakdown({
       overhead: humanBreakdown.overhead,
     },
     {
-      name: 'ROBOT',
+      name: labels.chartRobot,
       amortization: robotBreakdown.amortization,
       electricity: robotBreakdown.electricity,
       maintenance: robotBreakdown.maintenance,
@@ -96,7 +119,7 @@ export default function CostBreakdown({
     <>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20, gap: 12 }}>
         <span style={{ color: '#ff8c00', fontSize: '11px', letterSpacing: '0.15em', textTransform: 'uppercase' }}>
-          Cost Breakdown / Day
+          {labels.title}
         </span>
         {!mobile && <button onClick={() => setOpen(false)} style={{ background: 'none', border: 'none', color: 'rgba(255,255,255,0.5)', cursor: 'pointer', fontSize: 18 }}>✕</button>}
       </div>
@@ -111,7 +134,7 @@ export default function CostBreakdown({
           borderRadius: mobile ? 12 : 0,
         }}
       >
-        <option value="global">Global Average</option>
+        <option value="global">{labels.globalAverage}</option>
         {countriesData.map(c => <option key={c.iso3} value={c.iso3}>{c.name}</option>)}
       </select>
 
@@ -122,11 +145,11 @@ export default function CostBreakdown({
         marginBottom: 12,
       }}>
         <div style={{ border: '1px solid rgba(0,212,255,0.2)', background: 'rgba(0,212,255,0.05)', borderRadius: mobile ? 16 : 0, padding: 12 }}>
-          <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 9, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: 4 }}>Human Total</div>
+          <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 9, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: 4 }}>{labels.humanTotal}</div>
           <div style={{ color: '#00d4ff', fontSize: mobile ? 22 : 18, fontFamily: 'Orbitron, sans-serif' }}>${humanTotal.toFixed(2)}</div>
         </div>
         <div style={{ border: '1px solid rgba(255,140,0,0.22)', background: 'rgba(255,140,0,0.06)', borderRadius: mobile ? 16 : 0, padding: 12 }}>
-          <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 9, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: 4 }}>Robot Total</div>
+          <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 9, textTransform: 'uppercase', letterSpacing: '0.12em', marginBottom: 4 }}>{labels.robotTotal}</div>
           <div style={{ color: '#ff8c00', fontSize: mobile ? 22 : 18, fontFamily: 'Orbitron, sans-serif' }}>${robotTotal.toFixed(2)}</div>
         </div>
       </div>
@@ -137,16 +160,16 @@ export default function CostBreakdown({
           <YAxis tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: 9 }} />
           <Tooltip contentStyle={{ background: '#0a0a1a', border: '1px solid #ff8c00', fontSize: 10 }} />
           {!mobile && <Legend wrapperStyle={{ fontSize: 9 }} />}
-          <Bar dataKey="food" stackId="cost" fill="#00d4ff" name="Food" />
-          <Bar dataKey="water" stackId="cost" fill="#0099bb" name="Water" />
-          <Bar dataKey="housing" stackId="cost" fill="#006688" name="Housing" />
-          <Bar dataKey="healthcare" stackId="cost" fill="#004455" name="Healthcare" />
-          <Bar dataKey="training" stackId="cost" fill="#002233" name="Training" />
-          <Bar dataKey="overhead" stackId="cost" fill="#001122" name="Overhead" />
-          <Bar dataKey="amortization" stackId="cost" fill="#ff8c00" name="Amortization" />
-          <Bar dataKey="electricity" stackId="cost" fill="#cc7000" name="Electricity" />
-          <Bar dataKey="maintenance" stackId="cost" fill="#994000" name="Maintenance" />
-          <Bar dataKey="cloud" stackId="cost" fill="#662000" name="Cloud/AI" />
+          <Bar dataKey="food" stackId="cost" fill="#00d4ff" name={labels.food} />
+          <Bar dataKey="water" stackId="cost" fill="#0099bb" name={labels.water} />
+          <Bar dataKey="housing" stackId="cost" fill="#006688" name={labels.housing} />
+          <Bar dataKey="healthcare" stackId="cost" fill="#004455" name={labels.healthcare} />
+          <Bar dataKey="training" stackId="cost" fill="#002233" name={labels.training} />
+          <Bar dataKey="overhead" stackId="cost" fill="#001122" name={labels.overhead} />
+          <Bar dataKey="amortization" stackId="cost" fill="#ff8c00" name={labels.amortization} />
+          <Bar dataKey="electricity" stackId="cost" fill="#cc7000" name={labels.electricity} />
+          <Bar dataKey="maintenance" stackId="cost" fill="#994000" name={labels.maintenance} />
+          <Bar dataKey="cloud" stackId="cost" fill="#662000" name={labels.cloud} />
         </BarChart>
       </ResponsiveContainer>
     </>
@@ -179,7 +202,12 @@ export default function CostBreakdown({
           clipPath: 'polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)',
         }}
       >
-        COST<br />DRILL<br />DOWN
+        {labels.triggerLines.map((line, index) => (
+          <span key={index}>
+            {line}
+            {index < labels.triggerLines.length - 1 && <br />}
+          </span>
+        ))}
       </button>
 
       <div style={{
