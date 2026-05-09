@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import * as THREE from 'three'
 import type { Locale } from './i18n'
 import WorldMap from './components/WorldMap'
@@ -420,7 +420,7 @@ function GlobeCanvas({ scrollPercent }: { scrollPercent: number }) {
 // ──────────────────────────────────────────────
 export default function App() {
   const [locale, setLocale] = useState<Locale>('en')
-  const timelineData = getTimelineData(locale)
+  const timelineData = useMemo(() => getTimelineData(locale), [locale])
   const specs = specsByLocale[locale]
   const labels = locale === 'de'
     ? {
@@ -433,12 +433,20 @@ export default function App() {
       robotUnit: 'EINHEIT: OPTIMUS_G2',
       humanPanelTitle: 'ENERGIEQUELLE & EFFIZIENZ',
       robotPanelTitle: 'ENERGIEQUELLE & EFFIZIENZ',
+      humanEnergyValue: 'Nahrung (120W)',
       humanSkill: 'TIME-TO-SKILL (AUSBILDUNG)',
+      humanSkillValue: '~18 Jahre',
       humanDowntime: 'SYSTEM DOWNTIME (SCHLAF)',
+      humanDowntimeValue: '33% (8h / Tag)',
       humanResources: 'RESSOURCEN (KÜHLUNG)',
+      humanResourcesValue: '3.0 L Wasser / Tag',
       robotSkill: 'TIME-TO-SKILL (UPLOAD)',
+      robotSkillValue: '~2 Stunden',
       robotDowntime: 'SYSTEM DOWNTIME (CHARGE)',
+      robotDowntimeValue: '~5% Hot-Swap',
       robotResources: 'RESSOURCEN (HARDWARE)',
+      robotEnergyValue: 'Li-Ion Akku (287W)',
+      robotResourcesValue: 'Lithium / Silizium',
       tco24h: 'TOTAL COST OF OWNERSHIP (24H)',
       scrollHint: '[ SYSTEM SCROLL INITIIEREN ]',
       milestone: 'Meilenstein',
@@ -459,12 +467,20 @@ export default function App() {
       robotUnit: 'UNIT: OPTIMUS_G2',
       humanPanelTitle: 'ENERGY SOURCE & EFFICIENCY',
       robotPanelTitle: 'ENERGY SOURCE & EFFICIENCY',
+      humanEnergyValue: 'Nutrition (120W)',
       humanSkill: 'TIME-TO-SKILL (TRAINING)',
+      humanSkillValue: '~18 years',
       humanDowntime: 'SYSTEM DOWNTIME (SLEEP)',
+      humanDowntimeValue: '33% (8h / day)',
       humanResources: 'RESOURCES (COOLING)',
+      humanResourcesValue: '3.0 L water / day',
       robotSkill: 'TIME-TO-SKILL (UPLOAD)',
+      robotSkillValue: '~2 hours',
       robotDowntime: 'SYSTEM DOWNTIME (CHARGE)',
+      robotDowntimeValue: '~5% hot-swap',
       robotResources: 'RESOURCES (HARDWARE)',
+      robotEnergyValue: 'Li-Ion battery (287W)',
+      robotResourcesValue: 'Lithium / Silicon',
       tco24h: 'TOTAL COST OF OWNERSHIP (24H)',
       scrollHint: '[ SYSTEM SCROLL INITIATE ]',
       milestone: 'Milestone',
@@ -501,7 +517,9 @@ export default function App() {
   useEffect(() => {
     setSnapFrame(prev => {
       const match = timelineData.find(frame => frame.year === prev.year)
-      return match ?? timelineData[0]
+      if (!match) return timelineData[0]
+      if (match.year === prev.year && match.status === prev.status && match.text === prev.text) return prev
+      return match
     })
   }, [timelineData])
 
@@ -760,19 +778,19 @@ export default function App() {
           <div ref={humanPanelRef} className="inline-panel ml-0 md:ml-12" style={{ color: '#00d4ff' }}>
             <div>
               <div className="value-label">{labels.humanPanelTitle}</div>
-              <div className="value-data text-white glow-t">{locale === 'de' ? 'Nahrung (120W)' : 'Nutrition (120W)'}</div>
+              <div className="value-data text-white glow-t">{labels.humanEnergyValue}</div>
             </div>
             <div>
               <div className="value-label">{labels.humanSkill}</div>
-              <div className="value-data text-white glow-t">{specs.human[1].value}</div>
+              <div className="value-data text-white glow-t">{labels.humanSkillValue}</div>
             </div>
             <div>
               <div className="value-label">{labels.humanDowntime}</div>
-              <div className="value-data text-white glow-t">{locale === 'de' ? '33% (8h / Tag)' : '33% (8h / day)'}</div>
+              <div className="value-data text-white glow-t">{labels.humanDowntimeValue}</div>
             </div>
             <div>
               <div className="value-label">{labels.humanResources}</div>
-              <div className="value-data text-white glow-t">{locale === 'de' ? '3.0 L Wasser / Tag' : '3.0 L water / day'}</div>
+              <div className="value-data text-white glow-t">{labels.humanResourcesValue}</div>
             </div>
             <div className="mt-4">
               <div className="value-label animate-pulse" style={{ color: '#00d4ff' }}>
@@ -792,19 +810,19 @@ export default function App() {
           <div ref={robotPanelRef} className="inline-panel text-right mr-0 md:mr-12" style={{ color: '#ff8c00' }}>
             <div>
               <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotPanelTitle}</div>
-              <div className="value-data text-white glow-p">{locale === 'de' ? 'Li-Ion Akku (287W)' : 'Li-Ion battery (287W)'}</div>
+              <div className="value-data text-white glow-p">{labels.robotEnergyValue}</div>
             </div>
             <div>
               <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotSkill}</div>
-              <div className="value-data text-white glow-p">{specs.robot[1].value}</div>
+              <div className="value-data text-white glow-p">{labels.robotSkillValue}</div>
             </div>
             <div>
               <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotDowntime}</div>
-              <div className="value-data text-white glow-p">{specs.robot[2].value}</div>
+              <div className="value-data text-white glow-p">{labels.robotDowntimeValue}</div>
             </div>
             <div>
               <div className="value-label" style={{ color: '#ff8c00' }}>{labels.robotResources}</div>
-              <div className="value-data text-white glow-p">{locale === 'de' ? 'Lithium / Silizium' : 'Lithium / Silicon'}</div>
+              <div className="value-data text-white glow-p">{labels.robotResourcesValue}</div>
             </div>
             <div className="mt-4">
               <div className="value-label animate-pulse" style={{ color: '#ff8c00' }}>

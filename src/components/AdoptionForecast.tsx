@@ -58,6 +58,7 @@ export default function AdoptionForecast({
   const labels = {
     title: isDe ? 'Prognose zur Ersetzung physischer Arbeit (% nach Land)' : 'Physical Labor Replacement Forecast (% by Country)',
     forecast: isDe ? 'Prognose' : 'Forecast',
+    triggerLines: isDe ? ['PRO', 'GNOSE'] : ['FORE', 'CAST'],
     vsActual: isDe ? 'vs. Ist-Wert' : 'vs Actual',
     threshold: isDe ? '50%-Schwelle' : '50% threshold',
     tracking: isDe ? 'TRACKING LÄUFT' : 'TRACKING IN PROGRESS',
@@ -249,7 +250,12 @@ export default function AdoptionForecast({
           clipPath: 'polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)',
         }}
       >
-        {labels.forecast.toUpperCase().slice(0, 4)}<br />{labels.forecast.toUpperCase().slice(4)}
+        {labels.triggerLines.map((line, index) => (
+          <span key={index}>
+            {line}
+            {index < labels.triggerLines.length - 1 && <br />}
+          </span>
+        ))}
       </button>
 
       <div style={{

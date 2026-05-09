@@ -27,7 +27,7 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
   const isDe = locale === 'de'
   const labels = {
     triggerAria: isDe ? 'KI vs Menschen Jobs' : 'AI vs Human Jobs',
-    triggerText: isDe ? 'KI\nJOBS' : 'AI\nJOBS',
+    triggerLines: isDe ? ['KI', 'JOBS'] : ['AI', 'JOBS'],
     headerTitle: isDe ? 'KI-Agenten-Arbeit vs menschliche Jobs' : 'AI-Agent Work vs Human Jobs',
     headerSub: isDe ? 'Arbeitsanteil nach Beruf • Evidenzbasiert' : 'Work share by occupation • Evidence-based',
     tracked: isDe ? 'erfasst' : 'tracked',
@@ -219,7 +219,7 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
         }}
         aria-label={labels.triggerAria}
       >
-        {labels.triggerText.split('\n')[0]}<br />{labels.triggerText.split('\n')[1]}
+        {labels.triggerLines[0]}<br />{labels.triggerLines[1]}
       </button>
 
       {/* Drawer panel — slides in from the left */}

@@ -65,7 +65,7 @@ export default function CostBreakdown({
     globalAverage: isDe ? 'Globaler Durchschnitt' : 'Global Average',
     humanTotal: isDe ? 'Mensch gesamt' : 'Human Total',
     robotTotal: isDe ? 'Roboter gesamt' : 'Robot Total',
-    trigger: isDe ? 'KOSTEN\nDETAIL\nANSICHT' : 'COST\nDRILL\nDOWN',
+    triggerLines: isDe ? ['KOSTEN', 'DETAIL', 'ANSICHT'] : ['COST', 'DRILL', 'DOWN'],
     chartHuman: isDe ? 'MENSCH' : 'HUMAN',
     chartRobot: isDe ? 'ROBOTER' : 'ROBOT',
     food: isDe ? 'Essen' : 'Food',
@@ -202,7 +202,12 @@ export default function CostBreakdown({
           clipPath: 'polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)',
         }}
       >
-        {labels.trigger.split('\n')[0]}<br />{labels.trigger.split('\n')[1]}<br />{labels.trigger.split('\n')[2]}
+        {labels.triggerLines.map((line, index) => (
+          <span key={index}>
+            {line}
+            {index < labels.triggerLines.length - 1 && <br />}
+          </span>
+        ))}
       </button>
 
       <div style={{
