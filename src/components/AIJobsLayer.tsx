@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import type { JobTaskEntry, JobRollup } from '../types/forecast-jobs'
+import type { Locale } from '../i18n'
 
 interface AIJobsLayerProps {
   jobTaskCatalog: JobTaskEntry[]
   jobRollups: JobRollup[]
   mobile?: boolean
+  locale?: Locale
 }
 
 const SECTOR_COLORS: Record<string, string> = {
@@ -20,8 +22,29 @@ function sectorColor(industry: string): string {
   return SECTOR_COLORS[industry] ?? '#888'
 }
 
-export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false }: AIJobsLayerProps) {
+export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false, locale = 'en' }: AIJobsLayerProps) {
   const [open, setOpen] = useState(false)
+  const isDe = locale === 'de'
+  const labels = {
+    triggerAria: isDe ? 'KI vs Menschen Jobs' : 'AI vs Human Jobs',
+    triggerText: isDe ? 'KI\nJOBS' : 'AI\nJOBS',
+    headerTitle: isDe ? 'KI-Agenten-Arbeit vs menschliche Jobs' : 'AI-Agent Work vs Human Jobs',
+    headerSub: isDe ? 'Arbeitsanteil nach Beruf • Evidenzbasiert' : 'Work share by occupation • Evidence-based',
+    tracked: isDe ? 'erfasst' : 'tracked',
+    queued: isDe ? 'in Warteschlange' : 'queued',
+    close: isDe ? 'Schließen' : 'Close',
+    methodology1: isDe ? 'Misst den Arbeitsanteil auf Aufgabenebene, nicht binäre Ersetzung.' : 'Measures task-level work share, not binary replacement.',
+    methodology2: isDe ? 'Zählt Agenten-Arbeit nur bei quellenverknüpfter Evidenz.' : 'Only counts agent work where source-linked evidence exists.',
+    methodology3: isDe ? 'Confidence spiegelt die Quellenabdeckung wider.' : 'Confidence reflects source coverage.',
+    aiAgent: isDe ? 'KI-Agent' : 'AI Agent',
+    human: isDe ? 'Mensch' : 'Human',
+    tasksDisplaced: isDe ? 'Aufgaben verdrängt' : 'tasks displaced',
+    evidenceCollection: isDe ? 'EVIDENZSAMMLUNG LÄUFT' : 'EVIDENCE COLLECTION IN PROGRESS',
+    trackingOccupations: isDe ? 'Erfasse' : 'Tracking',
+    occupations: isDe ? 'Berufe' : 'occupations',
+    tasksTracked: isDe ? 'Aufgaben erfasst' : 'tasks tracked',
+    automatable: isDe ? 'automatisierbar' : 'automatable',
+  }
 
   // Latest rollup per job (most recent date)
   const latestRollupByJob = new Map<string, JobRollup>()
@@ -64,12 +87,12 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '9px' }}>
-            <span style={{ color }}>AI Agent: {agentPct}%</span>
-            <span style={{ color: 'rgba(255,255,255,0.5)' }}>Human: {humanPct}%</span>
+            <span style={{ color }}>{labels.aiAgent}: {agentPct}%</span>
+            <span style={{ color: 'rgba(255,255,255,0.5)' }}>{labels.human}: {humanPct}%</span>
           </div>
 
           <div style={{ marginTop: 6, fontSize: '8px', color: 'rgba(255,255,255,0.25)' }}>
-            {rollup.jobs_displaced_estimate_low}–{rollup.jobs_displaced_estimate_high} tasks displaced
+            {rollup.jobs_displaced_estimate_low}–{rollup.jobs_displaced_estimate_high} {labels.tasksDisplaced}
             {rollup.date && <span> • {rollup.date}</span>}
           </div>
         </div>
@@ -81,10 +104,10 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
         textAlign: 'center', padding: '20px 0 12px',
         color: 'rgba(68,255,136,0.5)', fontSize: '10px', letterSpacing: '0.1em',
       }}>
-        EVIDENCE COLLECTION IN PROGRESS
+        {labels.evidenceCollection}
       </div>
       <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '9px', lineHeight: '1.6', marginBottom: 16 }}>
-        Tracking {jobTaskCatalog.length} occupations. Work-share data appears once
+        {labels.trackingOccupations} {jobTaskCatalog.length} {labels.occupations}. Work-share data appears once
         source-linked task observations are collected.
       </div>
 
@@ -105,8 +128,8 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
               <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '8px' }}>{job.industry}</span>
             </div>
             <div style={{ fontSize: '8px', color: 'rgba(255,255,255,0.25)' }}>
-              {job.tasks.length} tasks tracked &nbsp;·&nbsp;
-              {automatableTasks} automatable
+              {job.tasks.length} {labels.tasksTracked} &nbsp;·&nbsp;
+              {automatableTasks} {labels.automatable}
             </div>
             <div style={{ marginTop: 6, display: 'flex', gap: 4, flexWrap: 'wrap' }}>
               {job.tasks.map(task => (
@@ -133,19 +156,19 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
       <div>
         <div style={{ color: '#44ff88', fontSize: '11px', letterSpacing: '0.15em', textTransform: 'uppercase' }}>
-          AI-Agent Work vs Human Jobs
+          {labels.headerTitle}
         </div>
         <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: '9px', marginTop: 2 }}>
-          Work share by occupation • Evidence-based
+          {labels.headerSub}
         </div>
       </div>
       {mobile ? (
-        <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: 9 }}>{hasData ? `${latestRollupByJob.size} tracked` : `${jobTaskCatalog.length} queued`}</span>
+        <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: 9 }}>{hasData ? `${latestRollupByJob.size} ${labels.tracked}` : `${jobTaskCatalog.length} ${labels.queued}`}</span>
       ) : (
         <button
           onClick={() => setOpen(false)}
           style={{ background: 'none', border: 'none', color: 'rgba(255,255,255,0.5)', cursor: 'pointer', fontSize: 18 }}
-          aria-label="Close"
+          aria-label={labels.close}
         >✕</button>
       )}
     </div>
@@ -157,9 +180,11 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
       padding: '8px 10px', marginBottom: 16, fontSize: '9px',
       color: 'rgba(255,255,255,0.4)', lineHeight: '1.5',
     }}>
-      Measures task-level work share, not binary replacement.
-      Only counts agent work where source-linked evidence exists.
-      Confidence reflects source coverage.
+      {labels.methodology1}
+      {' '}
+      {labels.methodology2}
+      {' '}
+      {labels.methodology3}
     </div>
   )
 
@@ -192,9 +217,9 @@ export default function AIJobsLayer({ jobTaskCatalog, jobRollups, mobile = false
           pointerEvents: 'auto', display: open ? 'none' : 'block',
           clipPath: 'polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)',
         }}
-        aria-label="AI vs Human Jobs"
+        aria-label={labels.triggerAria}
       >
-        AI<br />JOBS
+        {labels.triggerText.split('\n')[0]}<br />{labels.triggerText.split('\n')[1]}
       </button>
 
       {/* Drawer panel — slides in from the left */}

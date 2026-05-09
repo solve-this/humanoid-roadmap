@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend, ReferenceLine, ResponsiveContainer } from 'recharts'
 import type { ForecastClaim, ForecastEvaluation } from '../types/forecast-jobs'
+import type { Locale } from '../i18n'
 
 interface CountryData {
   iso3: string; name: string; adoptionScore: number
@@ -24,13 +25,14 @@ const STATUS_COLOR: Record<string, string> = {
 }
 
 export default function AdoptionForecast({
-  countriesData, snapshots, forecastClaims = [], forecastEvaluations = [], mobile = false,
+  countriesData, snapshots, forecastClaims = [], forecastEvaluations = [], mobile = false, locale = 'en',
 }: {
   countriesData: CountryData[]
   snapshots: TimelineSnapshot[]
   forecastClaims?: ForecastClaim[]
   forecastEvaluations?: ForecastEvaluation[]
   mobile?: boolean
+  locale?: Locale
 }) {
   const [open, setOpen] = useState(false)
   const [mode, setMode] = useState<ViewMode>('forecast')
@@ -52,6 +54,21 @@ export default function AdoptionForecast({
 
   const hasEvaluations = forecastEvaluations.length > 0
   const claimCount = forecastClaims.length
+  const isDe = locale === 'de'
+  const labels = {
+    title: isDe ? 'Prognose zur Ersetzung physischer Arbeit (% nach Land)' : 'Physical Labor Replacement Forecast (% by Country)',
+    forecast: isDe ? 'Prognose' : 'Forecast',
+    vsActual: isDe ? 'vs. Ist-Wert' : 'vs Actual',
+    threshold: isDe ? '50%-Schwelle' : '50% threshold',
+    tracking: isDe ? 'TRACKING LÄUFT' : 'TRACKING IN PROGRESS',
+    claimsLogged: isDe ? 'Prognosen erfasst' : 'forecast claims logged',
+    outcomes: isDe
+      ? 'Beobachtete Ergebnisse werden ergänzt, sobald quellenverknüpfte Evidenz gesammelt ist.'
+      : 'Observed outcomes will be populated as source-linked evidence is collected.',
+    evaluations: isDe
+      ? 'Auswertungen erscheinen erst, wenn primäre/offizielle Quellen eine Kennzahl bestätigen.'
+      : 'Evaluations appear only when primary/official sources confirm a metric.',
+  }
   const evaluationsByHorizon = [2027, 2030, 2035].map(horizon => {
     const evals = forecastEvaluations.filter(e => {
       const claim = forecastClaims.find(c => c.claim_id === e.claim_id)
@@ -64,7 +81,7 @@ export default function AdoptionForecast({
     <>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12, gap: 12 }}>
         <span style={{ color: '#00d4ff', fontSize: mobile ? '10px' : '11px', letterSpacing: '0.15em', textTransform: 'uppercase', lineHeight: 1.4 }}>
-          Physical Labor Replacement Forecast (% by Country)
+          {labels.title}
         </span>
         {!mobile && (
           <button onClick={() => setOpen(false)} style={{ background: 'none', border: 'none', color: 'rgba(255,255,255,0.5)', cursor: 'pointer', fontSize: 18 }}>✕</button>
@@ -89,7 +106,7 @@ export default function AdoptionForecast({
               borderRadius: mobile ? 999 : 0,
             }}
           >
-            {m === 'forecast' ? 'Forecast' : 'vs Actual'}
+            {m === 'forecast' ? labels.forecast : labels.vsActual}
           </button>
         ))}
       </div>
@@ -102,7 +119,7 @@ export default function AdoptionForecast({
               <YAxis tickFormatter={(v: number) => `${v}%`} tick={{ fill: 'rgba(255,255,255,0.4)', fontSize: mobile ? 9 : 10 }} domain={[0, 80]} />
               <Tooltip formatter={(v) => typeof v === 'number' ? `${v}%` : String(v)} contentStyle={{ background: '#0a0a1a', border: '1px solid #00d4ff', fontSize: 10 }} />
               {!mobile && <Legend wrapperStyle={{ fontSize: 9 }} />}
-              <ReferenceLine y={50} stroke="rgba(255,0,0,0.3)" strokeDasharray="4 4" label={mobile ? undefined : { value: '50% threshold', fill: 'rgba(255,0,0,0.5)', fontSize: 9 }} />
+              <ReferenceLine y={50} stroke="rgba(255,0,0,0.3)" strokeDasharray="4 4" label={mobile ? undefined : { value: labels.threshold, fill: 'rgba(255,0,0,0.5)', fontSize: 9 }} />
               {chartCountries.map((c, i) => (
                 <Line key={c.iso3} type="monotone" dataKey={c.iso3} name={c.name} stroke={COLORS[i % COLORS.length]} strokeWidth={2} dot={{ r: mobile ? 3 : 4 }} />
               ))}
@@ -170,14 +187,14 @@ export default function AdoptionForecast({
             textAlign: 'center', color: 'rgba(0,212,255,0.5)',
             fontSize: '10px', letterSpacing: '0.15em', marginBottom: 12,
           }}>
-            TRACKING IN PROGRESS
+            {labels.tracking}
           </div>
           <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: mobile ? '10px' : '9px', lineHeight: '1.7', marginBottom: 20, textAlign: 'center' }}>
-            {claimCount} forecast claims logged since {forecastClaims[0]?.created_at ?? '—'}.
+            {claimCount} {labels.claimsLogged} since {forecastClaims[0]?.created_at ?? '—'}.
             <br />
-            Observed outcomes will be populated as source-linked evidence is collected.
+            {labels.outcomes}
             <br />
-            Evaluations appear only when primary/official sources confirm a metric.
+            {labels.evaluations}
           </div>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             {evaluationsByHorizon.map(({ horizon }) => {
@@ -193,7 +210,7 @@ export default function AdoptionForecast({
                   }}
                 >
                   <div style={{ color: '#00d4ff', fontSize: '14px', fontFamily: 'Orbitron, sans-serif' }}>{count}</div>
-                  <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '8px', marginTop: 2 }}>claims logged</div>
+                  <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '8px', marginTop: 2 }}>{labels.claimsLogged}</div>
                   <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: '9px', marginTop: 1 }}>{horizon}</div>
                 </div>
               )
@@ -222,7 +239,7 @@ export default function AdoptionForecast({
     <>
       <button
         onClick={() => setOpen(true)}
-        aria-label="Forecast"
+        aria-label={labels.forecast}
         style={{
           position: 'fixed', left: '20px', top: '50%', transform: 'translateY(-50%)',
           zIndex: 30, background: 'rgba(0,0,0,0.7)', border: '1px solid #00d4ff',
@@ -232,7 +249,7 @@ export default function AdoptionForecast({
           clipPath: 'polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px)',
         }}
       >
-        FORE<br />CAST
+        {labels.forecast.toUpperCase().slice(0, 4)}<br />{labels.forecast.toUpperCase().slice(4)}
       </button>
 
       <div style={{
