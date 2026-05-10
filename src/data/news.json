@@ -1,5 +1,29 @@
 [
   {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: AI Gives Robot Hands Human-Like Dexterity",
+    "url": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-09T16:00:02.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Cognex releases fully integrated AI-powered vision system for robotics",
+    "url": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-09T12:30:37.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Why traditional robotics data collection is obsolete and what replaces it",
     "url": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/",
