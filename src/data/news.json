@@ -1,6 +1,43 @@
 [
   {
     "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
+    "url": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-15T17:13:26.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
+    "url": "https://spectrum.ieee.org/video-friday-material-handling-robots",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-15T17:00:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Your Sonos smart speaker has an underutilized automation feature - 5 helpful ways I use mine",
+    "url": "https://www.zdnet.com/article/my-favorite-sonos-voice-control-commands/",
+    "source": "ZDNET",
+    "publishedAt": "2026-05-15T10:00:54.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
     "title": "Uber to open 2 campuses in India to support product development, operations",
     "url": "https://techcrunch.com/2026/05/14/uber-to-open-2-campuses-in-india-to-support-product-development-operations/",
     "source": "TechCrunch",
@@ -937,28 +974,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "seed007",
-    "title": "Singapore Pilots Humanoid Robot Healthcare Assistants",
-    "url": "https://www.therobotreport.com/?s=Singapore+healthcare+robot",
-    "source": "The Robot Report",
-    "publishedAt": "2026-02-14T08:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "automation"
-    ],
-    "relevanceScore": 0.78,
-    "sentiment": "positive",
-    "aiSummary": "Singapore's Ministry of Health piloting 200 humanoid assistants in public hospitals, targeting elder care and logistics roles.",
-    "keyInsight": "Healthcare sector adoption in Singapore signals expansion beyond manufacturing into services.",
-    "countriesMentioned": [
-      "SGP"
-    ],
-    "industriesAffected": [
-      "healthcare",
-      "services"
-    ],
-    "aiEnriched": true
   }
 ]
