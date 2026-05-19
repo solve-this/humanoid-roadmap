@@ -1,5 +1,30 @@
 [
   {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "What Makes a Job Dull, Dirty, or Dangerous?",
+    "url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-18T13:00:00.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly9ldmVu",
+    "title": "Agentic AI for Robot Teams",
+    "url": "https://events.bizzabo.com/867156",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-18T10:00:01.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Roborock vs. Ecovacs: I've tested dozens of robot vacuums from both brands - this one wins",
     "url": "https://www.zdnet.com/article/roborock-vs-ecovacs/",
