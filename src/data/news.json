@@ -1,5 +1,42 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Google’s Genie world model can now simulate real streets with Street View",
+    "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-19T17:51:39.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
+    "url": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-19T17:41:14.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Home Robot Safety Is All About Relationships",
+    "url": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-19T11:00:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly9zcGVj",
     "title": "What Makes a Job Dull, Dirty, or Dangerous?",
     "url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
@@ -999,17 +1036,5 @@
     ],
     "relevanceScore": 0.5,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Tech Is Taking Over Olympic Curling",
-    "url": "https://spectrum.ieee.org/olympics-curling-robot-ai",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-02-18T15:00:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
