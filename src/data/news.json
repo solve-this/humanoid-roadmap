@@ -1,5 +1,41 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "6 kitchen gadgets that make adulting feel easier",
+    "url": "https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-24T17:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "TechCrunch Mobility: Robotaxi reality check",
+    "url": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-24T16:05:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Sortera uses physical AI to double capacity in a Tennessee sorting facility",
+    "url": "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-24T12:25:35.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "I test robot vacuums for a living, and these are the best Memorial Day deals right now",
     "url": "https://www.zdnet.com/article/robot-vacuums-best-memorial-day-deals-2026/",
