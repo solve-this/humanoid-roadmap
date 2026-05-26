@@ -1,5 +1,54 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "This lab-tested robot vacuum picked up more dirt than any other - and it's on sale",
+    "url": "https://www.zdnet.com/article/ecovacs-deebot-x8-pro-omni-deal-memorial-day-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-05-25T18:50:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "I test robot vacuums for a living, and these are the 11 best Memorial Day deals right now",
+    "url": "https://www.zdnet.com/article/robot-vacuums-best-memorial-day-deals-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-05-25T17:20:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "6 pet deals you don't want to miss this Memorial Day weekend, including robot litter boxes",
+    "url": "https://www.zdnet.com/article/pet-deals-memorial-day-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-05-25T16:32:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Simulation vs. digital twin: A strategic lens on virtual manufacturing",
+    "url": "https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-25T14:23:45.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "6 kitchen gadgets that make adulting feel easier",
     "url": "https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/",
@@ -29,18 +78,6 @@
     "url": "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-24T12:25:35.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "I test robot vacuums for a living, and these are the best Memorial Day deals right now",
-    "url": "https://www.zdnet.com/article/robot-vacuums-best-memorial-day-deals-2026/",
-    "source": "ZDNET",
-    "publishedAt": "2026-05-23T16:33:16.000Z",
     "keywords": [
       "robot"
     ],
