@@ -1,6 +1,30 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "A guide to Day 1 of the 2026 Robotics Summit & Expo",
+    "url": "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-27T12:00:03.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why robots still struggle to see the real world",
+    "url": "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-27T11:43:01.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How humanoids learn to read the room",
     "url": "https://www.therobotreport.com/how-humanoids-learn-to-read-the-room-2/",
     "source": "The Robot Report",
