@@ -1,5 +1,65 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Waymo dominates autonomous vehicle registrations as Tesla trails behind",
+    "url": "https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-29T00:14:35.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Waymo’s newest robotaxi is Chinese-made, built to make money, and now accepting riders",
+    "url": "https://techcrunch.com/2026/05/28/waymos-newest-robotaxi-is-chinese-made-built-to-make-money-and-now-accepting-riders/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-28T16:52:48.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "This lab-tested robot vacuum picked up more dirt than any other model (and it's on sale)",
+    "url": "https://www.zdnet.com/article/ecovacs-deebot-x8-pro-omni-deal-memorial-day-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-05-28T15:30:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The evolution of cobots in metal fabrication and construction",
+    "url": "https://www.therobotreport.com/hirebotics-talks-evolution-cobots-metal-fabrication-construction/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-28T14:12:26.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Your guide to the last day of the 2026 Robotics Summit & Expo",
+    "url": "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-28T12:00:35.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "A guide to Day 1 of the 2026 Robotics Summit & Expo",
     "url": "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
@@ -115,18 +175,6 @@
     "url": "https://www.zdnet.com/article/robot-mower-buying-guide-features-to-ignore-2026/",
     "source": "ZDNET",
     "publishedAt": "2026-05-26T11:30:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "This lab-tested robot vacuum picked up more dirt than any other - and it's on sale",
-    "url": "https://www.zdnet.com/article/ecovacs-deebot-x8-pro-omni-deal-memorial-day-2026/",
-    "source": "ZDNET",
-    "publishedAt": "2026-05-25T18:50:24.000Z",
     "keywords": [
       "robot"
     ],
@@ -1508,42 +1556,6 @@
     "url": "https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles",
     "source": "IEEE Spectrum",
     "publishedAt": "2026-03-06T16:00:05.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
-  },
-  {
-    "id": "seed006",
-    "title": "China Deploys 50,000 Humanoid Units in Shenzhen Electronics Factories",
-    "url": "https://techcrunch.com/?s=Shenzhen%20humanoid",
-    "source": "TechCrunch",
-    "publishedAt": "2026-02-28T06:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "workforce"
-    ],
-    "relevanceScore": 0.97,
-    "sentiment": "negative",
-    "aiSummary": "Chinese state-backed manufacturer deployed 50,000 humanoid units across Shenzhen electronics factories, the largest single deployment globally.",
-    "keyInsight": "China's 50,000-unit deployment is the world's largest, confirming its lead in humanoid adoption scale.",
-    "countriesMentioned": [
-      "CHN"
-    ],
-    "industriesAffected": [
-      "manufacturing"
-    ],
-    "aiEnriched": true
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Robot Dogs Haul Produce From the Field",
-    "url": "https://spectrum.ieee.org/quadruped-farming-robots",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-02-27T18:00:55.000Z",
     "keywords": [
       "humanoid",
       "robot"
