@@ -1,6 +1,56 @@
 [
   {
     "id": "aHR0cHM6Ly90ZWNo",
+    "title": "What happens when companies become too AI-pilled?",
+    "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-05-29T17:57:05.000Z",
+    "keywords": [
+      "workforce"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Extreme Omnidirectional Robot",
+    "url": "https://spectrum.ieee.org/video-friday-rabona-soccer",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-05-29T17:00:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Software becoming the biggest bottleneck to physical AI innovation, finds QNX research",
+    "url": "https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-29T15:00:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NIST proposes a baseline performance benchmark for humanoid robots",
+    "url": "https://www.therobotreport.com/nist-proposes-a-baseline-performance-benchmark-for-humanoid-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-05-29T14:24:18.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
     "title": "Waymo dominates autonomous vehicle registrations as Tesla trails behind",
     "url": "https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/",
     "source": "TechCrunch",
