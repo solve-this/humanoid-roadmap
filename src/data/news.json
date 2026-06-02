@@ -1,5 +1,55 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA releases new and updated tools for physical AI developers",
+    "url": "https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-01T21:27:16.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ANSCER Robotics closes Series A round for industrial material handling",
+    "url": "https://www.therobotreport.com/anscer-robotics-closes-series-a-round-industrial-material-handling/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-01T19:55:18.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Top 10 robotics stories of May 2026",
+    "url": "https://www.therobotreport.com/top-10-robotics-stories-of-may-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-01T18:04:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Learn about advances in robotic case and each picking",
+    "url": "https://www.therobotreport.com/learn-about-advances-robotic-case-each-picking-webinar/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-01T15:24:45.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly9zcGVj",
     "title": "This DIY Bipedal Robot Used Pneumatic “Air-Muscles” Instead of Motors",
     "url": "https://spectrum.ieee.org/shadow-walker-biped-humanoid-robot",
