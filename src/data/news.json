@@ -1,6 +1,90 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Can surgical robots fly? SS Innovations discusses challenges, solutions",
+    "url": "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-04T20:21:33.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Proteus gets natural-language ability as Amazon expands European robot deployments",
+    "url": "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-04T19:50:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Generalist raises $400M to scale its general-purpose AI models",
+    "url": "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-04T17:53:28.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "A burglar used a Waymo to steal yoga clothes in San Francisco — and got away with it",
+    "url": "https://techcrunch.com/2026/06/04/a-burglar-used-a-waymo-to-steal-yoga-clothes-in-sf-and-got-away-with-it/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-04T16:16:37.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Waymo’s spent robotaxi batteries will be used as grid storage",
+    "url": "https://techcrunch.com/2026/06/04/waymos-spent-robotaxi-batteries-will-be-used-as-grid-storage/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-04T15:48:41.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
+    "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-04T15:05:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Voyager Technologies acquires Astrobotic to advance lunar initiatives",
+    "url": "https://www.therobotreport.com/voyager-technologies-acquires-astrobotic-advance-lunar-initiatives/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-04T12:30:22.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Autonomous defense manufacturer Mach Industries raises $300M",
     "url": "https://www.therobotreport.com/autonomous-defense-manufacturer-mach-industries-raises-300m/",
     "source": "The Robot Report",
@@ -1795,18 +1879,5 @@
       "manufacturing"
     ],
     "aiEnriched": true
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: A Robot Hand With Artificial Muscles and Tendons",
-    "url": "https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-03-06T16:00:05.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
   }
 ]
