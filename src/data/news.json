@@ -1,6 +1,55 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why deterministic real-time systems are more critical than ever in robotics",
+    "url": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-05T18:49:11.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "GENISOM AI debuts deployable robotics platforms at ICRA 2026",
+    "url": "https://www.therobotreport.com/genisom-ai-debuts-deployable-robotics-platforms-icra-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-05T15:30:40.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Watch This Running Robot Not Fall Down Stairs",
+    "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-running",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-05T15:30:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Mitsubishi Electric opens Serendie Street Boston digital transformation hub",
+    "url": "https://www.therobotreport.com/mitsubishi-electric-opens-serendie-street-boston-digital-transformation-hub/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-05T12:30:04.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Can surgical robots fly? SS Innovations discusses challenges, solutions",
     "url": "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
     "source": "The Robot Report",
