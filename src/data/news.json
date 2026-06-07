@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robots can enhance manufacturing workers rather than replace them",
+    "url": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-06T12:30:12.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Why deterministic real-time systems are more critical than ever in robotics",
     "url": "https://www.therobotreport.com/qnx-why-deterministic-real-time-systems-are-more-critical-than-ever-robotics/",
     "source": "The Robot Report",
