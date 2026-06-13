@@ -1,5 +1,81 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AI in warehousing: Akash Gupta’s vision for the future",
+    "url": "https://www.therobotreport.com/ai-in-warehousing-akash-guptas-vision-for-the-future/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-12T23:58:15.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "MassRobotics announces the winners of 2026 Robotics Medal and Rising Star awards",
+    "url": "https://www.therobotreport.com/massrobotics-announces-winners-2026-robotics-medal-rising-star-awards/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-12T21:46:47.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robotics Summit panel explores the state of humanoid robot design",
+    "url": "https://www.therobotreport.com/robotics-summit-panel-explores-state-humanoid-robot-design/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-12T20:40:37.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
+    "url": "https://spectrum.ieee.org/researcher-trains-robots-to-guess",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-12T18:00:01.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Gatik to bring autonomous freight to PepsiCo’s North American supply chain",
+    "url": "https://www.therobotreport.com/gatik-brings-autonomous-freight-pepsico-north-american-supply-chain/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-12T17:47:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Robotic Motion Discovery Reveals Unusual Behaviors",
+    "url": "https://spectrum.ieee.org/video-friday-humanoid-loco-manipulation",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-12T17:00:02.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
     "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
