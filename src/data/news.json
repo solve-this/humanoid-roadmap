@@ -1,5 +1,30 @@
 [
   {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Visual Language Models Train Robots to Read Human Emotions",
+    "url": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-13T13:00:01.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Windows for robots: Edge AI expands usability",
+    "url": "https://www.therobotreport.com/computers-software-windows-utility-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-13T12:30:52.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "AI in warehousing: Akash Gupta’s vision for the future",
     "url": "https://www.therobotreport.com/ai-in-warehousing-akash-guptas-vision-for-the-future/",
