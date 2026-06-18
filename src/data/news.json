@@ -1,6 +1,94 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Google and Apple are finally giving smartwatches the creative freedom they needed",
+    "url": "https://www.zdnet.com/article/apple-and-google-ai-widgets-and-shortcuts/",
+    "source": "ZDNET",
+    "publishedAt": "2026-06-17T17:31:10.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Evaluating humanoids for surface finishing applications",
+    "url": "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-17T16:02:57.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Collecting robot training data is dirty, unglamorous work. Some AI labs are already paying XDOF to do it.",
+    "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-17T15:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Fennec Engineering earns T2 qualification for Advanced Safety Acceleration Platform",
+    "url": "https://www.therobotreport.com/fennec-engineering-earns-t2-qualification-advanced-safety-acceleration-platform/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-17T14:00:43.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1",
+    "url": "https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-17T14:00:34.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Sanctuary AI validates physical AI performance at Tier 1 automotive supplier",
+    "url": "https://www.therobotreport.com/sanctuary-ai-validates-physical-ai-performance-tier-1-automotive-supplier/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-17T13:00:54.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "The Secret to Marathon-Winning Humanoid Robots",
+    "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-17T12:19:27.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Pegasus Tech Ventures launches $60M fund for physical AI startups",
     "url": "https://www.therobotreport.com/pegasus-tech-ventures-launches-60m-fund-physical-ai-startups/",
     "source": "The Robot Report",
@@ -11,18 +99,6 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The DIY era of smartwatches has begun - Google and Apple already have me hooked",
-    "url": "https://www.zdnet.com/article/apple-and-google-ai-widgets-and-shortcuts/",
-    "source": "ZDNET",
-    "publishedAt": "2026-06-16T18:01:08.000Z",
-    "keywords": [
-      "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
   },
   {
     "id": "aHR0cHM6Ly90ZWNo",
@@ -2347,18 +2423,5 @@
       "manufacturing"
     ],
     "aiEnriched": true
-  },
-  {
-    "id": "aHR0cHM6Ly9jb250",
-    "title": "Overcoming Core Engineering Barriers in Humanoid Robotics Development",
-    "url": "https://content.knowledgehub.wiley.com/engineering-challenges-and-component-strategies-in-humanoid-robotics-from-prototype-to-production/",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-03-19T10:00:05.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
   }
 ]
