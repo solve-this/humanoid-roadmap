@@ -1,6 +1,67 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "The best early Prime Day robot vacuum deals I'd buy now, after testing dozens of them",
+    "url": "https://www.zdnet.com/article/best-early-amazon-prime-day-robot-vacuum-deals-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-06-18T16:56:04.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "RealSense unveils AI-native D585 Pro depth camera for robots",
+    "url": "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-18T13:10:02.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Kinova launches KIMA medical robotic arm",
+    "url": "https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-18T12:45:06.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Microbot Medical to expand veteran access to robotic surgery with LIBERTY",
+    "url": "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-18T12:30:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Richtech Robotics launches livestream for ADAM AI-powered humanoid",
+    "url": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-18T12:30:22.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Google and Apple are finally giving smartwatches the creative freedom they needed",
     "url": "https://www.zdnet.com/article/apple-and-google-ai-widgets-and-shortcuts/",
     "source": "ZDNET",
@@ -409,18 +470,6 @@
       "robot"
     ],
     "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The best early Prime Day robot vacuum deals I'd buy now, after testing dozens of them",
-    "url": "https://www.zdnet.com/article/best-early-amazon-prime-day-robot-vacuum-deals-2026/",
-    "source": "ZDNET",
-    "publishedAt": "2026-06-10T13:48:10.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
   },
   {
@@ -2400,28 +2449,5 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "positive"
-  },
-  {
-    "id": "seed004",
-    "title": "Germany's IG Metall Warns of 2M Manufacturing Jobs at Risk",
-    "url": "https://www.therobotreport.com/?s=IG+Metall",
-    "source": "The Robot Report",
-    "publishedAt": "2026-03-20T09:00:00.000Z",
-    "keywords": [
-      "automation",
-      "labor replacement",
-      "job loss"
-    ],
-    "relevanceScore": 0.89,
-    "sentiment": "negative",
-    "aiSummary": "Germany's largest manufacturing union warns 2 million jobs face displacement from humanoid automation by 2032, calling for new labor protections.",
-    "keyInsight": "Union acknowledgment confirms automation impact is now a mainstream industrial concern in Germany.",
-    "countriesMentioned": [
-      "DEU"
-    ],
-    "industriesAffected": [
-      "manufacturing"
-    ],
-    "aiEnriched": true
   }
 ]
