@@ -1,5 +1,78 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "He made your free video player run smoothly. Now he’s doing that for robots.",
+    "url": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-20T00:47:44.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Go eyes robotaxis and acquisitions after Japan’s biggest IPO of 2026. Here’s why it matters",
+    "url": "https://techcrunch.com/2026/06/19/go-eyes-robotaxis-and-acquisitions-after-japans-biggest-ipo-of-2026-heres-why-it-matters/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-19T21:45:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Do Robots Even Need Legs?",
+    "url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-19T15:00:02.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "U.S. robotics industry saw double-digit growth in 2025, says IFR",
+    "url": "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-19T12:45:52.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Elmo releases new motion controller and servo drives for industrial applications",
+    "url": "https://www.therobotreport.com/elmo-releases-new-motion-controller-servo-drives-industrial-applications/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-19T12:30:49.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+    "url": "https://spectrum.ieee.org/amazon-astro-robot-sound",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-19T10:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "The best early Prime Day robot vacuum deals I'd buy now, after testing dozens of them",
     "url": "https://www.zdnet.com/article/best-early-amazon-prime-day-robot-vacuum-deals-2026/",
@@ -2433,19 +2506,6 @@
     "keywords": [
       "robot",
       "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Humanoid Learns Tennis Skills Playing Humans",
-    "url": "https://spectrum.ieee.org/tennis-playing-robot",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-03-21T16:30:04.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "positive"
