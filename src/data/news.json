@@ -1,5 +1,92 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "FORT and NVIDIA launch AI-driven Outside-In Safety blueprint",
+    "url": "https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-22T22:38:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How Intrinsic eliminates manual robot coding",
+    "url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-22T19:17:05.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities",
+    "url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-22T19:13:14.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "I've been a Roborock vacuum user for 10 years - this is the best time to buy one",
+    "url": "https://www.zdnet.com/article/roborock-robot-vacuum-deals-amazon-prime-day-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-06-22T18:54:12.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Eclipse Automation launches RealitySync simulation platform",
+    "url": "https://www.therobotreport.com/eclipse-automation-launches-realitysync-simulation-platform/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-22T18:42:47.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA releases Halos, a full-stack safety system for robotics",
+    "url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-22T15:01:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation",
+    "url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-22T12:59:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "TechCrunch Mobility: A new robotaxi scorecard shows China’s dominance",
     "url": "https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance/",
@@ -2541,19 +2628,6 @@
     "keywords": [
       "humanoid",
       "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "The Coming Drone-War Inflection in Ukraine",
-    "url": "https://spectrum.ieee.org/autonomous-drone-warfare",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-03-24T13:00:05.000Z",
-    "keywords": [
-      "robot",
-      "automation"
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "positive"
