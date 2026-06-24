@@ -1,6 +1,67 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Deep dive into ARM’s physical AI and robotics strategies with Drew Henry",
+    "url": "https://www.therobotreport.com/deep-dive-into-arms-physical-ai-and-robotics-strategies-with-drew-henry/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-24T00:12:04.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ExRobotics launches UL-certified inspection robot for hazardous environments",
+    "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-23T23:00:45.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Vention collaborates with FANUC and Universal Robots on software-defined automation",
+    "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-23T19:49:36.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "CreateMe partners with Avalo and Laguna Fabrics to bring resilience to apparel supply chains",
+    "url": "https://www.therobotreport.com/createme-partners-with-avalo-and-laguna-fabrics-to-bring-resilience-to-apparel-supply-chains/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-23T17:09:52.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why physical AI 2.0 needs a reality check",
+    "url": "https://www.therobotreport.com/why-physical-ai-2-0-needs-reality-check/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-23T12:31:23.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "FORT and NVIDIA launch AI-driven Outside-In Safety blueprint",
     "url": "https://www.therobotreport.com/fort-and-nvidia-launch-ai-driven-outside-in-safety-blueprint/",
     "source": "The Robot Report",
@@ -2618,18 +2679,5 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "30 Years Ago, Robots Learned to Walk Without Falling",
-    "url": "https://spectrum.ieee.org/honda-p2-robot-ieee-milestone",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-03-25T18:00:05.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
   }
 ]
