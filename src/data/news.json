@@ -1,7 +1,82 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
-    "title": "Deep dive into ARM’s physical AI and robotics strategies with Drew Henry",
+    "title": "Reservoir acquires Contain to scale agtech startups",
+    "url": "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-24T19:07:40.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "FAULHABER focuses on torque, noise, and power with new GPT gearheads",
+    "url": "https://www.therobotreport.com/faulhaber-focuses-torque-noise-power-new-gpt-gearheads/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-24T18:12:38.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+    "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-24T16:48:43.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Zoox upgrades its robotaxi as it prepares for commercial service",
+    "url": "https://techcrunch.com/2026/06/24/zoox-upgrades-its-robotaxi-as-it-prepares-for-commercial-service/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-24T15:01:49.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Humanoid maker Agility Robotics to go public through SPAC merger",
+    "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-24T13:26:36.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Mantis Robotics launches dual-arm, fenceless robot",
+    "url": "https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-24T12:30:07.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Deep dive into Arm’s physical AI and robotics strategies with Drew Henry",
     "url": "https://www.therobotreport.com/deep-dive-into-arms-physical-ai-and-robotics-strategies-with-drew-henry/",
     "source": "The Robot Report",
     "publishedAt": "2026-06-24T00:12:04.000Z",
