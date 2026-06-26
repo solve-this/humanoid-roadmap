@@ -1,6 +1,42 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Hirebotics offers no-code, explosion-proof cobot for painting",
+    "url": "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-25T19:41:33.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot",
+    "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-25T19:18:25.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ARM Institute expands RoboticsCareer.org into physical AI",
+    "url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-25T12:30:20.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Reservoir acquires Contain to scale agtech startups",
     "url": "https://www.therobotreport.com/reservoir-acquires-contain-to-scale-agtech-startups/",
     "source": "The Robot Report",
@@ -2741,18 +2777,5 @@
       "logistics"
     ],
     "aiEnriched": true
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
-    "url": "https://spectrum.ieee.org/roadrunner-bipedal-robot",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-03-27T16:30:03.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
   }
 ]
