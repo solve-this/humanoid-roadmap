@@ -1,6 +1,56 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "General Intuition raises $320M to use video game data to train robots",
+    "url": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-26T18:38:36.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Give Robots a Hand",
+    "url": "https://spectrum.ieee.org/video-friday-robot-grippers",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-06-26T16:30:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Orbbec shows AI-powered vision systems at Automate 2026",
+    "url": "https://www.therobotreport.com/orbbec-shows-ai-powered-vision-systems-automate-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-26T13:54:35.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that",
+    "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-06-26T13:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Hirebotics offers no-code, explosion-proof cobot for painting",
     "url": "https://www.therobotreport.com/hirebotics-offers-no-code-explosion-proof-cobot-for-painting/",
     "source": "The Robot Report",
@@ -2752,30 +2802,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "seed003",
-    "title": "Figure AI Raises $675M to Scale Robot Workforce",
-    "url": "https://techcrunch.com/?s=Figure%20AI",
-    "source": "TechCrunch",
-    "publishedAt": "2026-03-28T14:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot worker",
-      "labor replacement"
-    ],
-    "relevanceScore": 0.92,
-    "sentiment": "negative",
-    "aiSummary": "Figure AI raised $675M Series B to scale its humanoid robot workforce for automotive and logistics deployments in the US and Germany.",
-    "keyInsight": "Largest humanoid startup funding round signals investor conviction in near-term labor displacement.",
-    "countriesMentioned": [
-      "USA",
-      "DEU"
-    ],
-    "industriesAffected": [
-      "manufacturing",
-      "logistics"
-    ],
-    "aiEnriched": true
   }
 ]
