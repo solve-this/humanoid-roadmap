@@ -1,6 +1,31 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "We know how to build smarter robots. Now, we need to learn smarter ways to test them",
+    "url": "https://www.therobotreport.com/we-know-how-to-build-smarter-robots-now-we-need-to-learn-smarter-ways-to-test-them/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-27T13:00:47.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How compact cobot integration enhances autonomous mobile robot applications",
+    "url": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-06-27T12:35:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "General Intuition raises $320M to use video game data to train robots",
     "url": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
     "source": "The Robot Report",
