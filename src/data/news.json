@@ -1,6 +1,67 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "In Robotics, Ruggedization Is No Longer Optional",
+    "url": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-01T18:44:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Autonomous vehicle hype is back, and Humble Robotics is bringing it to freight",
+    "url": "https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-01T16:48:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Top 10 robotics developments of June 2026",
+    "url": "https://www.therobotreport.com/top-10-robotic-stories-june-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-01T16:10:57.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Apptronik unveils Apollo 2 and a flagship data collection and training facility",
+    "url": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-01T12:30:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Finally, an odor-free robot vacuum and mop that has no problem handling my pet's hair",
+    "url": "https://www.zdnet.com/article/eufy-omni-s2-review/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-01T08:30:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "X Square Robot brings its valuation to $2.8B with four consecutive funding rounds",
     "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
     "source": "The Robot Report",
@@ -2923,43 +2984,5 @@
     ],
     "relevanceScore": 0.5,
     "sentiment": "negative"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Humanoid Robots Hit a Turning Point as Their Brains Catch Up",
-    "url": "https://spectrum.ieee.org/humanoid-robots-gill-pratt-darpa",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-02T15:00:02.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "workforce"
-    ],
-    "relevanceScore": 0.5,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Wi-Fi That Can Withstand a Nuclear Reactor",
-    "url": "https://spectrum.ieee.org/robotics-in-nuclear-industry",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-02T14:00:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Scientists Build Living Robots With Nervous Systems",
-    "url": "https://spectrum.ieee.org/neurobot-living-robot-nervous-system",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-02T13:00:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
