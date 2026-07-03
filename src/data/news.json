@@ -1,6 +1,56 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Automate 2026 show recap",
+    "url": "https://www.therobotreport.com/automate-2026-show-recap/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-02T16:35:58.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Finally, I found a robot vacuum that leaves my two-year-old model in the dust",
+    "url": "https://www.zdnet.com/article/eufy-omni-s2-review/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-02T14:30:41.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
+    "url": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-02T12:36:09.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Luxonis closes Series A round to scale physical AI perception layer",
+    "url": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-02T12:00:32.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "In Robotics, Ruggedization Is No Longer Optional",
     "url": "https://www.therobotreport.com/in-robotics-ruggedization-is-no-longer-optional/",
     "source": "The Robot Report",
@@ -42,18 +92,6 @@
     "url": "https://www.therobotreport.com/apptronik-unveils-apollo-2-flagship-data-collection-training-facility/",
     "source": "The Robot Report",
     "publishedAt": "2026-07-01T12:30:31.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Finally, an odor-free robot vacuum and mop that has no problem handling my pet's hair",
-    "url": "https://www.zdnet.com/article/eufy-omni-s2-review/",
-    "source": "ZDNET",
-    "publishedAt": "2026-07-01T08:30:00.000Z",
     "keywords": [
       "robot"
     ],
@@ -2969,20 +3007,6 @@
       "robot"
     ],
     "relevanceScore": 0.3333333333333333,
-    "sentiment": "negative"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Digit Learns to Dance—Virtually Overnight",
-    "url": "https://spectrum.ieee.org/video-humanoid-dancing",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-03T16:30:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "workforce"
-    ],
-    "relevanceScore": 0.5,
     "sentiment": "negative"
   }
 ]
