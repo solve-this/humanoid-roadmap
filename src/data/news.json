@@ -1,5 +1,30 @@
 [
   {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: An Earthbound Mars Rover for the Moon",
+    "url": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-07-03T15:00:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Quarterhill discusses transport modernization as U.S. marks 70 years of federal highways",
+    "url": "https://www.therobotreport.com/quarterhill-discusses-transport-modernization-u-s-marks-70-years-federal-highways/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-03T13:01:26.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Automate 2026 show recap",
     "url": "https://www.therobotreport.com/automate-2026-show-recap/",
