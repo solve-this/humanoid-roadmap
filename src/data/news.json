@@ -1,5 +1,17 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Context is king: How Avride uses cloud VLMs as a safety net for delivery robots",
+    "url": "https://www.therobotreport.com/how-avride-uses-cloud-vlms-safety-net-delivery-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-04T12:30:37.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly9zcGVj",
     "title": "Video Friday: An Earthbound Mars Rover for the Moon",
     "url": "https://spectrum.ieee.org/video-friday-nasa-lunar-rover",
@@ -3020,18 +3032,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "What Happened When We Set Up a Robotics Lab in a Mall",
-    "url": "https://spectrum.ieee.org/boston-dynamics-spot-interaction",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-05T13:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "negative"
   }
 ]
