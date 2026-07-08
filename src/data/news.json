@@ -1,6 +1,55 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "ABB Robotics includes vSLAM navigation in F712 autonomous forklift",
+    "url": "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-07T20:24:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The best robot vacuums for 2026: Expert tested and reviewed",
+    "url": "https://www.zdnet.com/article/best-robot-vacuum/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-07T17:01:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Tesollo initiates IPO process while developing humanoid hands",
+    "url": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-07T13:17:40.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "HIVE brings in $15M to build physical AI for industrial machines",
+    "url": "https://www.therobotreport.com/hive-brings-in-15m-to-build-physical-ai-for-industrial-machines/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-07T06:55:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Kraken Robotics acquires Covelya Group for $615M",
     "url": "https://www.therobotreport.com/kraken-robotics-acquires-covelya-group-for-615m/",
     "source": "The Robot Report",
