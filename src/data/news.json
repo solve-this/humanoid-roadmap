@@ -1,6 +1,90 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Tickets, geofences, and 1M miles: The new reality of California AV compliance",
+    "url": "https://www.therobotreport.com/tickets-geofences-1m-miles-new-reality-california-av-compliance/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-08T23:48:11.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA and Hugging Face bring new models and frameworks to LeRobot",
+    "url": "https://www.therobotreport.com/nvidia-hugging-face-bring-new-models-frameworks-lerobot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-08T22:49:50.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "This startup thinks robotics is about to have its ChatGPT moment",
+    "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-08T19:19:15.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Crypto VC firm Paradigm raises $1.2B to invest in ‘technical frontier’ startups",
+    "url": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-08T16:29:35.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ENCY Software and Stäubli Robotics partner to simplify robot programming",
+    "url": "https://www.therobotreport.com/ency-software-staubli-robotics-partner-simplify-robot-programming/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-08T15:02:53.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "I tested the Roborock Saros 20, and I'd trust it for the next decade",
+    "url": "https://www.zdnet.com/article/roborock-saros-20-review-robot-vacuum-2026/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-08T14:47:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "3 Android Auto automations that make my drives much easier - and how I set them up",
+    "url": "https://www.zdnet.com/article/3-android-auto-automations-i-use-to-make-my-life-easier/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-08T11:00:40.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "ABB Robotics includes vSLAM navigation in F712 autonomous forklift",
     "url": "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
     "source": "The Robot Report",
@@ -9,6 +93,19 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
+    "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-07-07T19:02:42.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   },
   {
@@ -3158,17 +3255,5 @@
       "logistics"
     ],
     "aiEnriched": true
-  },
-  {
-    "id": "aHR0cHM6Ly9jb250",
-    "title": "GoZTASP: A Zero-Trust Platform for Governing Autonomous Systems at Mission Scale",
-    "url": "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale/",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-09T15:06:39.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
