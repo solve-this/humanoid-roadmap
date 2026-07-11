@@ -1,6 +1,69 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "How Path Robotics uses AI to optimize robotic welding",
+    "url": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-10T23:02:23.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "XTEND secures U.S. patent for autonomous navigation technology",
+    "url": "https://www.therobotreport.com/xtend-secures-u-s-patent-autonomous-navigation-technology/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-10T21:31:28.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots",
+    "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-10T19:44:55.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: A World Cup for Robots",
+    "url": "https://spectrum.ieee.org/video-friday-robot-world-cup",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-07-10T16:00:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot",
+      "workforce"
+    ],
+    "relevanceScore": 0.5,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Ground Robots Inherit the Kill Zone",
+    "url": "https://spectrum.ieee.org/ukraine-ground-drones",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-07-10T11:00:01.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "ForSight Robotics’ road to performing a fully robotic cataract surgery",
     "url": "https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/",
     "source": "The Robot Report",
