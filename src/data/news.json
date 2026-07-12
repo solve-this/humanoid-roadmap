@@ -1,6 +1,30 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Are suppliers ready for new robot safety standards?",
+    "url": "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-11T13:30:02.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why robotics teams need virtual gyms before deployment",
+    "url": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-11T12:36:16.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How Path Robotics uses AI to optimize robotic welding",
     "url": "https://www.therobotreport.com/how-path-robotics-uses-ai-optimize-robotic-welding/",
     "source": "The Robot Report",
