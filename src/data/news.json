@@ -1,5 +1,29 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "TechCrunch Mobility: A robotaxi ultimatum",
+    "url": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-12T16:07:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "STEM education in the classroom, introducing BotBall",
+    "url": "https://www.therobotreport.com/stem-education-classroom-introducing-botball/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-12T10:00:26.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Are suppliers ready for new robot safety standards?",
     "url": "https://www.therobotreport.com/are-suppliers-ready-for-new-robot-safety-standards/",
