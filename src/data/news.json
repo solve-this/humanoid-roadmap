@@ -1,5 +1,30 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Key to Humanoid Progress: Managing the Power Behind the Robots",
+    "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-14T21:38:28.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment",
+    "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-14T20:08:27.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
     "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
@@ -70,6 +95,18 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Building a Foundation Stack for General-Purpose Robots",
+    "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-07-13T10:19:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
   },
   {
     "id": "aHR0cHM6Ly90ZWNo",
@@ -3428,28 +3465,5 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
-  },
-  {
-    "id": "seed001",
-    "title": "Tesla Optimus Reaches 1000 Units Deployed in Factory",
-    "url": "https://www.therobotreport.com/?s=Tesla+Optimus",
-    "source": "The Robot Report",
-    "publishedAt": "2026-04-15T10:00:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "manufacturing"
-    ],
-    "relevanceScore": 0.95,
-    "sentiment": "negative",
-    "aiSummary": "Tesla deployed 1000 Optimus units in its Texas Gigafactory, marking first mass humanoid deployment in North American industry.",
-    "keyInsight": "First large-scale commercial humanoid deployment signals manufacturing sector tipping point.",
-    "countriesMentioned": [
-      "USA"
-    ],
-    "industriesAffected": [
-      "manufacturing"
-    ],
-    "aiEnriched": true
   }
 ]
