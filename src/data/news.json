@@ -1,6 +1,67 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Walden Robotics launches at $1.1B valuation for general-purpose robots",
+    "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-15T20:04:03.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Agility outlines six recommendations for U.S. humanoid robot policies",
+    "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-15T18:58:29.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Vicarious Surgical board seeks to dissolve company",
+    "url": "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-15T18:43:48.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Icarus Robotics uses KULR technology to power JOY free-flying space robot",
+    "url": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-15T18:10:47.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "I let ChatGPT Work and Claude Cowork loose on my files - only one made me nervous",
+    "url": "https://www.zdnet.com/article/chatgpt-work-claude-cowork/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-15T14:29:00.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Key to Humanoid Progress: Managing the Power Behind the Robots",
     "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/",
     "source": "The Robot Report",
