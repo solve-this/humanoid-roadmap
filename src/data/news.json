@@ -1,5 +1,53 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Building robots for unpredictable, infrastructure-free environments",
+    "url": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-20T18:39:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "BrainCo demonstrates brain-controlled robot AI platform",
+    "url": "https://www.therobotreport.com/brainco-demonstrates-brain-controlled-robot-ai-platform/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-20T18:14:11.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Boston Dynamics to discuss the art behind human-robot interaction",
+    "url": "https://www.therobotreport.com/boston-dynamics-discuss-art-behind-human-robot-interaction/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-20T17:53:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AGIBOT unveils four embodied AI products for real-world operations at WAIC",
+    "url": "https://www.therobotreport.com/agibot-unveils-four-embodied-ai-products-real-world-operations-waic/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-20T15:18:07.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "TechCrunch Mobility: The battle over robotaxi rules",
     "url": "https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
