@@ -1,6 +1,80 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "U.K.-based Humanoid secures $152M in Series A funding",
+    "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-21T23:43:12.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Vicarious Surgical officially shutting down",
+    "url": "https://www.therobotreport.com/vicarious-surgical-officially-shutting-down/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-21T23:12:18.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing",
+    "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-21T19:44:26.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+    "url": "https://techcrunch.com/2026/07/21/tesla-spins-up-robotaxi-pilots-in-orlando-and-tampa-ahead-of-q2-earnings/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-21T18:05:10.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "MISUMI Americas releases reshoring report, supports manufacturing training bill",
+    "url": "https://www.therobotreport.com/misumi-americas-releases-reshoring-report-supports-manufacturing-training-bill/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-21T13:00:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Friction is key to making better robot world models",
+    "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-21T12:19:30.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Building robots for unpredictable, infrastructure-free environments",
     "url": "https://www.therobotreport.com/building-robots-for-unpredictable-infrastructure-free-environments/",
     "source": "The Robot Report",
@@ -3731,18 +3805,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Proposed Chinese Robot Ban Is Latest U.S. Tech Sovereignty Move",
-    "url": "https://spectrum.ieee.org/chinese-robots-us-ban",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-22T12:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "negative"
   }
 ]
