@@ -1,5 +1,91 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics",
+    "url": "https://techcrunch.com/2026/07/23/mobileye-ceo-amnon-shashua-to-step-aside-as-company-pushes-into-robotaxis-robotics/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-23T22:40:08.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Holiday Robotics raises $105M for its FRIDAY wheeled humanoid",
+    "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-23T20:45:47.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Patreon lays off 20% of its workforce",
+    "url": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-23T20:30:07.000Z",
+    "keywords": [
+      "workforce"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Uber co-founder raises $1.7B for new robotics startup ATOMS",
+    "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-23T18:53:11.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+    "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-23T18:30:56.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Tesla’s robotaxis are moving in reverse",
+    "url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-23T16:29:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Ropedia raises $22M to scale data collection for training robots",
+    "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-23T15:55:39.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Report shares the state of physical AI and robotics",
     "url": "https://www.therobotreport.com/physical-ai-and-robotics/",
@@ -3828,18 +3914,5 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Who Wins in Robot vs. Pro Ping-Pong Player?",
-    "url": "https://spectrum.ieee.org/video-friday-ping-pong-robot",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-04-24T16:30:02.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "negative"
   }
 ]
