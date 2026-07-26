@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Photos: First look at J&J’s Ottava surgical robot",
+    "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-25T14:00:13.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Generalist’s GEN-1 foundation model now supports a range of robot end effectors",
     "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
     "source": "The Robot Report",
