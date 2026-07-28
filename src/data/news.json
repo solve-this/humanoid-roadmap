@@ -1,5 +1,53 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NORD expands compact NORDAC VFD family to 200 hp",
+    "url": "https://www.therobotreport.com/nord-expands-nordac-compact-vfd-family-to-200-hp/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-27T17:37:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Kraken Technology raises Series B funding for autonomous vessels",
+    "url": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-27T14:02:10.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+    "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-07-27T13:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How would AI data centers in space even work? A former NASA robotics chief explains",
+    "url": "https://www.zdnet.com/article/how-would-ai-data-centers-in-space-even-work-a-former-nasa-robotics-chief-explains/",
+    "source": "ZDNET",
+    "publishedAt": "2026-07-27T12:05:41.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly9zcGVj",
     "title": "Optical Tech Would Update a Robot’s AI on the Fly",
     "url": "https://spectrum.ieee.org/ai-in-robotics",
