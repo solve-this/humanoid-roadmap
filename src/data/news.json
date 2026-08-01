@@ -1,6 +1,43 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "FCC robot ruling shines a spotlight on U.S. policy; how next-gen AI can help warehousing",
+    "url": "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-31T22:41:44.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "KUKA deploys Automation Management Platform for North American automakers",
+    "url": "https://www.therobotreport.com/kuka-deploys-automation-management-platform-north-american-automakers/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-31T20:38:15.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Procore Technologies acquires DroneDeploy for $845M",
+    "url": "https://www.therobotreport.com/procore-technologies-acquires-dronedeploy-845m/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-07-31T12:49:07.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "What the FCC ban on foreign-made robot vacuums means for your Roomba",
     "url": "https://www.zdnet.com/article/fcc-ban-on-foreign-made-robot-vacuums-and-your-roomba/",
     "source": "ZDNET",
@@ -13,7 +50,7 @@
   },
   {
     "id": "aHR0cHM6Ly93d3cu",
-    "title": "5 Physical AI Infrastructure Platforms Shaping Robotics in 2026",
+    "title": "5 Physical AI infrastructure platforms shaping robotics in 2026",
     "url": "https://www.therobotreport.com/5-physical-ai-infrastructure-platforms-shaping-robotics-in-2026/",
     "source": "The Robot Report",
     "publishedAt": "2026-07-30T20:01:22.000Z",
