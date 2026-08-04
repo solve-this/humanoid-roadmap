@@ -1,5 +1,54 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "igus launches energy chain with 600-degree rotation for industrial robots",
+    "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-03T21:06:07.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
+    "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-03T17:17:46.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
+    "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-03T16:05:39.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
+    "url": "https://www.therobotreport.com/reimagine-robotics-emerges-stealth-with-robotslearn-on-the-job/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-03T07:00:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
     "url": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
@@ -56,6 +105,19 @@
     "keywords": [
       "robot",
       "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
+    "url": "https://spectrum.ieee.org/video-robot-gemini2-ai-robot",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-07-31T16:00:03.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
@@ -4223,55 +4285,6 @@
     "url": "https://www.therobotreport.com/genesis-ai-introduces-gene-foundation-model-more-dexterous-manipulation/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-06T13:26:44.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "WaiV Robotics emerges from stealth to help drones take off and land at sea",
-    "url": "https://www.therobotreport.com/waiv-robotics-emerges-from-stealth-help-drones-take-off-land-at-sea/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-05T21:15:39.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Tutor Intelligence builds Data Factory to train robot AI in the real world",
-    "url": "https://www.therobotreport.com/tutor-intelligence-builds-data-factory-to-train-robot-ai-in-the-real-world/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-05T20:04:24.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Hiroshi Fujiwara and Robert Little selected for 2026 Joseph F. Engelberger Robotics Awards",
-    "url": "https://www.therobotreport.com/hiroshi-fujiwara-robert-little-selected-2026-joseph-f-engelberger-robotics-awards/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-05T12:45:19.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "NORD Drivesystems releases motor starters, variable frequency drives",
-    "url": "https://www.therobotreport.com/nord-drivesystems-releases-motor-starters-variable-frequency-drives/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-05T12:35:09.000Z",
     "keywords": [
       "robot"
     ],
