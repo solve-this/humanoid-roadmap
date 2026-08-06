@@ -1,6 +1,126 @@
 [
   {
     "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO",
+    "url": "https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-05T21:26:40.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Moove raises $250M to become the backbone of the robotaxi industry",
+    "url": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-05T20:50:45.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Avnet and Weston Robot partner to launch edge AI inspection platform",
+    "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-05T19:10:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "GAM Enterprises to produce Schaeffler’s PSC gear reducers",
+    "url": "https://www.therobotreport.com/gam-enterprises-to-produce-schaefflers-psc-gear-reducers/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-05T19:00:21.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Lucid Motors just delayed its affordable EV. Now what?",
+    "url": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-05T17:57:45.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "University of Florida opens new robotics lab dedicated to industrialized construction",
+    "url": "https://www.therobotreport.com/university-of-florida-opens-new-robotics-lab-dedicated-to-industrialized-construction/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-05T17:41:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Moove raises $250M to build infrastructure for autonomous vehicles",
+    "url": "https://www.therobotreport.com/moove-raises-250m-to-build-infrastructure-for-autonomous-vehicles/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-05T16:53:38.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why perception is the key to scaling industrial autonomy",
+    "url": "https://www.therobotreport.com/why-perception-is-the-key-to-scaling-industrial-autonomy/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-05T15:56:45.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Zoox to start charging for robotaxi rides in Las Vegas",
+    "url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-05T15:06:42.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals ",
+    "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-05T15:05:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
     "title": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis",
     "url": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
     "source": "TechCrunch",
@@ -4299,42 +4419,6 @@
     "url": "https://www.therobotreport.com/qnx-brings-hands-on-demonstrations-new-research-2026-robotics-summit/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-08T12:45:52.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Hugging Face launches agentic toolkit for Reachy Mini",
-    "url": "https://www.therobotreport.com/hugging-face-launches-agentic-toolkit-for-reachy-mini/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-07T17:57:05.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Podcast: Colin Angle discusses building companion robots with Familiar Machines & Magic",
-    "url": "https://www.therobotreport.com/podcast-colin-angle-discusses-building-companion-robots-familiar-machines-magic/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-07T12:48:58.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Brightpick to outline the path to lights-out warehouses at Robotics Summit",
-    "url": "https://www.therobotreport.com/brightpick-zizka-outline-the-path-to-lights-out-warehouses-at-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-07T12:45:32.000Z",
     "keywords": [
       "robot"
     ],
