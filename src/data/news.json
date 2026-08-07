@@ -1,5 +1,41 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
+    "url": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-06T20:19:29.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How Robin, the robotic companion, keeps patients calm during hospital visits",
+    "url": "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-06T14:09:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Report looks at advances in autonomous mobile robots",
+    "url": "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-06T12:26:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO",
     "url": "https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/",
@@ -4359,66 +4395,6 @@
     "url": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-09T12:30:37.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Why traditional robotics data collection is obsolete and what replaces it",
-    "url": "https://www.therobotreport.com/why-traditional-robotics-data-collection-is-obsolete-and-what-replaces-it/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-08T22:40:04.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "negative"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Learn how to successfully design hospital logistics robots at the Robotics Summit",
-    "url": "https://www.therobotreport.com/learn-how-to-successfully-design-hospital-logistics-robots-2026-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-08T19:34:03.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Nyobolt raises funding to bring fast charging to more robots",
-    "url": "https://www.therobotreport.com/nyobolt-raises-funding-bring-fast-charging-more-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-08T17:29:37.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How coupling stiffness and misalignment compensation impact servo performance",
-    "url": "https://www.therobotreport.com/how-coupling-stiffness-and-misalignment-compensation-impact-servo-performance/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-08T16:29:18.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "QNX to bring hands-on demonstrations and new research to the Robotics Summit",
-    "url": "https://www.therobotreport.com/qnx-brings-hands-on-demonstrations-new-research-2026-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-08T12:45:52.000Z",
     "keywords": [
       "robot"
     ],
