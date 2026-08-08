@@ -1,6 +1,80 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Building robots that survive the warehouse",
+    "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-07T22:01:38.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Tacta Systems takes aim at high-skilled manufacturing work with TactaBot",
+    "url": "https://www.therobotreport.com/tacta-systems-takes-aim-high-skilled-manufacturing-work-tactabot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-07T21:53:33.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Avatar Robotics raises seed round to address industrial labor constraints",
+    "url": "https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-07T19:57:22.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+    "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-07T16:16:09.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
+    "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-07T16:00:01.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "What do cybersecurity leaders want in staff? These 3 skills beat certifications and experience",
+    "url": "https://www.zdnet.com/article/what-do-cybersecurity-leaders-want-3-skills-beat-certifications-and-experience/",
+    "source": "ZDNET",
+    "publishedAt": "2026-08-07T12:27:55.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
     "url": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
     "source": "The Robot Report",
@@ -4371,30 +4445,6 @@
     "url": "https://www.therobotreport.com/how-to-engineer-robot-tracks-7th-axis-systems-real-world-environments/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-10T12:30:40.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: AI Gives Robot Hands Humanlike Dexterity",
-    "url": "https://spectrum.ieee.org/video-friday-robotic-hand-dexterity",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-09T16:00:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Cognex releases fully integrated AI-powered vision system for robotics",
-    "url": "https://www.therobotreport.com/cognex-releases-fully-integrated-ai-powered-vision-system-robotics/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-09T12:30:37.000Z",
     "keywords": [
       "robot"
     ],
