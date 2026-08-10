@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
+    "url": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-09T12:30:42.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Experts look ahead at the next 20 years of robotics at RoboBusiness",
     "url": "https://www.therobotreport.com/experts-look-ahead-at-the-next-20-years-of-robotics-at-robobusiness/",
     "source": "The Robot Report",
@@ -4421,30 +4433,6 @@
     "url": "https://www.therobotreport.com/hello-robots-latest-stretch-4-is-bigger-faster-and-stronger-than-previous-versions/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-12T12:01:54.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "RLWRLD releases RLDX-1, a dexterity-first foundation model for robot hands",
-    "url": "https://www.therobotreport.com/rlwrld-releases-rldx-1-a-dexterity-first-foundation-model-for-robot-hands/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-11T18:37:20.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Korea’s biggest manufacturers back Config, the TSMC of robot data",
-    "url": "https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-11T10:58:00.000Z",
     "keywords": [
       "robot"
     ],
