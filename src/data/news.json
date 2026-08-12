@@ -1,6 +1,91 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Defense drone developer Cambridge Aerospace raises $300M",
+    "url": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-11T20:34:25.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Uber surprised robotics company Serve by selling its entire stake",
+    "url": "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-11T20:02:02.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
+    "url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-11T17:13:33.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Rivian CEO RJ Scaringe is betting on EVs, robots, and autonomy all at once — he’ll explain why at Disrupt 2026 ",
+    "url": "https://techcrunch.com/2026/08/11/rivian-ceo-rj-scaringe-is-betting-on-evs-robots-and-autonomy-all-at-once-hell-explain-why-at-disrupt-2026/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-11T15:30:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
+    "url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-11T14:34:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
+    "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-11T14:17:22.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Best robot mowers of 2026: Expert tested",
+    "url": "https://www.zdnet.com/article/best-robot-mower/",
+    "source": "ZDNET",
+    "publishedAt": "2026-08-11T10:00:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "RoboStore launches Robo Inc. to help U.S. organizations deploy robots",
     "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
     "source": "The Robot Report",
@@ -35,6 +120,19 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Robot Recycler Salvages Parts From Broken Machines",
+    "url": "https://spectrum.ieee.org/recycling-robot",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-10T18:01:25.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "negative"
   },
   {
     "id": "aHR0cHM6Ly93d3cu",
@@ -4339,103 +4437,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Rivian spinoff Mind Robotics raises another $400M",
-    "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-13T16:34:21.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Bridging the gap: Profitability meets sustainability through physical AI",
-    "url": "https://www.therobotreport.com/bridging-gap-profitability-meets-sustainability-through-physical-ai/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:35:59.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Alva Industries to bring its frameless motor technology to the Robotics Summit",
-    "url": "https://www.therobotreport.com/alva-industries-brings-frameless-motor-technology-2026-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:30:04.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Architecting Reliability: How GMSL Diagnostics Enable Robust Vision",
-    "url": "https://www.therobotreport.com/architecting-reliability-how-gmsl-diagnostics-enable-robust-vision/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:14:13.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The Evolution of Vision Connectivity in Robotics: From USB and Ethernet to GMSL",
-    "url": "https://www.therobotreport.com/the-evolution-of-vision-connectivity-in-robotics-from-usb-and-ethernet-to-gmsl/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:13:10.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "GMSL and the growing ecosystem around robotic vision systems",
-    "url": "https://www.therobotreport.com/gmsl-and-the-growing-ecosystem-around-robotic-vision-systems/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:12:04.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How humanoids learn to read the room",
-    "url": "https://www.therobotreport.com/how-humanoids-learn-to-read-the-room/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:11:00.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The Convergence in Perception Systems from Cars to Robots",
-    "url": "https://www.therobotreport.com/the-convergence-in-perception-systems-from-cars-to-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-13T12:10:54.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
   }
 ]
