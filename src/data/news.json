@@ -1,5 +1,77 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
+    "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-12T20:53:41.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "SEW-EURODRIVE adds economy series to its planetary servo gear unit portfolio",
+    "url": "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-12T16:40:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Q2 2026 robotics demand increased across industries, reports A3",
+    "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-12T14:18:56.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
+    "url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-12T13:36:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Celona launches Orion agentic wireless platform built for physical AI and robotics",
+    "url": "https://www.therobotreport.com/celona-launches-orion-agentic-wireless-platform-built-for-physical-ai-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-12T12:00:08.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
+    "url": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-12T10:30:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Defense drone developer Cambridge Aerospace raises $300M",
     "url": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
@@ -4425,17 +4497,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Uber to open 2 campuses in India to support product development, operations",
-    "url": "https://techcrunch.com/2026/05/14/uber-to-open-2-campuses-in-india-to-support-product-development-operations/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-14T13:43:27.000Z",
-    "keywords": [
-      "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
   }
 ]
