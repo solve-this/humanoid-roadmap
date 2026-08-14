@@ -1,5 +1,67 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Mobile manipulators and humanoids: The future of robotics",
+    "url": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-13T15:06:47.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Who really needs a cocktail robot?",
+    "url": "https://techcrunch.com/2026/08/13/bartesian-duet-cocktail-maker-review/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-13T15:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ARM Institute calls for defense manufacturing technology projects",
+    "url": "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-13T12:35:42.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Experts to discuss the state of humanoid robots at RoboBusiness",
+    "url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-13T12:30:25.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "BioflexBot robot hand aims to replicate key human hand motions",
+    "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-13T12:15:02.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
     "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
@@ -4409,91 +4471,6 @@
     "publishedAt": "2026-05-16T12:30:35.000Z",
     "keywords": [
       "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "North American robot orders remain flat at the start of 2026",
-    "url": "https://www.therobotreport.com/north-american-robot-orders-remain-flat-at-the-start-of-2026/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-15T19:57:19.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Tesla reveals two Robotaxi crashes involving teleoperators",
-    "url": "https://techcrunch.com/2026/05/15/tesla-reveals-two-robotaxi-crashes-involving-teleoperators/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-15T17:13:26.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Heavy Robotic Machinery Operates Itself",
-    "url": "https://spectrum.ieee.org/video-friday-material-handling-robots",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-15T17:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Cirtronics to discuss manufacturing robotics at scale at the Robotics Summit",
-    "url": "https://www.therobotreport.com/cirtronics-discuss-manufacturing-robotics-at-scale-at-the-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-15T16:46:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Havoc raises $100M to unify defense autonomy in the land, sea, and air",
-    "url": "https://www.therobotreport.com/havoc-raises-100m-unify-defense-autonomy-land-sea-air/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-15T14:40:56.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "5 lessons for robotics entrepreneurs from Aescape’s business model pivot",
-    "url": "https://www.therobotreport.com/5-lessons-robotics-entrepreneurs-from-aescapes-business-model-pivot/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-15T13:41:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Your Sonos smart speaker has an underutilized automation feature - 5 helpful ways I use mine",
-    "url": "https://www.zdnet.com/article/my-favorite-sonos-voice-control-commands/",
-    "source": "ZDNET",
-    "publishedAt": "2026-05-15T10:00:54.000Z",
-    "keywords": [
-      "automation"
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
