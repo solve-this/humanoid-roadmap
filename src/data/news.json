@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why robots that can’t communicate naturally won’t be adopted",
+    "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-15T12:20:18.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How Protolabs turns CAD files into parts in under 24 hours",
     "url": "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/",
     "source": "The Robot Report",
@@ -4485,31 +4497,6 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Roborock vs. Ecovacs: I've tested dozens of robot vacuums from both brands - this one wins",
-    "url": "https://www.zdnet.com/article/roborock-vs-ecovacs/",
-    "source": "ZDNET",
-    "publishedAt": "2026-05-18T00:54:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Fraunhofer IPA offers new test benchmark for humanoids",
-    "url": "https://www.therobotreport.com/fraunhofer-ipa-offers-new-test-benchmark-for-humanoid-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-17T12:30:55.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   }
 ]
