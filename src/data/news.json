@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "How robotics is revolutionizing stroke rehabilitation",
+    "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-16T12:30:18.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Why robots that can’t communicate naturally won’t be adopted",
     "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
     "source": "The Robot Report",
@@ -4448,55 +4460,6 @@
       "robot"
     ],
     "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "FANUC strengthens robot integration with NVIDIA Isaac Sim",
-    "url": "https://www.therobotreport.com/fanuc-strengthens-robot-integration-nvidia-isaac-sim/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-18T19:37:30.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Faraday Future obtains $25M to ship 1,500 robots by year’s end",
-    "url": "https://www.therobotreport.com/faraday-future-obtains-25m-ship-1500-robots-years-end/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-18T18:08:17.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "What Makes a Job Dull, Dirty, or Dangerous?",
-    "url": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-18T13:00:00.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9ldmVu",
-    "title": "Agentic AI for Robot Teams",
-    "url": "https://events.bizzabo.com/867156",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-18T10:00:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
   }
 ]
