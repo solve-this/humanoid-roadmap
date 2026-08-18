@@ -1,5 +1,78 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+    "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-17T21:27:05.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Five years of operation shape Diligent Robotics rollout of Moxi 2.0",
+    "url": "https://www.therobotreport.com/five-years-operation-shape-diligent-robotics-rollout-moxi-2-0/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-17T21:15:46.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Surgeons use da Vinci surgical robot to perform common cardiac surgery",
+    "url": "https://www.therobotreport.com/surgeons-use-da-vinci-surgical-robot-perform-common-cardiac-surgery/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-17T20:56:21.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How Generalist uses human demonstration data for robot learning",
+    "url": "https://www.therobotreport.com/how-generalist-uses-human-demonstration-data-robot-learning/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-17T19:32:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
+    "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-17T15:33:42.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Gravis Robotics raises $200M for autonomous construction",
+    "url": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-17T13:00:16.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "How robotics is revolutionizing stroke rehabilitation",
     "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
@@ -4375,91 +4448,5 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Regal Rexnord to bring its motion control portfolio to the Robotics Summit",
-    "url": "https://www.therobotreport.com/regal-rexnord-brings-motion-control-portfolio-2026-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-19T19:30:57.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Google’s Genie world model can now simulate real streets with Street View",
-    "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-19T17:51:39.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Robots Could Turn E-Waste Into a Source of Legacy Chips",
-    "url": "https://spectrum.ieee.org/e-waste-recycling-robots-ram",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-19T17:41:14.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "negative"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Opentrons launches Compliance Ready Software for Flex lab robots",
-    "url": "https://www.therobotreport.com/opentrons-launches-compliance-ready-software-flex-lab-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-19T14:30:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Learn about the latest in logistics automation at the Robotics Summit",
-    "url": "https://www.therobotreport.com/learn-about-latest-logistics-automation-2026-robotics-summit/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-19T13:37:52.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Locus Array expands picking ability with Nexera Robotics’ NeuraGrasp",
-    "url": "https://www.therobotreport.com/locus-array-expands-picking-ability-with-nexera-robotics-neuragrip/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-19T12:42:29.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Home Robot Safety Is All About Relationships",
-    "url": "https://spectrum.ieee.org/domestic-humanoid-robot-safety-standards",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-19T11:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
   }
 ]
