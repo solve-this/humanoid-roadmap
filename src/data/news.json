@@ -1,5 +1,91 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+    "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-19T22:25:01.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
+    "url": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-19T21:48:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness",
+    "url": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-19T20:15:47.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "What does Unitree Robotics’ IPO mean for the humanoid industry?",
+    "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-19T18:01:43.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Best robot vacuum mops of 2026: Expert tested",
+    "url": "https://www.zdnet.com/article/best-robot-vacuum-mop/",
+    "source": "ZDNET",
+    "publishedAt": "2026-08-19T14:12:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Serve Robotics to deploy its autonomous delivery robots with Grubhub",
+    "url": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-19T13:55:30.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Pudu Robotics launches new MP2000 autonomous forklift",
+    "url": "https://www.therobotreport.com/pudu-robotics-launches-new-mp2000-autonomous-forklift/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-19T13:07:06.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "How to achieve high voltage in industrial systems without high complexity",
     "url": "https://www.therobotreport.com/how-achieve-high-voltage-industrial-systems-without-high-complexity/",
@@ -4370,92 +4456,6 @@
     "keywords": [
       "robot",
       "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo expands pause to four cities as robotaxis keep driving into floods",
-    "url": "https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-22T00:37:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo halts freeway rides after robotaxis struggle in construction zones",
-    "url": "https://techcrunch.com/2026/05/21/waymo-halts-freeway-rides-after-robotaxis-struggle-in-construction-zones/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-21T21:13:23.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Brain Corp partners with UC San Diego to help robots operate in complex environments",
-    "url": "https://www.therobotreport.com/brain-corp-partners-uc-san-diego-help-robots-operate-complex-environments/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-21T20:07:52.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "FANUC partners with Google to advance physical AI in its robots",
-    "url": "https://www.therobotreport.com/fanuc-partners-google-advance-physical-ai-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-21T17:33:43.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Open-Source Software Is Starting to Help Robots Think",
-    "url": "https://spectrum.ieee.org/open-source-robot-ai-platforms",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-21T14:00:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Humanoid partners with Bosch, Schaeffler to scale robot production",
-    "url": "https://www.therobotreport.com/humanoid-partners-with-bosch-schaeffler-scale-robot-production/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-21T11:00:35.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
-    "url": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-21T10:00:02.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
