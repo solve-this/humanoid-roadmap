@@ -1,6 +1,66 @@
 [
   {
     "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
+    "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-21T00:23:36.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Amazon plans to expand Prime Air to nearly 500 cities by the end of 2026",
+    "url": "https://www.therobotreport.com/amazon-plans-expand-prime-air-nearly-500-cities-by-end-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-20T21:32:27.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ATDev gives update on its journey building autonomous wheelchairs",
+    "url": "https://www.therobotreport.com/atdev-gives-update-journey-building-autonomous-wheelchairs/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-20T17:39:25.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Roborock Q7 M5+ review: A capable budget robot vacuum that nails the fundamentals",
+    "url": "https://www.zdnet.com/article/roborock-q7-m5-review/",
+    "source": "ZDNET",
+    "publishedAt": "2026-08-20T16:00:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Agtonomy releases new autonomous multi-point turning features",
+    "url": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-20T12:30:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
     "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
     "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
     "source": "TechCrunch",
@@ -4405,57 +4465,6 @@
     "keywords": [
       "humanoid",
       "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Exploring PLC and robot integration with YRG Robotics’ Chris Elston",
-    "url": "https://www.therobotreport.com/exploring-plc-and-robot-integration-with-yrg-robotics-chris-elston/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-23T00:17:49.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Robotics Summit keynote to present open foundation for AI-powered robots",
-    "url": "https://www.therobotreport.com/robotics-summit-keynote-present-open-robotics-ai-foundation/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-22T18:49:17.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Atlas Versus a Fridge",
-    "url": "https://spectrum.ieee.org/video-friday-humanoid-robot-learning",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-05-22T16:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "GE Vernova to acquire Robotech Automation to expand robotics integration",
-    "url": "https://www.therobotreport.com/ge-vernova-acquire-robotech-automation-expand-robotics-integration/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-22T12:30:18.000Z",
-    "keywords": [
-      "robot",
-      "automation"
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
