@@ -1,6 +1,31 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robots don’t run themselves: The workforce powering physical AI",
+    "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-22T14:30:21.000Z",
+    "keywords": [
+      "robot",
+      "workforce"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The technology that could bring robot mowers to one in two American lawns",
+    "url": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-22T12:30:08.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How software-defined manufacturing fits into real factory operations",
     "url": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
     "source": "The Robot Report",
@@ -4456,41 +4481,5 @@
     ],
     "relevanceScore": 0.3333333333333333,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "6 kitchen gadgets that make adulting feel easier",
-    "url": "https://techcrunch.com/2026/05/24/6-kitchen-gadgets-that-make-adulting-feel-easier/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-24T17:00:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "TechCrunch Mobility: Robotaxi reality check",
-    "url": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-24T16:05:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Sortera uses physical AI to double capacity in a Tennessee sorting facility",
-    "url": "https://www.therobotreport.com/sortera-uses-physical-ai-to-double-capacity-in-a-tennessee-sorting-facility/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-24T12:25:35.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
