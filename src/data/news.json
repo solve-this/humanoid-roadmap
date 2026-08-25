@@ -1,5 +1,56 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
+    "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-24T22:53:33.000Z",
+    "keywords": [
+      "humanoid",
+      "robot",
+      "workforce"
+    ],
+    "relevanceScore": 0.5,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "XPeng Motors humanoid robot unit Dogotix raises $900M",
+    "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-24T20:07:09.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Businesses must reinvent their processes and workforce to scale agentic AI adoption",
+    "url": "https://www.zdnet.com/article/businesses-must-reinvent-their-processes-and-workforce-to-scale-agentic-ai-adoption/",
+    "source": "ZDNET",
+    "publishedAt": "2026-08-24T19:22:32.000Z",
+    "keywords": [
+      "workforce"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+    "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-24T15:24:18.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions",
     "url": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
@@ -79,6 +130,19 @@
     "url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
     "source": "The Robot Report",
     "publishedAt": "2026-08-21T19:27:22.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
+    "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-21T16:00:01.000Z",
     "keywords": [
       "humanoid",
       "robot"
@@ -4378,92 +4442,6 @@
     "url": "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-27T11:43:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How humanoids learn to read the room",
-    "url": "https://www.therobotreport.com/how-humanoids-learn-to-read-the-room-2/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-26T20:34:47.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "GMSL and the growing ecosystem around robotic vision systems",
-    "url": "https://www.therobotreport.com/gmsl-and-the-growing-ecosystem-around-robotic-vision-systems-2/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-26T20:34:40.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "This startup is betting India’s gig economy can train the world’s robots",
-    "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-26T16:00:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "XELA Robotics to show tactile sensing at the 2026 Robotics Summit & Expo",
-    "url": "https://www.therobotreport.com/xela-robotics-show-tactile-sensing-2026-robotics-summit-expo/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-26T14:35:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Allient to demonstrate advanced motion control systems at 2026 Robotics Summit & Expo",
-    "url": "https://www.therobotreport.com/allient-demonstrates-advanced-motion-control-systems-2026-robotics-summit-expo/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-26T13:01:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "IntBot and Certis Group partner to scale physical AI for enterprises across Singapore",
-    "url": "https://www.therobotreport.com/intbot-certis-group-partner-scale-physical-ai-enterprises-across-singapore/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-26T13:00:30.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "A guide to everything happening at the 2026 Robotics Summit & Expo",
-    "url": "https://www.therobotreport.com/a-guide-to-everything-happening-at-the-2026-robotics-summit-expo/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-26T12:00:32.000Z",
     "keywords": [
       "robot"
     ],
