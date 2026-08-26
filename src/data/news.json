@@ -1,5 +1,77 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-26T00:40:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Early bird pricing for RoboBusiness 2026 ends August 31",
+    "url": "https://www.therobotreport.com/early-bird-pricing-for-robobusiness-2026-ends-august-31/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-25T17:41:56.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Waymo robotaxis are headed to Munich",
+    "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-25T17:32:03.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Humans in the loop are still needed for robotaxi fleet safety, says Guident",
+    "url": "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-25T15:11:13.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA",
+    "url": "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-25T15:00:22.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+    "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-25T10:00:03.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn",
     "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
@@ -4418,30 +4490,6 @@
     "url": "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-28T12:00:35.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "A guide to Day 1 of the 2026 Robotics Summit & Expo",
-    "url": "https://www.therobotreport.com/a-guide-to-day-1-of-the-2026-robotics-summit-expo/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-27T12:00:03.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Why robots still struggle to see the real world",
-    "url": "https://www.therobotreport.com/why-robots-still-struggle-to-see-real-world-orbbec/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-27T11:43:01.000Z",
     "keywords": [
       "robot"
     ],
