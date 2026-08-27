@@ -1,6 +1,66 @@
 [
   {
     "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
+    "url": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-27T14:36:37.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
+    "url": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-27T13:27:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Gatik brings in $200M to continue expanding autonomous trucking operations",
+    "url": "https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-26T16:59:15.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras",
+    "url": "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-26T15:04:14.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Bedrock Robotics’ first operator-free excavator deployments take off",
+    "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-26T13:51:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
     "title": "Robotics startup Generalist reaches $3B valuation, sources say",
     "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
     "source": "TechCrunch",
@@ -4417,79 +4477,6 @@
     "url": "https://www.therobotreport.com/software-becoming-biggest-bottleneck-physical-ai-innovation-finds-qnx/",
     "source": "The Robot Report",
     "publishedAt": "2026-05-29T15:00:31.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "NIST proposes a baseline performance benchmark for humanoid robots",
-    "url": "https://www.therobotreport.com/nist-proposes-a-baseline-performance-benchmark-for-humanoid-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-29T14:24:18.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo dominates autonomous vehicle registrations as Tesla trails behind",
-    "url": "https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-29T00:14:35.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo’s newest robotaxi is Chinese-made, built to make money, and now accepting riders",
-    "url": "https://techcrunch.com/2026/05/28/waymos-newest-robotaxi-is-chinese-made-built-to-make-money-and-now-accepting-riders/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-05-28T16:52:48.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "This lab-tested robot vacuum picked up more dirt than any other model (and it's on sale)",
-    "url": "https://www.zdnet.com/article/ecovacs-deebot-x8-pro-omni-deal-memorial-day-2026/",
-    "source": "ZDNET",
-    "publishedAt": "2026-05-28T15:30:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The evolution of cobots in metal fabrication and construction",
-    "url": "https://www.therobotreport.com/hirebotics-talks-evolution-cobots-metal-fabrication-construction/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-28T14:12:26.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Your guide to the last day of the 2026 Robotics Summit & Expo",
-    "url": "https://www.therobotreport.com/your-guide-to-the-last-day-of-the-2026-robotics-summit-expo/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-05-28T12:00:35.000Z",
     "keywords": [
       "robot"
     ],
