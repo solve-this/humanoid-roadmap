@@ -1,6 +1,68 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "From teach and repeat to SelfPath AI: The next robotics leap",
+    "url": "https://www.therobotreport.com/from-teach-repeat-to-selfpath-ai-next-robotics-leap/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-28T23:25:06.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+    "url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-08-28T23:24:27.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Deere faces headwinds in Q3 update and announces Reservoir R&D partnership",
+    "url": "https://www.therobotreport.com/deere-faces-headwinds-in-q3-update-and-announces-10m-reservoir-rd-partnership/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-28T21:06:40.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "EXL acquires physical AI model developer iMerit",
+    "url": "https://www.therobotreport.com/exl-acquires-physical-ai-model-developer-imerit/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-08-28T17:36:09.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Meet Microduck",
+    "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-08-28T16:00:03.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How Locus is getting a grasp on one of robotics biggest challenges: manipulation",
     "url": "https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/",
     "source": "The Robot Report",
