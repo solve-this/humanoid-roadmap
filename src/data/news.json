@@ -1,5 +1,77 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+    "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-02T22:44:56.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals ",
+    "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-02T22:24:09.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NexCOBOT discusses physical AI market hurdles and acceleration",
+    "url": "https://www.therobotreport.com/nexcobot-discusses-physical-ai-market-hurdles-and-acceleration/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-02T19:45:19.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Learn why food is physical AI’s hardest problem at RoboBusiness",
+    "url": "https://www.therobotreport.com/learn-why-food-is-physical-ai-hardest-problem-chef-robotics-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-02T17:37:50.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AIR to use Elmo Motion Control technology in uncrewed cargo aircraft",
+    "url": "https://www.therobotreport.com/air-uses-elmo-motion-control-technology-in-uncrewed-cargo-aircraft/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-02T15:29:23.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Uber is laying off 10% of staff, or 3,300 people",
+    "url": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-02T12:14:35.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Top 10 robotics stories of August 2026",
     "url": "https://www.therobotreport.com/top-10-robotics-stories-of-august-2026/",
@@ -4452,90 +4524,6 @@
     "url": "https://www.therobotreport.com/mitsubishi-electric-opens-serendie-street-boston-digital-transformation-hub/",
     "source": "The Robot Report",
     "publishedAt": "2026-06-05T12:30:04.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Can surgical robots fly? SS Innovations discusses challenges, solutions",
-    "url": "https://www.therobotreport.com/can-surgical-robots-fly-ss-innovations-discusses-challenges-solutions/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-04T20:21:33.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Proteus gets natural-language ability as Amazon expands European robot deployments",
-    "url": "https://www.therobotreport.com/proteus-gets-natural-language-ability-amazon-expands-europe-robot-deployments/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-04T19:50:31.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Generalist raises $400M to scale its general-purpose AI models",
-    "url": "https://www.therobotreport.com/generalist-raises-400m-to-scale-its-general-purpose-ai-models/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-04T17:53:28.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "A burglar used a Waymo to steal yoga clothes in San Francisco — and got away with it",
-    "url": "https://techcrunch.com/2026/06/04/a-burglar-used-a-waymo-to-steal-yoga-clothes-in-sf-and-got-away-with-it/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-04T16:16:37.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo’s spent robotaxi batteries will be used as grid storage",
-    "url": "https://techcrunch.com/2026/06/04/waymos-spent-robotaxi-batteries-will-be-used-as-grid-storage/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-04T15:48:41.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Is Silicon Valley ready to put robots in people’s homes? Hello Robot is.",
-    "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-04T15:05:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Voyager Technologies acquires Astrobotic to advance lunar initiatives",
-    "url": "https://www.therobotreport.com/voyager-technologies-acquires-astrobotic-advance-lunar-initiatives/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-04T12:30:22.000Z",
     "keywords": [
       "robot"
     ],
