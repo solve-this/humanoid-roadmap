@@ -1,5 +1,77 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+    "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-04T23:36:14.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How FPGAs become the gatekeepers of physical AI security",
+    "url": "https://www.therobotreport.com/how-fpgas-become-the-gatekeepers-of-physical-ai-security/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-04T18:09:54.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
+    "url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-04T16:51:23.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Calling robotics startups: Apply now to be part of the 2026 Robotics Startup Radar",
+    "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-04T16:33:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Lyte raises $165M to help robots better sense their surroundings",
+    "url": "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-04T14:32:52.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robot.com partners with Sodexo to roll out more sidewalk delivery robots",
+    "url": "https://www.therobotreport.com/robot-com-partners-sodexo-rolls-out-more-sidewalk-delivery-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-04T14:15:23.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Medtronic invests $700M in surgical partner Cornerstone Robotics",
     "url": "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/",
@@ -4552,17 +4624,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Robots can enhance manufacturing workers rather than replace them",
-    "url": "https://www.therobotreport.com/robots-can-enhance-manufacturing-workers-rather-than-replace-them/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-06T12:30:12.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "negative"
   }
 ]
