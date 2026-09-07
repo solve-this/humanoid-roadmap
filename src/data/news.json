@@ -1,5 +1,41 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+    "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-06T16:45:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Eric Sivertson discusses FPGAs and robot security",
+    "url": "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-06T14:30:01.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Pressure sensors can help improve robotic gripping accuracy",
+    "url": "https://www.therobotreport.com/pressure-sensors-can-help-improve-robotic-gripping-accuracy/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-06T12:30:17.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "ARM Institute gets $90M for 10 projects to modernize military manufacturing",
     "url": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
@@ -4626,41 +4662,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "iOS 27's Shortcuts upgrade makes automations easy to build - and will save me so much time",
-    "url": "https://www.zdnet.com/article/ios-27-shortcuts-upgrade-makes-automations-easy/",
-    "source": "ZDNET",
-    "publishedAt": "2026-06-08T20:32:00.000Z",
-    "keywords": [
-      "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "ACS raises $200M to scale autonomous counter-drone system",
-    "url": "https://www.therobotreport.com/allen-control-systems-raises-200m-for-autonomous-weapons-stations/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-08T17:02:42.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Daimon Robotics and Galbot jointly launches RobOmni for benchmarking tactile perception and dexterous manipulation",
-    "url": "https://www.therobotreport.com/daimon-robotics-and-galbot-jointly-launches-robomni-for-benchmarking-tactile-perception-and-dexterous-manipulation/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-08T14:16:34.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
