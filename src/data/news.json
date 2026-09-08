@@ -1,5 +1,54 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
+    "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-07T14:00:13.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Agility Robotics reports $1.8M revenue ahead of humanoid SPAC",
+    "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-07T13:17:45.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "This Robot Will Draw Your Blood Now",
+    "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-09-07T13:00:01.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "MassRobotics shares member survey results around FCC restrictions",
+    "url": "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-07T12:30:16.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
     "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
@@ -74,7 +123,7 @@
   },
   {
     "id": "aHR0cHM6Ly90ZWNo",
-    "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+    "title": "XDOF, just 3 months out of stealth, is in talks for a Series B at a $1.2B valuation",
     "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
     "source": "TechCrunch",
     "publishedAt": "2026-09-04T23:36:14.000Z",
@@ -4589,78 +4638,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Hey, Siri, here’s what I actually want from AI",
-    "url": "https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-09T20:50:17.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Walmart, Wing add 7 markets in drone delivery expansion",
-    "url": "https://www.therobotreport.com/walmart-wing-add-7-markets-in-drone-delivery-expansion/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-09T19:38:24.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Effort to establish a National Commission on Robotics advances in Congress",
-    "url": "https://www.therobotreport.com/effort-establish-national-commission-on-robotics-advances-congress/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-09T14:58:30.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Standard Bots raises $200M to expand U.S. manufacturing footprint",
-    "url": "https://www.therobotreport.com/standard-bots-raises-200m-expand-u-s-manufacturing-footprint/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-09T12:59:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Beyond Dexterity: Why Contact May Define the Next Era of Robotics",
-    "url": "https://spectrum.ieee.org/agilink-contact-intelligence-robot-manipulation",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-06-09T12:51:03.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "How JPL Keeps the 13-Year-Old Curiosity Rover Doing Science",
-    "url": "https://spectrum.ieee.org/curiosity-rover-jpl-mars-science",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-06-09T12:00:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
   }
 ]
