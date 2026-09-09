@@ -1,6 +1,43 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
+    "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-08T20:39:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AI can’t outrun a humanoid’s hardware",
+    "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-08T19:03:09.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why vision AI is the safety backbone of the automated job site",
+    "url": "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-08T16:05:04.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Inbolt to discuss physical AI’s deployment problem at RoboBusiness",
     "url": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
     "source": "The Robot Report",
@@ -4600,43 +4637,6 @@
       "workforce"
     ],
     "relevanceScore": 0.5,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Why Andrew Yang is building instead of waiting for Washington",
-    "url": "https://techcrunch.com/video/why-andrew-yang-is-building-instead-of-waiting-for-washington/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-10T22:24:12.000Z",
-    "keywords": [
-      "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "NEURA Robotics to raise up to $1.4B in Series C funding for physical AI",
-    "url": "https://www.therobotreport.com/neura-robotics-raise-up-1-4b-in-series-c-funding-physical-ai/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-10T16:06:09.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Robotics will not have a clean Llama moment",
-    "url": "https://www.therobotreport.com/robotics-will-not-have-a-clean-llama-moment/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-10T13:13:14.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
   }
 ]
