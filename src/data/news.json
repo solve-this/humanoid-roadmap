@@ -1,7 +1,56 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
-    "title": "Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics",
+    "title": "What bricklaying has taught Monumental about robots in construction",
+    "url": "https://www.therobotreport.com/what-bricklaying-has-taught-monumental-about-robots-construction/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-09T21:08:06.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Unitree shares down 53% from IPO debut",
+    "url": "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-09T19:34:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness",
+    "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-09T16:43:28.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Vention opens Physical AI Lab for manufacturing in Montreal",
+    "url": "https://www.therobotreport.com/vention-opens-physical-ai-lab-manufacturing-montreal/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-09T15:41:50.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Boston Dynamics veteran launches Dynamic Creatures to bring characters to life with robotics",
     "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
     "source": "The Robot Report",
     "publishedAt": "2026-09-08T20:39:51.000Z",
@@ -4586,57 +4635,6 @@
       "robot"
     ],
     "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
-    "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-12T01:48:07.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Hello Robot is recognized by World Economic Forum as a tech pioneer",
-    "url": "https://www.therobotreport.com/hello-robot-is-recognized-by-world-economic-forum-as-a-tech-pioneer/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-11T21:24:03.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Inside XRZero-G0, a new 2,000-hour open dataset for robotics research",
-    "url": "https://www.therobotreport.com/inside-xrzero-g0-a-new-2000-hour-open-dataset-for-robotics-research/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-11T12:30:14.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9jb250",
-    "title": "Defining Autonomy for Wellness Robots in Senior Care",
-    "url": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-06-11T10:00:01.000Z",
-    "keywords": [
-      "robot",
-      "automation",
-      "workforce"
-    ],
-    "relevanceScore": 0.5,
     "sentiment": "neutral"
   }
 ]
