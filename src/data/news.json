@@ -1,5 +1,66 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+    "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-17T05:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "OLogic to share how robots can learn from human demonstrations at RoboBusiness",
+    "url": "https://www.therobotreport.com/ologic-to-share-how-robots-can-learn-from-human-demonstrations-at-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-16T20:31:29.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5",
+    "url": "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-16T17:45:50.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Rethinking Robot Safety in the Age of AI",
+    "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-09-16T16:51:02.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "May Mobility is going public in a $1.4B SPAC deal",
+    "url": "https://techcrunch.com/2026/09/16/may-mobility-is-going-public-in-a-1-4b-spac-deal/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-16T15:27:13.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly9zcGVj",
     "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
     "url": "https://spectrum.ieee.org/humanoid-robot-safety",
@@ -4519,66 +4580,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The best early Prime Day robot vacuum deals I'd buy now, after testing dozens of them",
-    "url": "https://www.zdnet.com/article/best-early-amazon-prime-day-robot-vacuum-deals-2026/",
-    "source": "ZDNET",
-    "publishedAt": "2026-06-18T16:56:04.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "RealSense unveils AI-native D585 Pro depth camera for robots",
-    "url": "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-18T13:10:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Kinova launches KIMA medical robotic arm",
-    "url": "https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-18T12:45:06.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Microbot Medical to expand veteran access to robotic surgery with LIBERTY",
-    "url": "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-18T12:30:24.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Richtech Robotics launches livestream for ADAM AI-powered humanoid",
-    "url": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-18T12:30:22.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
   }
 ]
