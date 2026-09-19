@@ -1,5 +1,79 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The picks-and-shovels strategy behind the robotics boom",
+    "url": "https://www.therobotreport.com/the-picks-and-shovels-strategy-behind-the-robotics-boom/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-18T18:57:36.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "SoftBank agrees to acquire Robotics and AI Institute",
+    "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-18T17:14:32.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "F-Prime Capital to give insights on the state of robotics investments at RoboBusiness",
+    "url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-18T16:16:44.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: Two Birotors Make a Quadrotor",
+    "url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-09-18T16:01:05.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Neptune Medical earns FDA clearance for its Triton 1 robotic system",
+    "url": "https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-18T13:22:16.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Icarus Robotics flies ISS-bound robot in microgravity for the first time",
+    "url": "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-18T13:07:45.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
     "url": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
@@ -4538,30 +4612,6 @@
     "url": "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/",
     "source": "The Robot Report",
     "publishedAt": "2026-06-21T12:30:43.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Founders Fund’s outlier bet on humanely killed fish",
-    "url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-20T18:26:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
-    "url": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-20T14:00:30.000Z",
     "keywords": [
       "robot"
     ],
