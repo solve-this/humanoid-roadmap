@@ -1,6 +1,91 @@
 [
   {
     "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
+    "url": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-24T20:45:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "5 million robots are now at work in factories worldwide, reports the IFR",
+    "url": "https://www.therobotreport.com/5-million-robots-now-working-factories-worldwide-ifr-reports/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-24T20:15:51.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Meet Feather, the startup building the ‘Android of robotics’ for developers",
+    "url": "https://techcrunch.com/2026/09/24/meet-feather-the-startup-building-the-android-of-robotics-for-developers/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-24T18:52:38.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
+    "url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-09-24T18:00:04.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why you should look beyond the spec sheet when choosing motion architecture",
+    "url": "https://www.therobotreport.com/why-you-should-look-beyond-spec-sheet-when-choosing-motion-architecture/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-24T16:39:14.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Epson introduces AX6 cobot with compact design, no-code programming",
+    "url": "https://www.therobotreport.com/epson-introduces-ax6-cobot-compact-design-no-code-programming/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-24T14:51:07.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ANYbotics opens the door for inspections with ANYmal robots",
+    "url": "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-24T13:27:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
     "title": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
     "url": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
     "source": "TechCrunch",
@@ -4499,56 +4584,6 @@
     "url": "https://www.therobotreport.com/how-compact-cobot-integration-enhances-autonomous-mobile-robot-applications/",
     "source": "The Robot Report",
     "publishedAt": "2026-06-27T12:35:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "General Intuition raises $320M to use video game data to train robots",
-    "url": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-26T18:38:36.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Give Robots a Hand",
-    "url": "https://spectrum.ieee.org/video-friday-robot-grippers",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-06-26T16:30:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Orbbec shows AI-powered vision systems at Automate 2026",
-    "url": "https://www.therobotreport.com/orbbec-shows-ai-powered-vision-systems-automate-2026/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-26T13:54:35.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that",
-    "url": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-06-26T13:00:00.000Z",
     "keywords": [
       "robot"
     ],
