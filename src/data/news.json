@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "From 14 cities to 15,000: What it will take to scale robotaxis?",
+    "url": "https://www.therobotreport.com/from-14-cities-to-15000-what-it-will-take-to-scale-robotaxis/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-26T12:34:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Amazon to invest $100M in new Indiana manufacturing facility",
     "url": "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/",
     "source": "The Robot Report",
@@ -4625,19 +4637,6 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment",
-    "url": "https://www.therobotreport.com/agibot-produces-15000th-robot-marking-milestone-embodied-ai-deployment/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-06-28T09:00:12.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   }
 ]
