@@ -1,6 +1,67 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
+    "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-01T07:59:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
+    "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-09-30T16:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "The Robot Report parent Arrowfly launches AI for Engineers platform, events for engineers navigating AI",
+    "url": "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-30T14:03:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Innodata opens motion-capture lab to help humanoids move more like people",
+    "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-30T12:59:12.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets",
+    "url": "https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-09-30T12:30:17.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness",
     "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/",
     "source": "The Robot Report",
@@ -4543,56 +4604,6 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Automate 2026 show recap",
-    "url": "https://www.therobotreport.com/automate-2026-show-recap/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-02T16:35:58.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Finally, I found a robot vacuum that leaves my two-year-old model in the dust",
-    "url": "https://www.zdnet.com/article/eufy-omni-s2-review/",
-    "source": "ZDNET",
-    "publishedAt": "2026-07-02T14:30:41.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Why you should combine robot dexterity with mechanical positioning for complex assembly operations",
-    "url": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-02T12:36:09.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Luxonis closes Series A round to scale physical AI perception layer",
-    "url": "https://www.therobotreport.com/luxonis-closes-series-a-round-to-scale-physical-ai-perception-layer/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-02T12:00:32.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   }
 ]
