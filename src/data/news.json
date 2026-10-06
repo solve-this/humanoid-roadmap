@@ -1,5 +1,41 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Teradyne invests in Bright Machines to bring robotics to AI infrastructure manufacturing",
+    "url": "https://www.therobotreport.com/teradyne-invests-ibright-machines-brings-robotics-ai-infrastructure-manufacturing/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-05T23:34:35.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "FCC robot restrictions could accelerate shift to local AI",
+    "url": "https://www.therobotreport.com/fcc-robot-restrictions-could-accelerate-shift-to-local-ai/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-05T17:30:12.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+    "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "TechCrunch Mobility: Reining in robotaxis",
     "url": "https://techcrunch.com/2026/10/04/techcrunch-mobility-reining-in-robotaxis/",
@@ -4576,56 +4612,6 @@
       "automation"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "ABB Robotics includes vSLAM navigation in F712 autonomous forklift",
-    "url": "https://www.therobotreport.com/abb-robotics-includes-vslam-navigation-f712-autonomous-forklift/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-07T20:24:24.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "IEEE Honors Robotics Pioneer Toshio Fukuda",
-    "url": "https://spectrum.ieee.org/ieee-honors-toshio-fukuda",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-07-07T19:02:42.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The best robot vacuums for 2026: Expert tested and reviewed",
-    "url": "https://www.zdnet.com/article/best-robot-vacuum/",
-    "source": "ZDNET",
-    "publishedAt": "2026-07-07T17:01:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Tesollo initiates IPO process while developing humanoid hands",
-    "url": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-07T13:17:40.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   }
 ]
