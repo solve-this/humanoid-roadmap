@@ -1,5 +1,79 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Robot data startup Mecka AI nabs $60M from Sequoia",
+    "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-07T23:36:57.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "PTC acquisition positions Schneider Electric to challenge Siemens",
+    "url": "https://www.therobotreport.com/ptc-acquisition-positions-schneider-electric-challenge-siemens/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-07T21:07:53.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Teradyne Robotics, Elite Robots settle cobot dispute",
+    "url": "https://www.therobotreport.com/terayne-robotics-elite-robots-settle-cobot-dispute/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-07T16:20:52.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Bloom raises $3.6M to become the ‘Alibaba’ of American manufacturing",
+    "url": "https://techcrunch.com/2026/10/07/bloom-raises-3-6m-to-become-the-alibaba-of-american-manufacturing/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-07T15:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9jb250",
+    "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+    "url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-10-07T13:49:48.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Harmonic Drive to share how integrated actuators can reduce engineering at RoboBusiness",
+    "url": "https://www.therobotreport.com/harmonic-drive-share-how-integrated-actuators-reduce-engineering-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-07T12:24:09.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Boston Dynamics appoints former Amazon exec Rohit Prasad as new CEO",
     "url": "https://www.therobotreport.com/boston-dynamics-appoints-former-amazon-executive-rohit-prasad-new-ceo/",
@@ -4516,78 +4590,5 @@
     ],
     "relevanceScore": 0.5,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Ground Robots Inherit the Kill Zone",
-    "url": "https://spectrum.ieee.org/ukraine-ground-drones",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-07-10T11:00:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "ForSight Robotics’ road to performing a fully robotic cataract surgery",
-    "url": "https://www.therobotreport.com/forsight-robotics-road-to-performing-a-fully-robotic-cataracts-surgery/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-09T21:14:06.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
-    "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-07-09T19:40:45.000Z",
-    "keywords": [
-      "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Calling all robotics startups: apply to RoboBusiness Startup Alley",
-    "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-to-robobusiness-startup-alley/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-09T17:53:38.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Rollon launches two telescopic rails with integrated magnets",
-    "url": "https://www.therobotreport.com/rollon-launches-two-telescopic-rails-integrated-magnets/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-09T16:41:39.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Beyond da Vinci: Why versatile humanoid robots are the next frontier in surgery",
-    "url": "https://www.therobotreport.com/beyond-da-vinci-why-versatile-humanoid-robots-are-next-frontier-surgery/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-09T12:30:47.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
   }
 ]
