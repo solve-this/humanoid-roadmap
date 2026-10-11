@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why dexterity is physical AI’s real bottleneck",
+    "url": "https://www.therobotreport.com/why-dexterity-is-physical-ai-real-bottleneck/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-10T12:45:15.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Why humanoid robot demos still fail the generalization test",
     "url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
     "source": "The Robot Report",
@@ -4623,30 +4635,6 @@
     "url": "https://www.therobotreport.com/the-robot-report-parent-company-wtwh-media-rebrands-as-arrowfly/",
     "source": "The Robot Report",
     "publishedAt": "2026-07-13T12:04:39.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Building a Foundation Stack for General-Purpose Robots",
-    "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-07-13T10:19:51.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "TechCrunch Mobility: A robotaxi ultimatum",
-    "url": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-07-12T16:07:00.000Z",
     "keywords": [
       "robot"
     ],
