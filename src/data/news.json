@@ -1,6 +1,19 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
+    "url": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-12T14:30:33.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Will ‘boring’ robots win in the real world? Why robotic form should follow workflow",
     "url": "https://www.therobotreport.com/will-boring-robots-win-in-the-real-world-why-robotic-form-should-follow-workflow/",
     "source": "The Robot Report",
@@ -4552,31 +4565,6 @@
     "publishedAt": "2026-07-15T14:29:00.000Z",
     "keywords": [
       "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Key to Humanoid Progress: Managing the Power Behind the Robots",
-    "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-14T21:38:28.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment",
-    "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-14T20:08:27.000Z",
-    "keywords": [
-      "robot"
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
