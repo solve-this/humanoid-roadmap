@@ -1,6 +1,90 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "NYSOFA expands partnership with Intuition Robotics to bring ElliQ to more seniors",
+    "url": "https://www.therobotreport.com/nysofa-expands-partnership-intuition-robotics-bring-elliq-more-seniors/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-13T23:22:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+    "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-13T23:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Hello Robot, A&K Robotics to discuss how robots navigate crowded indoor spaces at RoboBusiness",
+    "url": "https://www.therobotreport.com/hello-robot-ak-robotics-discuss-how-robots-navigate-crowded-indoor-spaces-robobusiness/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-13T19:48:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Rivian’s startup Mind Robotics hires former Ford EV chief Doug Field",
+    "url": "https://techcrunch.com/2026/10/13/rivians-startup-mind-robotics-hires-former-ford-ev-chief-doug-field/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-13T18:30:03.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+    "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-13T17:30:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Q&A: Mars Perseverance Rover Distance Record",
+    "url": "https://spectrum.ieee.org/mars-rover-distance-record",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-10-13T15:02:04.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Promise Robotics partners with D.R. Horton on physical AI for homebuilding",
+    "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-13T13:00:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Closing the reality gap: Why real-time execution has become the new competitive advantage",
     "url": "https://www.therobotreport.com/closing-reality-gap-why-real-time-execution-has-become-new-competitive-advantage/",
     "source": "The Robot Report",
@@ -4504,67 +4588,6 @@
     "publishedAt": "2026-07-16T12:30:12.000Z",
     "keywords": [
       "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Walden Robotics launches at $1.1B valuation for general-purpose robots",
-    "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-15T20:04:03.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Agility outlines six recommendations for U.S. humanoid robot policies",
-    "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-15T18:58:29.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Vicarious Surgical board seeks to dissolve company",
-    "url": "https://www.therobotreport.com/vicarious-surgical-board-seeks-to-dissolve-company/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-15T18:43:48.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Icarus Robotics uses KULR technology to power JOY free-flying space robot",
-    "url": "https://www.therobotreport.com/icarus-robotics-uses-kulr-technology-to-power-joy-free-flying-space-robot/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-15T18:10:47.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "I let ChatGPT Work and Claude Cowork loose on my files - only one made me nervous",
-    "url": "https://www.zdnet.com/article/chatgpt-work-claude-cowork/",
-    "source": "ZDNET",
-    "publishedAt": "2026-07-15T14:29:00.000Z",
-    "keywords": [
-      "automation"
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
