@@ -1,6 +1,114 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Reservoir launches new agricultural robotics incubator for Washington growers",
+    "url": "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-20T19:40:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "RoboBusiness rebrands as Robotics Summit & Expo West",
+    "url": "https://www.therobotreport.com/robobusiness-rebrands-as-robotics-summit-expo-west/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-20T16:23:21.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in its LEGO era’",
+    "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-20T16:20:06.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "2027 TRR50 Robotics Innovation Awards open nominations",
+    "url": "https://www.therobotreport.com/2027-trr50-robotics-innovation-awards-open-nominations/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-20T16:15:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation",
+    "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-20T13:17:36.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+    "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-20T13:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care",
+    "url": "https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-20T12:59:43.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "A guide to Day 1 of RoboBusiness 2026",
+    "url": "https://www.therobotreport.com/a-guide-to-day-1-of-robobusiness-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-20T12:00:10.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
+    "url": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-20T10:25:47.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Unleash AI Innovation: The Power of NVIDIA RTX PRO 6000 Blackwell Workstation Edition Fueled by PNY-Supplied GPUs",
     "url": "https://www.therobotreport.com/unleash-ai-innovation-the-power-of-nvidia-rtx-pro-6000-blackwell-workstation-edition-fueled-by-pny-supplied-gpus/",
     "source": "The Robot Report",
@@ -4478,54 +4586,6 @@
     "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
     "source": "The Robot Report",
     "publishedAt": "2026-07-23T15:55:39.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Report shares the state of physical AI and robotics",
-    "url": "https://www.therobotreport.com/physical-ai-and-robotics/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-22T20:48:30.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
-    "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-07-22T18:50:44.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Medtronic to launch AI compute platform for the operating room",
-    "url": "https://www.therobotreport.com/medtronic-launch-ai-compute-platform-operating-room/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-22T17:22:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Narwal Flow 2 review: The robot vacuum that finally perfected obstacle avoidance",
-    "url": "https://www.zdnet.com/article/narwal-flow-2-review-robot-vacuum-mop-combination-2026/",
-    "source": "ZDNET",
-    "publishedAt": "2026-07-22T16:15:00.000Z",
     "keywords": [
       "robot"
     ],
