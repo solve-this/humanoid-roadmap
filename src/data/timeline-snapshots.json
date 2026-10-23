@@ -1835,5 +1835,16 @@
       "CHN"
     ],
     "aiEnriched": false
+  },
+  {
+    "date": "2026-10-23",
+    "humanCostGlobal": 34.5,
+    "robotCostGlobal": 17.87,
+    "topAdopters": [
+      "KOR",
+      "SGP",
+      "CHN"
+    ],
+    "aiEnriched": false
   }
 ]
