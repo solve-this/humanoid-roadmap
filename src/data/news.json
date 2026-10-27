@@ -1,6 +1,68 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+    "url": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-26T21:15:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "OMRON to acquire OnLogic to address edge AI applications",
+    "url": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-26T20:13:13.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+    "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-26T17:45:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Microsoft offers buyouts to around 60,000 employees",
+    "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-10-26T15:58:25.000Z",
+    "keywords": [
+      "workforce"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Agility and GXO Logistics plan expanded deployment of Digit humanoid",
+    "url": "https://www.therobotreport.com/agility-gxo-logistics-plan-expanded-deployment-digit-humanoid/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-26T14:05:21.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
     "url": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/",
     "source": "The Robot Report",
@@ -4430,91 +4492,6 @@
     "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
     "source": "The Robot Report",
     "publishedAt": "2026-07-29T14:11:19.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Registration is open for RoboBusiness 2026",
-    "url": "https://www.therobotreport.com/registration-is-open-for-robobusiness-2026/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-28T20:54:46.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "The robot NASA hired to lift a orbital telescope tumbled out of control",
-    "url": "https://techcrunch.com/2026/07/28/the-robot-nasa-hired-to-lift-a-orbital-telescope-is-tumbling-out-of-control/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-07-28T19:07:31.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
-    "url": "https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-07-28T19:06:33.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "ENvue Medical develops robotic feeding tube placement system",
-    "url": "https://www.therobotreport.com/envue-medical-develops-robotic-feeding-tube-placement-system/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-28T19:00:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "negative"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Robot Finger Feels in Color",
-    "url": "https://spectrum.ieee.org/robot-finger",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-07-28T15:00:03.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Agency Tool Company wants to make OTA software updates easier",
-    "url": "https://www.therobotreport.com/agency-tool-company-wants-to-make-ota-software-updates-easier/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-28T14:59:58.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How integrated actuators improve humanoid robot joint performance and system integration",
-    "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-28T13:25:37.000Z",
     "keywords": [
       "humanoid",
       "robot"
