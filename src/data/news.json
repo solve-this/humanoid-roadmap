@@ -1,6 +1,54 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "North American robot orders climb 24.8% in Q3 of 2026, says A3",
+    "url": "https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-28T18:59:30.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
+    "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-28T18:40:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Warp Sciences emerges from stealth, to apply robotics to drug research",
+    "url": "https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-28T16:28:48.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions",
+    "url": "https://www.therobotreport.com/worldoracle-tests-whether-world-models-can-reliably-predict-real-world-executions/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-10-28T13:44:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "ANYbotics begins delivering ANYmal X legged robot for explosive atmospheres",
     "url": "https://www.therobotreport.com/anybotics-begins-delivering-anymal-x-legged-robot-explosive-atmospheres/",
     "source": "The Robot Report",
@@ -4435,54 +4483,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "What the FCC ban on foreign-made robot vacuums means for your Roomba",
-    "url": "https://www.zdnet.com/article/fcc-ban-on-foreign-made-robot-vacuums-and-your-roomba/",
-    "source": "ZDNET",
-    "publishedAt": "2026-07-30T21:36:41.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "5 Physical AI infrastructure platforms shaping robotics in 2026",
-    "url": "https://www.therobotreport.com/5-physical-ai-infrastructure-platforms-shaping-robotics-in-2026/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-30T20:01:22.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "DoorDash gains FAA certification to operate its own drone delivery program",
-    "url": "https://www.therobotreport.com/doordash-gains-faa-certification-to-operate-its-own-drone-delivery-program/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-30T18:06:18.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Teradyne Robotics revenue rises 33% year over year in Q2",
-    "url": "https://www.therobotreport.com/teradyne-robotics-revenue-rises-33-year-over-year-in-q2/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-07-30T17:38:52.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
   }
 ]
