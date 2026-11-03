@@ -1,6 +1,67 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+    "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-03T00:15:39.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+    "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-02T19:25:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Gentherm designs ThermAffyx to protect, move patients during robotic surgeries",
+    "url": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-02T18:06:36.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Top 10 robotics developments of October 2026",
+    "url": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-02T17:56:42.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "What AgTech founders get wrong about ROI",
+    "url": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-02T15:30:09.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics",
     "url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/",
     "source": "The Robot Report",
@@ -4422,80 +4483,6 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis",
-    "url": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-04T22:24:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Zoox unveils production-ready robotaxi for U.S. expansion",
-    "url": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-04T19:40:40.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "U.S. Navy picks Blue Water Autonomy to use autonomous vessels for deep ocean surveys",
-    "url": "https://www.therobotreport.com/u-s-navy-picks-blue-water-autonomy-to-use-autonomous-vessels-for-deep-ocean-surveys/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-04T19:33:53.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo opens up robotaxi service in Dallas to everyone",
-    "url": "https://techcrunch.com/2026/08/04/waymo-opens-up-robotaxi-service-in-dallas-to-everyone/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-04T17:31:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
-    "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-04T15:20:06.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Humanoids won’t scale on factory floors until costs drop",
-    "url": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-04T15:15:10.000Z",
-    "keywords": [
-      "humanoid",
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.5,
     "sentiment": "neutral"
   }
 ]
