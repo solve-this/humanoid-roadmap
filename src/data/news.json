@@ -1,6 +1,42 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Ben Waters on the latest wireless charging strategies",
+    "url": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-03T21:29:37.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "SUSE lays off 1 in 10 workers – citing AI and automation",
+    "url": "https://www.zdnet.com/business/suse-lay-offs-workforce-ai-cited/",
+    "source": "ZDNET",
+    "publishedAt": "2026-11-03T18:12:05.000Z",
+    "keywords": [
+      "automation"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "New ISO interoperability standard covers collaboration among mobile robots from multiple vendors",
+    "url": "https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-03T14:40:33.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
     "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
     "source": "The Robot Report",
@@ -26,7 +62,7 @@
   },
   {
     "id": "aHR0cHM6Ly93d3cu",
-    "title": "Gentherm designs ThermAffyx to protect, move patients during robotic surgeries",
+    "title": "Gentherm designs ThermAffyx to secure, heat patients during robotic surgeries",
     "url": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
     "source": "The Robot Report",
     "publishedAt": "2026-11-02T18:06:36.000Z",
@@ -4359,126 +4395,6 @@
     "url": "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/",
     "source": "The Robot Report",
     "publishedAt": "2026-08-06T12:26:58.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO",
-    "url": "https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-05T21:26:40.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Moove raises $250M to become the backbone of the robotaxi industry",
-    "url": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-05T20:50:45.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Avnet and Weston Robot partner to launch edge AI inspection platform",
-    "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-05T19:10:05.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "GAM Enterprises to produce Schaeffler’s PSC gear reducers",
-    "url": "https://www.therobotreport.com/gam-enterprises-to-produce-schaefflers-psc-gear-reducers/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-05T19:00:21.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Lucid Motors just delayed its affordable EV. Now what?",
-    "url": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-05T17:57:45.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "University of Florida opens new robotics lab dedicated to industrialized construction",
-    "url": "https://www.therobotreport.com/university-of-florida-opens-new-robotics-lab-dedicated-to-industrialized-construction/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-05T17:41:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Moove raises $250M to build infrastructure for autonomous vehicles",
-    "url": "https://www.therobotreport.com/moove-raises-250m-to-build-infrastructure-for-autonomous-vehicles/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-05T16:53:38.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Why perception is the key to scaling industrial autonomy",
-    "url": "https://www.therobotreport.com/why-perception-is-the-key-to-scaling-industrial-autonomy/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-05T15:56:45.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Zoox to start charging for robotaxi rides in Las Vegas",
-    "url": "https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-05T15:06:42.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals ",
-    "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-05T15:05:00.000Z",
     "keywords": [
       "robot"
     ],
