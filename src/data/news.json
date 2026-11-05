@@ -1,5 +1,53 @@
 [
   {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+    "url": "https://spectrum.ieee.org/drone-delivery-noise",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-11-04T18:47:21.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robotics Startup Radar 2026",
+    "url": "https://www.therobotreport.com/robotics-startup-radar-2026/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-04T16:08:46.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How GlobalLogic helped Haystack Robotics build a UV disinfection robot",
+    "url": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-04T15:22:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+    "url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-04T15:02:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Ben Waters on the latest wireless charging strategies",
     "url": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/",
@@ -4361,42 +4409,6 @@
     "publishedAt": "2026-08-07T12:27:55.000Z",
     "keywords": [
       "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics",
-    "url": "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-06T20:19:29.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How Robin, the robotic companion, keeps patients calm during hospital visits",
-    "url": "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-06T14:09:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Report looks at advances in autonomous mobile robots",
-    "url": "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-06T12:26:58.000Z",
-    "keywords": [
-      "robot"
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
