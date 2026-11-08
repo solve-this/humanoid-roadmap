@@ -1,6 +1,18 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robot integration brings high-precision production to midmarket manufacturers",
+    "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-07T13:32:59.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How Point One turned GPS accuracy into a robotics platform",
     "url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
     "source": "The Robot Report",
@@ -4432,18 +4444,6 @@
     "url": "https://www.zdnet.com/article/deebot-x12-omnicyclone-review-ecovacs-robot-vacuum/",
     "source": "ZDNET",
     "publishedAt": "2026-08-10T13:45:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Analog Devices returns as strategic sponsor to aid MassRobotics startups",
-    "url": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-09T12:30:42.000Z",
     "keywords": [
       "robot"
     ],
