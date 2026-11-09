@@ -1,5 +1,29 @@
 [
   {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Tesla expands robotaxi service to San Antonio",
+    "url": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-11-09T11:30:24.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "ARM Institute consortium grows to more than 500 organizations",
+    "url": "https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-08T13:00:23.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "Robot integration brings high-precision production to midmarket manufacturers",
     "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
@@ -4350,104 +4374,6 @@
       "robot"
     ],
     "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Best robot mowers of 2026: Expert tested",
-    "url": "https://www.zdnet.com/article/best-robot-mower/",
-    "source": "ZDNET",
-    "publishedAt": "2026-08-11T10:00:57.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "RoboStore launches Robo Inc. to help U.S. organizations deploy robots",
-    "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-10T23:40:18.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Hadrian raises $1.37B to accelerate U.S. defense, aerospace manufacturing",
-    "url": "https://www.therobotreport.com/hadrian-raises-1-37b-accelerate-u-s-manufacturing/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-10T22:33:12.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Tate deploys 58 Hirebotics cobot welders across multiple facilities",
-    "url": "https://www.therobotreport.com/tate-deploys-58-hirebotics-cobot-welders-across-multiple-facilities/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-10T18:46:22.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Robot Recycler Salvages Parts From Broken Machines",
-    "url": "https://spectrum.ieee.org/recycling-robot",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-08-10T18:01:25.000Z",
-    "keywords": [
-      "robot",
-      "automation"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "negative"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "VicOne releases free NVIDIA Isaac Sim cybersecurity extension based on DEF CON 34 research",
-    "url": "https://www.therobotreport.com/vicone-releases-free-nviida-isaac-sim-cybersecurity-extension-based-def-con-34-research/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-10T17:07:10.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Signed up for Klaviyo? Dozens of advertisers may have seen your password",
-    "url": "https://techcrunch.com/2026/08/10/signed-up-for-klaviyo-dozens-of-advertisers-may-have-seen-your-password/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-10T14:14:43.000Z",
-    "keywords": [
-      "automation"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "We lab-tested Ecovac's next-gen robot mop - here's where it shines (and struggles)",
-    "url": "https://www.zdnet.com/article/deebot-x12-omnicyclone-review-ecovacs-robot-vacuum/",
-    "source": "ZDNET",
-    "publishedAt": "2026-08-10T13:45:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
     "sentiment": "neutral"
   }
 ]
