@@ -1,5 +1,67 @@
 [
   {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+    "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-09T21:52:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+    "url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-09T18:34:38.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly90ZWNo",
+    "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
+    "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+    "source": "TechCrunch",
+    "publishedAt": "2026-11-09T17:00:00.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+    "url": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-09T15:40:41.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Can Agentic Robotics Solve Robotics’ Data-Scaling Problem?",
+    "url": "https://spectrum.ieee.org/agentic-robotics",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-11-09T14:00:02.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "positive"
+  },
+  {
     "id": "aHR0cHM6Ly90ZWNo",
     "title": "Tesla expands robotaxi service to San Antonio",
     "url": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
@@ -4289,91 +4351,6 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "DAF Trucks to integrate Einride Driver to scale autonomous electric freight",
-    "url": "https://www.therobotreport.com/daf-trucks-integrates-einride-driver-scale-autonomous-electric-freight/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-12T10:30:51.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Defense drone developer Cambridge Aerospace raises $300M",
-    "url": "https://www.therobotreport.com/defense-drone-developer-cambridge-aerospace-raises-300m/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-11T20:34:25.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Uber surprised robotics company Serve by selling its entire stake",
-    "url": "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-11T20:02:02.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "PlusAI reaches key milestones ahead of launching its autonomous trucks",
-    "url": "https://www.therobotreport.com/plusai-reaches-key-milestones-ahead-launch-autonomous-trucks/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-11T17:13:33.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Rivian CEO RJ Scaringe is betting on EVs, robots, and autonomy all at once — he’ll explain why at Disrupt 2026 ",
-    "url": "https://techcrunch.com/2026/08/11/rivian-ceo-rj-scaringe-is-betting-on-evs-robots-and-autonomy-all-at-once-hell-explain-why-at-disrupt-2026/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-11T15:30:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Webinar to discuss safety and scaling robot fleets in the warehouse",
-    "url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-11T14:34:31.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market",
-    "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-11T14:17:22.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   }
 ]
