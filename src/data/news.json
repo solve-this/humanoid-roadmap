@@ -1,6 +1,54 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots",
+    "url": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-10T18:31:17.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Why predictive maintenance matters more as factories add robots",
+    "url": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-10T16:13:40.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
+    "url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-10T14:47:10.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+    "url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-10T13:06:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
     "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
     "source": "The Robot Report",
@@ -4292,65 +4340,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
-    "url": "https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-12T20:53:41.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "SEW-EURODRIVE adds economy series to its planetary servo gear unit portfolio",
-    "url": "https://www.therobotreport.com/sew-eurodrive-adds-economy-series-planetary-servo-gear-unit-portfolio/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-12T16:40:31.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Q2 2026 robotics demand increased across industries, reports A3",
-    "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-12T14:18:56.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Strengthening U.S. Army sustainment: TALUS to deliver autonomous distribution",
-    "url": "https://www.therobotreport.com/strengthening-u-s-army-sustainment-talus-to-deliver-autonomous-distribution/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-12T13:36:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Celona launches Orion agentic wireless platform built for physical AI and robotics",
-    "url": "https://www.therobotreport.com/celona-launches-orion-agentic-wireless-platform-built-for-physical-ai-robotics/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-12T12:00:08.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
