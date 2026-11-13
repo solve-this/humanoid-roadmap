@@ -1,6 +1,42 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
+    "url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-12T16:33:17.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "negative"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Viam Launchpad aims to accelerate robotics deployments",
+    "url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-12T13:30:31.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Runway’s Praxis-1 world action model for robotics is now available",
+    "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-12T13:18:47.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Serve Robotics opens robot delivery network for others to build on",
     "url": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
     "source": "The Robot Report",
@@ -4248,55 +4284,6 @@
     "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
     "source": "The Robot Report",
     "publishedAt": "2026-08-15T12:20:18.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How Protolabs turns CAD files into parts in under 24 hours",
-    "url": "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-14T22:14:19.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Neros Technologies raises $250M to deploy its defense drones by the end of 2026",
-    "url": "https://www.therobotreport.com/neros-technologies-raises-250m-to-deploy-its-defense-drones-by-the-end-of-2026/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-14T17:38:49.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Lift Happens",
-    "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-08-14T17:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Robots on Wall Street: Non-traditional paths to public markets for robotics companies",
-    "url": "https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-14T12:30:40.000Z",
     "keywords": [
       "robot"
     ],
