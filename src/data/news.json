@@ -1,5 +1,54 @@
 [
   {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+    "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-11-13T17:30:03.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+    "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-13T16:32:58.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+    "url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-13T13:30:44.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Narwal builds robot vacuums to serve regional needs",
+    "url": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-13T13:18:05.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
     "id": "aHR0cHM6Ly93d3cu",
     "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
     "url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
@@ -4272,18 +4321,6 @@
     "url": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
     "source": "The Robot Report",
     "publishedAt": "2026-08-16T12:30:18.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Why robots that can’t communicate naturally won’t be adopted",
-    "url": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-15T12:20:18.000Z",
     "keywords": [
       "robot"
     ],
