@@ -1,6 +1,43 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "California DMV bars Waymo AVs from operating on the state’s freeways",
+    "url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-17T23:55:07.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Learn how AI is changing supply chain robotics",
+    "url": "https://www.therobotreport.com/learn-how-ai-is-changing-supply-chain-robotics/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-17T19:58:18.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+    "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-17T14:49:05.000Z",
+    "keywords": [
+      "humanoid",
+      "robot"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "The hidden reason most robots fail on the factory floor",
     "url": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
     "source": "The Robot Report",
@@ -4200,92 +4237,6 @@
     "url": "https://www.therobotreport.com/agtonomy-releases-new-autonomous-multi-point-turning-features/",
     "source": "The Robot Report",
     "publishedAt": "2026-08-20T12:30:55.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
-    "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-19T22:25:01.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
-    "url": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-19T21:48:24.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness",
-    "url": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-19T20:15:47.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "What does Unitree Robotics’ IPO mean for the humanoid industry?",
-    "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-19T18:01:43.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Best robot vacuum mops of 2026: Expert tested",
-    "url": "https://www.zdnet.com/article/best-robot-vacuum-mop/",
-    "source": "ZDNET",
-    "publishedAt": "2026-08-19T14:12:00.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Serve Robotics to deploy its autonomous delivery robots with Grubhub",
-    "url": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-19T13:55:30.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Pudu Robotics launches new MP2000 autonomous forklift",
-    "url": "https://www.therobotreport.com/pudu-robotics-launches-new-mp2000-autonomous-forklift/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-19T13:07:06.000Z",
     "keywords": [
       "robot"
     ],
