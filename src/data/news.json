@@ -1,6 +1,30 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robotics enters its post-Jensen Huang era",
+    "url": "https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-20T03:06:28.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "What industrial drone deployments reveal about real-world autonomy challenges",
+    "url": "https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-19T17:01:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Humyn Labs raises $47M to collect real-world data for robotics",
     "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
     "source": "The Robot Report",
@@ -4168,56 +4192,6 @@
       "robot"
     ],
     "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "How software-defined manufacturing fits into real factory operations",
-    "url": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-22T00:48:35.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Amazon’s Bhavana Chandrashekhar to speak at RoboBusiness’ Women in Robotics Lunch",
-    "url": "https://www.therobotreport.com/amazons-bhavana-chandrashekhar-speaks-robobusiness-women-in-robotics-lunch/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-21T19:57:24.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Schaeffler plans to mass produce gearboxes for humanoid robots in 2027",
-    "url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-21T19:27:22.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly9zcGVj",
-    "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
-    "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
-    "source": "IEEE Spectrum",
-    "publishedAt": "2026-08-21T16:00:01.000Z",
-    "keywords": [
-      "humanoid",
-      "robot"
-    ],
-    "relevanceScore": 0.3333333333333333,
     "sentiment": "neutral"
   }
 ]
