@@ -1,6 +1,44 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
+    "url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-23T20:29:55.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "Special Report: Engineering Focus on Motion Control",
+    "url": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-23T15:16:26.000Z",
+    "keywords": [
+      "humanoid",
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.5,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "NVIDIA reinstates Jensen Huang after 11-day absence",
+    "url": "https://www.therobotreport.com/nvidia-reinstates-jensen-huang-after-11-day-absence/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-23T14:20:46.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "The manufacturing data gap holding back physical AI",
     "url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
     "source": "The Robot Report",
@@ -4065,66 +4103,6 @@
     "url": "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
     "source": "The Robot Report",
     "publishedAt": "2026-08-26T15:04:14.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Bedrock Robotics’ first operator-free excavator deployments take off",
-    "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-26T13:51:51.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Robotics startup Generalist reaches $3B valuation, sources say",
-    "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-26T00:40:59.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Waymo robotaxis are headed to Munich",
-    "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-25T17:32:03.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Humans in the loop are still needed for robotaxi fleet safety, says Guident",
-    "url": "https://www.therobotreport.com/humans-loop-are-still-needed-robotaxi-fleet-safety-says-guident/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-25T15:11:13.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Jetson Orin Nano 2 doubles inference performance for robotics on the edge, says NVIDIA",
-    "url": "https://www.therobotreport.com/jetson-orin-nano-2-doubles-inference-performance-robotics-edge-says-nvidia/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-25T15:00:22.000Z",
     "keywords": [
       "robot"
     ],
