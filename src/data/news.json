@@ -1,6 +1,30 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "Robotics Summit 2027 opens call for speakers",
+    "url": "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-24T18:03:37.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+    "url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-24T14:48:57.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "How does Orchard AI fit into John Deere’s technology portfolio?",
     "url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
     "source": "The Robot Report",
@@ -4067,42 +4091,6 @@
     "url": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/",
     "source": "TechCrunch",
     "publishedAt": "2026-08-27T14:36:37.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Carbon Robotics partners with iMerit to power instant in-field AI customization",
-    "url": "https://www.therobotreport.com/carbon-robotics-partners-with-imerit-to-power-instant-in-field-ai-customization/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-27T13:27:58.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Gatik brings in $200M to continue expanding autonomous trucking operations",
-    "url": "https://www.therobotreport.com/gatik-brings-in-200m-to-continue-expanding-autonomous-trucking-operations/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-26T16:59:15.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "IDS Imaging adds Nion ToF sensor to its portfolio of 3D cameras",
-    "url": "https://www.therobotreport.com/ids-imaging-adds-nion-tof-camera-portfolio-3d-cameras/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-26T15:04:14.000Z",
     "keywords": [
       "robot"
     ],
