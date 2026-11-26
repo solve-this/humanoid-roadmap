@@ -1,6 +1,43 @@
 [
   {
     "id": "aHR0cHM6Ly93d3cu",
+    "title": "How Vention is cutting factory programming from weeks to minutes",
+    "url": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-25T18:24:42.000Z",
+    "keywords": [
+      "robot",
+      "automation"
+    ],
+    "relevanceScore": 0.3333333333333333,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
+    "title": "FCC should focus on robot security, not country of origin",
+    "url": "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
+    "source": "The Robot Report",
+    "publishedAt": "2026-11-25T17:00:07.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "neutral"
+  },
+  {
+    "id": "aHR0cHM6Ly9zcGVj",
+    "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
+    "url": "https://spectrum.ieee.org/darpa-triage-challenge-final-robots",
+    "source": "IEEE Spectrum",
+    "publishedAt": "2026-11-25T15:00:03.000Z",
+    "keywords": [
+      "robot"
+    ],
+    "relevanceScore": 0.16666666666666666,
+    "sentiment": "positive"
+  },
+  {
+    "id": "aHR0cHM6Ly93d3cu",
     "title": "Robotics Summit 2027 opens call for speakers",
     "url": "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
     "source": "The Robot Report",
@@ -4036,65 +4073,5 @@
     ],
     "relevanceScore": 0.16666666666666666,
     "sentiment": "positive"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "I've tested dozens of robot vacuums - this new $599 Roborock has all the features I need",
-    "url": "https://www.zdnet.com/article/roborock-qrevo-2-pro-review/",
-    "source": "ZDNET",
-    "publishedAt": "2026-08-28T13:00:48.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "These Mammotion robot lawn mowers can climb hills - and they're up to $560 off right now",
-    "url": "https://www.zdnet.com/article/mammotion-robot-mowers-deal-luba-3-awd-3000h-luba-mini-2-awd-1500h/",
-    "source": "ZDNET",
-    "publishedAt": "2026-08-28T10:00:43.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "Teradyne Robotics ramps up fight against cobot copycats",
-    "url": "https://www.therobotreport.com/teradyne-robotics-sues-another-chinese-cobot-maker/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-27T20:31:27.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly93d3cu",
-    "title": "NSF to invest $90M into three new technology centers, including one focused on robotics",
-    "url": "https://www.therobotreport.com/nsf-invests-90m-three-new-technology-centers-including-one-focused-robotics/",
-    "source": "The Robot Report",
-    "publishedAt": "2026-08-27T18:12:54.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
-  },
-  {
-    "id": "aHR0cHM6Ly90ZWNo",
-    "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
-    "url": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/",
-    "source": "TechCrunch",
-    "publishedAt": "2026-08-27T14:36:37.000Z",
-    "keywords": [
-      "robot"
-    ],
-    "relevanceScore": 0.16666666666666666,
-    "sentiment": "neutral"
   }
 ]
